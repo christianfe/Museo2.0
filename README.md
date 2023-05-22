@@ -8,6 +8,7 @@ UNIVAQ - DISIM - CdL Informatica
 - [Arrotini Simone](https://github.com/simonearrotini)
 - [Erasmo Alessio](https://github.com/alessioerasmo/)
 - [Christian Felicione](https://github.com/christianfe/)
+
 Prof. [Gian Luca Scoccia](https://github.com/gianlucascoccia/)
 
 ## Documentation
