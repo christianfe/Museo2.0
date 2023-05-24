@@ -1,0 +1,25 @@
+{
+  "opere":[
+    {"id":"1", "titolo":"Les Domoiselles D'avignon", "autore":"1", "descrizione":"Delle ragazze che ballano", "stanza":"1"},
+
+    {"id":"2", "titolo":"Guernica", "autore":"1", "descrizione":"Descrive una guerra ed il casino che provoca", "stanza":"2"},
+
+    {"id":"3", "titolo":"La Persistenza della Memoria", "autore":"2", "descrizione":"Un quadro surrealista molto celebre", "stanza":"1"},
+
+    {"id":"4", "titolo":"Sogno Causato Dal volo di un'ape", "autore":"2", "descrizione":"Mah, secondo me questo si faceva di acidi", "stanza":"2"}
+  ],
+  "autori":[
+    {"id":"1", "nome":"Pablo", "cognome":"Picasso", "biogafia":"sin da bambino mostra uno spiccato senso di Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim."},
+    {"id":"2", "nome":"Salvador", "cognome":"Dali", "biogafia":"Nasce in un piccolo comune in provincia di Lorem ipsum dolor sit amet, consectetur adipiscing elit. "}
+  ],
+  "stanze":[
+    {"id":"1", "nome":"STANZA ROSSA", "descrizione":"Aliquam vitae euismod justo. Suspendisse sed mollis sem, interdum mollis velit. Aliquam imperdiet vitae libero a laoreet."},
+    {"id":"2", "nome":"STANZA VERDE", "descrizione":"Vivamus purus turpis, egestas ut varius vel, faucibus sed augue. Pellentesque dictum dui at orci cursus, et tempus urna finibus."}
+  ],
+  "feedback":[
+    {"id":"1", "nome":"Anna", "descrizione":"what an enjoyable day! Greetings from south pole!"},
+    {"id":"2", "nome":"Benedetta", "descrizione":"Nice museum, nice staff. We had a great time here in Roccacannuccia"},
+    {"id":"3", "nome":"Chiara", "descrizione":"The owner is a fiend of mine, so i didn't pay the ticket, worthy!"},
+    {"id":"4", "nome":"Daniela", "descrizione":"Nice museum, but there is not a snack bar! :_("}
+  ]
+}
