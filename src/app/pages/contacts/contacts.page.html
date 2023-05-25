@@ -1,5 +1,26 @@
 <ion-content class="ion-padding">
   <br><br>
-  <p>pagina contatti</p>
-</ion-content>
+  <br>
 
+  <ion-title><strong>Contattaci</strong></ion-title>
+  <p>Testo da inserire, lorem ipsum</p>
+  <p><strong>Telefono</strong>: +390000000000</p>
+  <p><strong>Mail</strong>: +390000000000</p>
+  <ion-title class="ion-margin-bottom"><strong>Segnala un problema</strong></ion-title>
+
+
+
+  <form (submit)="onSubmit()" #contactForm="ngForm">
+    <ion-input class="ion-margin-bottom" ngModel [(ngModel)]="form.name" name="name" label="Nome"
+      labelPlacement="floating" placeholder="Inserisci il tuo nome" fill="solid" required ins>
+    </ion-input>
+    <ion-input class="ion-margin-bottom" ngModel [(ngModel)]="form.obj" name="obj" label="Oggetto" required="required"
+      labelPlacement="floating" placeholder="Inserisci l'oggetto del messaggio" fill="solid">
+    </ion-input>
+    <ion-textarea class="ion-margin-bottom" ngModel [(ngModel)]="form.mex" name="mex" label="Messaggio"
+      labelPlacement="floating" placeholder="Inserisci il messaggio" fill="solid" style="height: 150px;" required>
+    </ion-textarea>
+    <ion-button type="submit" color="primary" expand="block" [disabled]="!contactForm.valid">Invia</ion-button>
+  </form>
+
+</ion-content>
