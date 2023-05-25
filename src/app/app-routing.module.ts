@@ -3,14 +3,30 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'home',
-    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
-  },
-  {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'tabs/homepage',
     pathMatch: 'full'
   },
+
+  {
+    path: 'tabs',
+    loadChildren: () => import('./pages/tabs/tabs.module').then( m => m.TabsPageModule)
+  },
+  {
+    path: 'contacts',
+    redirectTo: 'tabs/contacts'
+  },
+  {
+    path: 'museumindex',
+    redirectTo: 'tabs/museumindex'
+  },
+  {
+    path: 'scan-qr',
+    redirectTo: 'tabs/scan-qr'
+  },
+
+
+
 ];
 
 @NgModule({
