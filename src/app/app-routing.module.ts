@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 import { NotFoundError } from 'rxjs';
+import { NotfoundComponent } from './pages/error/notfound/notfound.component';
 
 const routes: Routes = [
   {
@@ -8,7 +9,6 @@ const routes: Routes = [
     redirectTo: 'tabs/homepage',
     pathMatch: 'full'
   },
-
   {
     path: 'tabs',
     loadChildren: () => import('./pages/tabs/tabs.module').then(m => m.TabsPageModule)
@@ -24,6 +24,15 @@ const routes: Routes = [
   {
     path: 'scan-qr',
     redirectTo: 'tabs/scan-qr'
+  },
+  {
+    path: 'not-found',
+    component: NotfoundComponent
+  },
+  {
+    path: '**',
+    component: NotfoundComponent,
+    pathMatch: "full"
   }
 ];
 
