@@ -9,26 +9,26 @@ const routes: Routes = [
     component: TabsPage,
     children: [
 
-  {
-    path: 'homepage',
-    loadChildren: () => import('../homepage/homepage.module').then( m => m.HomepagePageModule)
-  },
-  {
-    path: 'news',
-    loadChildren: () => import('../news/news.module').then( m => m.NewsPageModule)
-  },
-  {
-    path: 'contacts',
-    loadChildren: () => import('../contacts/contacts.module').then( m => m.ContactsPageModule)
-  },
-  {
-    path: 'museumindex',
-    loadChildren: () => import('../museumindex/museumindex.module').then( m => m.MuseumindexPageModule)
-  },
-  {
-    path: 'scan-qr',
-    loadChildren: () => import('../scan-qr/scan-qr.module').then( m => m.ScanQRPageModule)
-  }
+      {
+        path: 'homepage',
+        loadChildren: () => import('../homepage/homepage.module').then(m => m.HomepagePageModule)
+      },
+      {
+        path: 'news',
+        loadChildren: () => import('../news/news.module').then(m => m.NewsPageModule)
+      },
+      {
+        path: 'contacts',
+        loadChildren: () => import('../contacts/contacts.module').then(m => m.ContactsPageModule)
+      },
+      {
+        path: 'museumindex',
+        loadChildren: () => import('../museumindex/museumindex.module').then(m => m.MuseumindexPageModule)
+      },
+      {
+        path: 'scan-qr',
+        loadChildren: () => import('../scan-qr/scan-qr.module').then(m => m.ScanQRPageModule)
+      }
     ]
   }
 ];
@@ -37,4 +37,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class TabsPageRoutingModule {}
+export class TabsPageRoutingModule { }
