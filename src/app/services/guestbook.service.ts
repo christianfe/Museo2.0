@@ -21,7 +21,7 @@ export class GuestbookService {
 
   add(f: Feedback) {
     this.http.post<Feedback>(this.baseUrl, f).subscribe({
-      next: d => console.log(d) //FIXME deve leggere i guestbook che ha in memorias
+      next: d => console.log(d) //FIXME deve leggere i guestbook che ha in memoria
     })
   }
 }

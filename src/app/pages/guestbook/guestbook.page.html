@@ -2,7 +2,15 @@
   <br><br><br>
   <ion-title>Guestbook</ion-title>
   <p>Questo è un simpatico Guestbook</p>
-  <p routerLink="/tabs/new-feedback" style="text-align: right;">Aggiungi &gt;</p>
+
+  <ion-item>
+    <ion-button fill="clear" size="small" class="right" slot="end" routerLink="/tabs/new-feedback"
+      style="text-align: right;">
+      Aggiungi
+      <ion-icon name="add-circle-outline"></ion-icon>
+    </ion-button>
+  </ion-item>
+
 
   <ion-card *ngFor="let d of data">
     <ion-card-content>
