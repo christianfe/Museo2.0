@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { TabsPage } from './tabs.page';
+import { GuestbookComponent } from '../guestbook/guestbook.component';
 
 const routes: Routes = [
   {
@@ -28,6 +29,10 @@ const routes: Routes = [
       {
         path: 'scan-qr',
         loadChildren: () => import('../scan-qr/scan-qr.module').then(m => m.ScanQRPageModule)
+      },
+      {
+        path: 'guestbook',
+        component: GuestbookComponent //FIXME
       }
     ]
   }
