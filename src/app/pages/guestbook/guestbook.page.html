@@ -1,0 +1,14 @@
+<ion-content class="ion-padding">
+  <br><br><br>
+  <ion-title>Guestbook</ion-title>
+  <p>Questo è un simpatico Guestbook</p>
+  <p routerLink="/tabs/new-feedback" style="text-align: right;">Aggiungi &gt;</p>
+
+  <ion-card *ngFor="let d of data">
+    <ion-card-content>
+      {{d.descrizione}}
+      <p style="text-align: right"><strong>{{d.nome}}</strong></p>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

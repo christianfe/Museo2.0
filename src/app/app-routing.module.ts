@@ -33,7 +33,15 @@ const routes: Routes = [
     path: '**',
     component: NotfoundComponent,
     pathMatch: "full"
+  },  {
+    path: 'guestbook',
+    loadChildren: () => import('./pages/guestbook/guestbook.module').then( m => m.GuestbookPageModule)
+  },
+  {
+    path: 'new-guestbook',
+    loadChildren: () => import('./pages/new-guestbook/new-guestbook.module').then( m => m.NewGuestbookPageModule)
   }
+
 ];
 
 @NgModule({

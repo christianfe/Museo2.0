@@ -1,6 +1,5 @@
 export interface Feedback {
   id: number;
-  stelle: number;
-  nomeUtente: string;
+  nome: string;
   descrizione: string;
 }

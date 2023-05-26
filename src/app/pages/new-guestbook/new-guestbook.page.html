@@ -1,0 +1,21 @@
+<ion-content class="ion-padding">
+  <br><br><br>
+  <ion-title>Nuovo feedback</ion-title>
+  <p>Lascia il tuo segno nel nostro Guestbook</p>
+
+
+  <form (submit)="onSubmit()" #newFeedbForm="ngForm">
+    <ion-input class="ion-margin-bottom" ngModel [(ngModel)]="form.name" name="name" label="Nome"
+      labelPlacement="floating" placeholder="Inserisci il tuo nome" fill="solid" required ins>
+    </ion-input>
+    <ion-textarea class="ion-margin-bottom" ngModel [(ngModel)]="form.descrizione" name="mex" label="Messaggio"
+      labelPlacement="floating" placeholder="Inserisci il messaggio" fill="solid" style="height: 150px;" required>
+    </ion-textarea>
+    <ion-button type="submit" color="primary" expand="block" [disabled]="!newFeedbForm.valid">Aggiungi</ion-button>
+  </form>
+
+</ion-content>
+
+<ion-alert [isOpen]="isAlertOpen" header="" subHeader="Feedback salvato"
+  message="Grazie per aver lasciato il tuo feedback!" [buttons]="alertButtons"
+  (didDismiss)="setAlertStatus(false)"></ion-alert>

@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { TabsPage } from './tabs.page';
-import { GuestbookComponent } from '../guestbook/guestbook.component';
 
 const routes: Routes = [
   {
@@ -32,7 +31,11 @@ const routes: Routes = [
       },
       {
         path: 'guestbook',
-        component: GuestbookComponent //FIXME
+        loadChildren: () => import('../guestbook/guestbook.module').then(m => m.GuestbookPageModule)
+      },
+      {
+        path: 'new-feedback',
+        loadChildren: () => import('../new-guestbook/new-guestbook.module').then(m => m.NewGuestbookPageModule)
       }
     ]
   }
