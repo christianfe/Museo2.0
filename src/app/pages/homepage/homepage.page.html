@@ -7,8 +7,8 @@
 -->
 
 <ion-content >
-  <div *ngIf="(this.notizia | async) as n">
-  <ion-card  id="newsbox" >
+
+  <ion-card *ngIf="(this.notizia | async) as n"  id="newsbox" >
     <div id="opacitylayer">
       <ion-card-header>
         <ion-card-title class="newstitle">{{n.titolo}}</ion-card-title>
@@ -17,8 +17,8 @@
       </ion-card-header>
       <ion-button id="newsbutton" fill="clear" [routerLink]="[n.id]" routerDirection="forward">scopri di più ></ion-button>
     </div>
-  </ion-card>
-</div>
+    </ion-card>
+
 
 <!--
 

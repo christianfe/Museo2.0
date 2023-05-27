@@ -16,15 +16,17 @@ export class HomepagePage implements OnInit {
 
   protected notizia!: Observable<Notizia>;
 
-  constructor(private http : HttpClient,
-              private newservice: NewsService,
-              private guestbookservice: GuestbookService) {
+  constructor(private newservice: NewsService,
+              private guestbookservice: GuestbookService,
+              private http: HttpClient) {
 
   }
 
   ngOnInit() {
-    this.notizia = this.newservice.get(1);
-    this.notizia.subscribe(data => console.log(data))
+    this.notizia = this.newservice.get3(1);
+    //this.notizia = this.http.get<Notizia>("http://localhost:3000/notizie/1");
+    //this.notizia = this.http.get<Notizia>(this.newservice.getURL(1))
+    //this.notizia.subscribe(data => console.log(data))
   }
 
 }
