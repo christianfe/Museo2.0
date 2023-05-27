@@ -1,5 +1,42 @@
+<!--
 <ion-content class="ion-padding">
   <br><br>
   <p>Welcome To RoccaCannuccia!</p>
 </ion-content>
 
+-->
+
+<ion-content>
+
+  <ion-card  id="newsbox" *ngFor="let n of notizia | async">
+    <div id="opacitylayer">
+      <ion-card-header>
+        <ion-card-title class="newstitle">{{n.titolo}}</ion-card-title>
+
+        <ion-card-subtitle class="newstitle">{{n.sottotitolo}}</ion-card-subtitle>
+      </ion-card-header>
+      <ion-button id="newsbutton" fill="clear" routerLink="/tabs/news">scopri di più ></ion-button>
+    </div>
+  </ion-card>
+<!--
+
+
+
+<ion-card style="box-shadow: none;">
+  <ion-text>i messaggi dei nostri ospiti</ion-text>
+</ion-card>
+-->
+<!--
+<ion-card *ngFor="let d of feedbacks">
+  <ion-card-content>
+    {{d.descrizione}}
+    <p style="text-align: right"><strong>{{d.nome}}</strong></p>
+  </ion-card-content>
+</ion-card>
+
+<ion-item>
+  <ion-button style="margin: auto;" routerLink="/tabs/guestbook"> Val al guestbook </ion-button>
+</ion-item>
+-->
+
+</ion-content>

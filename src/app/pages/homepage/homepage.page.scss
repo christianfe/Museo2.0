@@ -1,0 +1,30 @@
+#newsbox{
+  margin: 0;
+  height: 70%;
+  width: 100%;
+  background-image: url("https://docs-demo.ionic.io/assets/madison.jpg");
+  border-radius: 0%;
+}
+#opacitylayer{
+  padding-left: 10%;
+  padding-top: 100px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255,255,255, 0.1);
+
+}
+
+.newstitle{
+  color: white;
+}
+ ion-card-title.newstitle{
+  font-weight: bold;
+  font-size: xx-large;
+ }
+
+#newsbutton{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  color: white;
+}
