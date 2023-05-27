@@ -31,16 +31,64 @@
   ],
   "autori": [
     {
-      "id": "1",
-      "nome": "Pablo",
-      "cognome": "Picasso",
-      "biogafia": "sin da bambino mostra uno spiccato senso di Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim."
+      "id": 0,
+      "url": "http://placehold.it/32x32",
+      "nome": "Marks",
+      "cognome": " Wade",
+      "soprannome": "<ReferenceError: nicknome is not defined>",
+      "about": "Sint dolor veniam ad dolor ullamco enim excepteur est. Nostrud occaecat qui irure sunt laborum ut deserunt consequat est. In ex cupidatat deserunt cillum deserunt pariatur labore occaecat ad aliqua aliqua cupidatat. Et sint ipsum ex magna. Labore ex est excepteur ut esse Lorem voluptate ea sit occaecat duis tempor. Consequat in elit tempor velit ipsum voluptate.\r\n",
+      "data_nascita": "2023-01-24 -01:00",
+      "data_morte": "2020-01-18 -01:00",
+      "luogo_nascita": "Roma",
+      "luogo_morte": "Cellino Attanasio"
     },
     {
-      "id": "2",
-      "nome": "Salvador",
-      "cognome": "Dali",
-      "biogafia": "Nasce in un piccolo comune in provincia di Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+      "id": 1,
+      "url": "http://placehold.it/32x32",
+      "nome": "Rachel",
+      "cognome": " Schultz",
+      "soprannome": "<ReferenceError: nicknome is not defined>",
+      "about": "Sint amet pariatur eiusmod aliquip incididunt nostrud sint ipsum ipsum ex. Voluptate fugiat minim in et nulla quis sint veniam commodo. Nostrud ad ullamco Lorem Lorem nostrud ut quis irure ad sit quis esse. Consequat enim reprehenderit deserunt dolore occaecat est eiusmod aliqua commodo adipisicing ullamco aliqua ex. Lorem nisi minim aliquip commodo. Adipisicing amet irure tempor dolore pariatur consectetur ut minim. Sit fugiat aliqua duis non sit elit culpa culpa deserunt minim consequat nulla nisi.\r\n",
+      "data_nascita": "2016-07-02 -02:00",
+      "data_morte": "2021-07-06 -02:00",
+      "luogo_nascita": "Roma",
+      "luogo_morte": "Cellino Attanasio"
+    },
+    {
+      "id": 2,
+      "url": "http://placehold.it/32x32",
+      "nome": "Ashley",
+      "cognome": " Lucas",
+      "soprannome": "<ReferenceError: nicknome is not defined>",
+      "about": "Ipsum magna labore adipisicing dolore sunt qui culpa. Sint et dolore ea do do ex quis. Nisi excepteur cillum ipsum amet. Sit aute minim elit cillum pariatur. Enim pariatur ad aute cupidatat quis consequat proident sint. Commodo incididunt commodo culpa laboris quis ipsum.\r\n",
+      "data_nascita": "2019-01-20 -01:00",
+      "data_morte": "2017-02-28 -01:00",
+      "luogo_nascita": "Roma",
+      "luogo_morte": "Cellino Attanasio"
+    },
+    {
+      "id": 3,
+      "url": "http://placehold.it/32x32",
+      "nome": "Oneil",
+      "cognome": " Walker",
+      "soprannome": "<ReferenceError: nicknome is not defined>",
+      "about": "Culpa proident excepteur fugiat nulla ad Lorem aute proident dolor sit tempor non. Id cupidatat commodo officia ut eu. Excepteur nostrud laborum in culpa minim laborum consequat id ipsum dolor. Consectetur minim aute anim velit commodo est. Commodo dolore aliqua ea aliqua cupidatat anim excepteur ea ex nulla aute duis. Aute quis consequat velit sint tempor enim dolor elit ipsum reprehenderit culpa.\r\n",
+      "data_nascita": "2021-08-02 -02:00",
+      "data_morte": "2023-01-31 -01:00",
+      "luogo_nascita": "Roma",
+      "luogo_morte": "Cellino Attanasio"
+    },
+    {
+      "id": 4,
+      "url": "http://placehold.it/32x32",
+      "nome": "Lawanda",
+      "cognome": " Berg",
+      "soprannome": "<ReferenceError: nicknome is not defined>",
+      "about": "Aute voluptate esse nisi anim commodo nulla sint officia. Fugiat non velit irure pariatur enim minim laborum. Et ipsum nulla voluptate duis aliquip ea pariatur enim. Aliqua reprehenderit excepteur non excepteur velit proident. Amet irure minim qui do mollit veniam in enim veniam et cillum pariatur nulla et. Voluptate tempor pariatur nostrud cupidatat laborum et amet proident sint velit amet nisi esse.\r\n",
+      "data_nascita": "2017-06-10 -02:00",
+      "data_morte": "2018-05-31 -02:00",
+      "luogo_nascita": "Roma",
+      "luogo_morte": "Cellino Attanasio"
     }
   ],
   "stanze": [

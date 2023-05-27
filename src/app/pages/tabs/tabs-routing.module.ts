@@ -36,7 +36,12 @@ const routes: Routes = [
       {
         path: 'new-feedback',
         loadChildren: () => import('../new-guestbook/new-guestbook.module').then(m => m.NewGuestbookPageModule)
+      },
+      {
+        path: 'author/:id',
+        loadChildren: () => import("../author/author.module").then(m => m.AuthorPageModule)
       }
+
     ]
   }
 ];

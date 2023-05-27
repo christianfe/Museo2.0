@@ -16,6 +16,7 @@ export class GuestbookService {
   }
 
   get(id: number) {
+    //FIXME 404 error
     return this.http.get<Feedback>(this.baseUrl + "?id=" + id);
   }
 
