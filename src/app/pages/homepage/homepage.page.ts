@@ -14,7 +14,7 @@ import { NewsService } from 'src/app/services/news.service';
 })
 export class HomepagePage implements OnInit {
 
-  protected notizia!: Observable<Notizia[]>;
+  protected notizia!: Observable<Notizia>;
 
   constructor(private http : HttpClient,
               private newservice: NewsService,
@@ -24,7 +24,7 @@ export class HomepagePage implements OnInit {
 
   ngOnInit() {
     this.notizia = this.newservice.get(1);
-
+    this.notizia.subscribe(data => console.log(data))
   }
 
 }

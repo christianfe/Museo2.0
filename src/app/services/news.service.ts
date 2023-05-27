@@ -21,8 +21,8 @@ export class NewsService {
     return this.http.get<Notizia[]>(this.baseUrl);
   }
 
-  get(id: number): Observable<Notizia[]>{
-    return this.http.get<Notizia[]>(this.baseUrl + "?id=" + id);
+  get(id: number): Observable<Notizia>{
+    return this.http.get<Notizia>(this.baseUrl + "?id=" + id);
 
     //return this.http.get<Notizia>(this.baseUrl + "?id=" + id);
   }
