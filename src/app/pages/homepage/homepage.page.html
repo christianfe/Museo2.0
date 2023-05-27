@@ -15,7 +15,7 @@
 
         <ion-card-subtitle class="newstitle">{{n.sottotitolo}}</ion-card-subtitle>
       </ion-card-header>
-      <ion-button id="newsbutton" fill="clear" [routerLink]="[n.id]" routerDirection="forward">scopri di più ></ion-button>
+      <ion-button id="newsbutton" fill="clear" [routerLink]="['../news', n.id]" routerDirection="forward">scopri di più ></ion-button>
     </div>
     </ion-card>
 
