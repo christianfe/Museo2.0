@@ -16,12 +16,19 @@ export class HomepagePage implements OnInit {
 
   protected notizia: Notizia | undefined;
 
-  constructor(private newservice: NewsService, private guestbookservice: GuestbookService) {
 
-  }
+  constructor(private newservice: NewsService,
+    private guestbookservice: GuestbookService,
+    private http: HttpClient) { }
 
   ngOnInit() {
-    this.newservice.get(1).subscribe(data => this.notizia = data[0])
+    /* CHRIK
+  this.newservice.get(1).subscribe(data => this.notizia = data[0])
+  */
+    this.notizia = this.newservice.get3(1);
+    //this.notizia = this.http.get<Notizia>("http://localhost:3000/notizie/1");
+    //this.notizia = this.http.get<Notizia>(this.newservice.getURL(1))
+    //this.notizia.subscribe(data => console.log(data))
   }
 
 }
