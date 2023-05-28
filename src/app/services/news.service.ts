@@ -15,14 +15,14 @@ export class NewsService {
   //news!: Observable<Notizia[]>;
 
   constructor(private http: HttpClient) {
-   }
+  }
 
-  getAll(): Observable<Notizia[]>{
+  getAll(): Observable<Notizia[]> {
     return this.http.get<Notizia[]>(this.baseUrl);
   }
 
-  get(id: number): Observable<Notizia>{
-    return this.http.get<Notizia>(this.baseUrl + "?id=" + id);
+  get(id: number): Observable<Notizia[]> {
+    return this.http.get<Notizia[]>(this.baseUrl + "?id=" + id);
 
     //return this.http.get<Notizia>(this.baseUrl + "?id=" + id);
   }

@@ -6,21 +6,22 @@
 
 -->
 
-<ion-content >
-  <div *ngIf="(this.notizia | async) as n">
-  <ion-card  id="newsbox" >
-    <div id="opacitylayer">
-      <ion-card-header>
-        <ion-card-title class="newstitle">{{n.titolo}}</ion-card-title>
+<ion-content>
+  <div *ngIf="notizia as n">
+    <ion-card id="newsbox">
+      <div id="opacitylayer">
+        <ion-card-header>
+          <ion-card-title class="newstitle">{{n.titolo}}</ion-card-title>
 
-        <ion-card-subtitle class="newstitle">{{n.sottotitolo}}</ion-card-subtitle>
-      </ion-card-header>
-      <ion-button id="newsbutton" fill="clear" [routerLink]="[n.id]" routerDirection="forward">scopri di più ></ion-button>
-    </div>
-  </ion-card>
-</div>
+          <ion-card-subtitle class="newstitle">{{n.sottotitolo}}</ion-card-subtitle>
+        </ion-card-header>
+        <ion-button id="newsbutton" fill="clear" [routerLink]="[n.id]" routerDirection="forward">scopri di più
+          ></ion-button>
+      </div>
+    </ion-card>
+  </div>
 
-<!--
+  <!--
 
 
 
@@ -28,7 +29,7 @@
   <ion-text>i messaggi dei nostri ospiti</ion-text>
 </ion-card>
 -->
-<!--
+  <!--
 <ion-card *ngFor="let d of feedbacks">
   <ion-card-content>
     {{d.descrizione}}

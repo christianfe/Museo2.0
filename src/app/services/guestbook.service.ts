@@ -16,7 +16,7 @@ export class GuestbookService {
   }
 
   get(id: number) {
-    return this.http.get<Feedback>(this.baseUrl + "?id=" + id);
+    return this.http.get<Feedback[]>(this.baseUrl + "?id=" + id);
   }
 
   add(f: Feedback) {
