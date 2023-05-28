@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { environment } from 'src/environments/environment';
 import { Autore } from '../models/autore';
 
+
 @Injectable({
   providedIn: 'root'
 })
@@ -18,4 +19,5 @@ export class AuthorService {
   get(id: number) {
     return this.http.get<Autore>(this.baseUrl + "/" + id)
   }
+
 }

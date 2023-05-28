@@ -1,6 +1,6 @@
 export interface Opera {
   id: number;
-  nome: String;
+  titolo: String;
   descrizione: String;
   dataInizio: Date;
   dataFine: Date;
@@ -9,4 +9,6 @@ export interface Opera {
   profondita: number;
   nomeAutore: string;
   idAutore: number;
+  picture: String;
+
 }

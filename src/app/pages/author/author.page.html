@@ -23,6 +23,14 @@
           </ion-item>
         </ion-list>
       </ion-row>
+      <ion-row *ngIf="operas">
+        <ion-title size="small">
+          <strong>Altro di {{author.nome + " " + author.cognome}}</strong>
+        </ion-title>
+      </ion-row>
+      <ion-row *ngFor="let o of operas">
+        <app-opera-tab [opera]="o"></app-opera-tab>
+      </ion-row>
     </ion-grid>
   </ion-content>
 </ion-content>

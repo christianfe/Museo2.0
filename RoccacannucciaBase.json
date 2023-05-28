@@ -1,32 +1,76 @@
 {
   "opere": [
     {
-      "id": "1",
-      "titolo": "Les Domoiselles D'avignon",
-      "autore": "1",
-      "descrizione": "Delle ragazze che ballano",
-      "stanza": "1"
+      "id": 0,
+      "titolo": "Mcclain",
+      "eyeColor": 1,
+      "altezza": "$1,575.65",
+      "lunghezza": "$3,358.05",
+      "profondita": "$2,623.17",
+      "picture": "http://placehold.it/320x200",
+      "dataInizio": "2020-02-14 -01:00",
+      "dataFine": "2016-10-03 -02:00",
+      "nomeAutore": "Burgess "
     },
     {
-      "id": "2",
-      "titolo": "Guernica",
-      "autore": "1",
-      "descrizione": "Descrive una guerra ed il casino che provoca",
-      "stanza": "2"
+      "id": 1,
+      "titolo": "Foster",
+      "eyeColor": 1,
+      "altezza": "$3,796.28",
+      "lunghezza": "$1,220.35",
+      "profondita": "$1,452.71",
+      "picture": "http://placehold.it/320x200",
+      "dataInizio": "2014-03-19 -01:00",
+      "dataFine": "2022-03-19 -01:00",
+      "nomeAutore": "Powell "
     },
     {
-      "id": "3",
-      "titolo": "La Persistenza della Memoria",
-      "autore": "2",
-      "descrizione": "Un quadro surrealista molto celebre",
-      "stanza": "1"
+      "id": 2,
+      "titolo": "Carrillo",
+      "eyeColor": 3,
+      "altezza": "$3,109.00",
+      "lunghezza": "$3,452.85",
+      "profondita": "$2,210.16",
+      "picture": "http://placehold.it/320x200",
+      "dataInizio": "2020-01-05 -01:00",
+      "dataFine": "2014-08-15 -02:00",
+      "nomeAutore": "Barnes "
     },
     {
-      "id": "4",
-      "titolo": "Sogno Causato Dal volo di un'ape",
-      "autore": "2",
-      "descrizione": "Mah, secondo me questo si faceva di acidi",
-      "stanza": "2"
+      "id": 3,
+      "titolo": "Hebert",
+      "eyeColor": 2,
+      "altezza": "$1,648.45",
+      "lunghezza": "$3,903.62",
+      "profondita": "$1,887.54",
+      "picture": "http://placehold.it/320x200",
+      "dataInizio": "2020-11-17 -01:00",
+      "dataFine": "2022-12-26 -01:00",
+      "nomeAutore": "Morrow "
+    },
+    {
+      "id": 4,
+      "titolo": "Boyle",
+      "eyeColor": 1,
+      "altezza": "$2,218.59",
+      "lunghezza": "$2,991.18",
+      "profondita": "$2,004.98",
+      "picture": "http://placehold.it/320x200",
+      "dataInizio": "2021-09-16 -02:00",
+      "dataFine": "2015-11-17 -01:00",
+      "nomeAutore": "Hanson "
+    },
+    {
+      "id": 5,
+      "titolo": "Holcomb",
+      "eyeColor": 1,
+      "altezza": "$2,438.74",
+      "lunghezza": "$2,337.96",
+      "profondita": "$1,074.63",
+      "picture": "http://placehold.it/320x200",
+      "dataInizio": "2014-08-18 -02:00",
+      "dataFine": "2017-05-05 -02:00",
+      "nomeAutore": "Myra "
     }
   ],
   "autori": [

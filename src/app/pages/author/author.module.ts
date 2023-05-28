@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { AuthorPageRoutingModule } from './author-routing.module';
 
 import { AuthorPage } from './author.page';
+import { OperaTabComponent } from 'src/app/component/opera-tab/opera-tab.component';
 
 @NgModule({
   imports: [
@@ -15,6 +16,6 @@ import { AuthorPage } from './author.page';
     IonicModule,
     AuthorPageRoutingModule
   ],
-  declarations: [AuthorPage]
+  declarations: [AuthorPage, OperaTabComponent]
 })
-export class AuthorPageModule {}
+export class AuthorPageModule { }
