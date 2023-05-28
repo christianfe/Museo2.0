@@ -21,30 +21,9 @@ export class NewsService {
     return this.http.get<Notizia[]>(this.baseUrl);
   }
 
-  /* CHRIK
-  get(id: number): Observable<Notizia[]> {
-    return this.http.get<Notizia[]>(this.baseUrl + "?id=" + id);
-  */
-
-  //questo non va
   get(id: number): Observable<Notizia> {
-    return this.http.get<Notizia>(this.baseUrl, { params: new HttpParams().set("id", id) });
-  }
-
-  //questo non va
-  get1(id: number): Observable<Notizia> {
-    return this.http.get<Notizia>(this.baseUrl + "/?id=1");
-  }
-
-  //questo non va
-  get2(id: number): Observable<Notizia> {
-    return this.http.get<Notizia>(this.baseUrl + "/?id=1");
-  }
-  //questo va
-  get3(id: number): Observable<Notizia> {
     return this.http.get<Notizia>(this.baseUrl + "/1");
   }
 
-  //SCOPERTA NOTTURNA: in qualche modo le query string nelle url fanno scazzare angular
 
 }

@@ -14,7 +14,9 @@ import { NewsService } from 'src/app/services/news.service';
 })
 export class HomepagePage implements OnInit {
 
-  protected notizia: Notizia | undefined;
+  protected notizia!: Observable<Notizia>;
+
+  protected guests!: Observable<Feedback[]>;
 
 
   constructor(private newservice: NewsService,
@@ -22,13 +24,15 @@ export class HomepagePage implements OnInit {
     private http: HttpClient) { }
 
   ngOnInit() {
-    /* CHRIK
-  this.newservice.get(1).subscribe(data => this.notizia = data[0])
-  */
-    this.notizia = this.newservice.get3(1);
-    //this.notizia = this.http.get<Notizia>("http://localhost:3000/notizie/1");
-    //this.notizia = this.http.get<Notizia>(this.newservice.getURL(1))
-    //this.notizia.subscribe(data => console.log(data))
+
+    //inizializzazione notizia
+    this.notizia= this.newservice.get(1);
+
+    //inizializzazione guestbook
+    this.guests = this.guestbookservice.getHomeFeeds();
+
+
+
   }
 
 }

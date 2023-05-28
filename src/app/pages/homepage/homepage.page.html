@@ -36,26 +36,30 @@
     </div>
   </ion-card>
 
+  <ion-card style="box-shadow: none;">
+    <ion-text>i messaggi dei nostri ospiti</ion-text>
+  </ion-card>
 
+  <ion-card *ngFor="let d of this.guests | async">
+    <ion-card-content>
+      {{d.descrizione}}
+      <p style="text-align: right"><strong>{{d.nome}}</strong></p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-item>
+    <ion-button style="margin: auto;" routerLink="/tabs/guestbook"> Val al guestbook </ion-button>
+  </ion-item>
   <!--
 
 
 
-<ion-card style="box-shadow: none;">
-  <ion-text>i messaggi dei nostri ospiti</ion-text>
-</ion-card>
+
 -->
   <!--
-<ion-card *ngFor="let d of feedbacks">
-  <ion-card-content>
-    {{d.descrizione}}
-    <p style="text-align: right"><strong>{{d.nome}}</strong></p>
-  </ion-card-content>
-</ion-card>
 
-<ion-item>
-  <ion-button style="margin: auto;" routerLink="/tabs/guestbook"> Val al guestbook </ion-button>
-</ion-item>
+
+
 -->
 
 </ion-content>
