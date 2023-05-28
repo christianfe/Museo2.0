@@ -13,6 +13,7 @@ export class NewGuestbookPage implements OnInit {
   form: any
   isAlertOpen: boolean = false;
   public alertButtons = ['Chiudi'];
+  public backPage = "/tabs/guestbook"
 
   constructor(private fb: FormBuilder, private router: Router, private guestbookService: GuestbookService) { }
 
@@ -36,7 +37,7 @@ export class NewGuestbookPage implements OnInit {
   setAlertStatus(s: boolean) {
     this.isAlertOpen = s
     if (!s)
-      this.router.navigateByUrl("/tabs/guestbook")
+      this.router.navigateByUrl(this.backPage)
   }
 }
 

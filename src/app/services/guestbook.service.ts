@@ -17,7 +17,8 @@ export class GuestbookService {
   }
 
   get(id: number) {
-    return this.http.get<Feedback>(this.baseUrl+ id);
+    //FIXME 404 error
+    return this.http.get<Feedback>(this.baseUrl + "/" + id);
   }
 
   add(f: Feedback) {
@@ -26,9 +27,9 @@ export class GuestbookService {
     })
   }
 
-  getHomeFeeds(): Observable<Feedback[]>{
+  getHomeFeeds(): Observable<Feedback[]> {
 
-    let observables: Observable<Feedback>[] =[
+    let observables: Observable<Feedback>[] = [
       this.get(1),
       this.get(2),
       this.get(3)

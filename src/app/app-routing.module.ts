@@ -40,6 +40,10 @@ const routes: Routes = [
   {
     path: 'new-guestbook',
     loadChildren: () => import('./pages/new-guestbook/new-guestbook.module').then( m => m.NewGuestbookPageModule)
+  },
+  {
+    path: 'author',
+    loadChildren: () => import('./pages/author/author.module').then( m => m.AuthorPageModule)
   }
 
 ];

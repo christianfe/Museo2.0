@@ -4,6 +4,8 @@
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
   "scripts": {
+    "ionic": "ionic serve",
+    "json-server": "json-server ./RoccacannucciaBase.json",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
