@@ -7,15 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { AuthorPageRoutingModule } from './author-routing.module';
 
 import { AuthorPage } from './author.page';
-import { OperaTabComponent } from 'src/app/component/opera-tab/opera-tab.component';
+import { OperaTabComponent } from 'src/app/components/opera-tab/opera-tab.component';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    AuthorPageRoutingModule
-  ],
-  declarations: [AuthorPage, OperaTabComponent]
+	imports: [
+		CommonModule,
+		FormsModule,
+		IonicModule,
+		AuthorPageRoutingModule
+	],
+	declarations: [AuthorPage, OperaTabComponent]
 })
 export class AuthorPageModule { }
