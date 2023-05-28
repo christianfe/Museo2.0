@@ -10,12 +10,12 @@ import { AuthorPage } from './author.page';
 import { OperaTabComponent } from 'src/app/components/opera-tab/opera-tab.component';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    AuthorPageRoutingModule
-  ],
-  declarations: [AuthorPage, OperaTabComponent]
+	imports: [
+		CommonModule,
+		FormsModule,
+		IonicModule,
+		AuthorPageRoutingModule
+	],
+	declarations: [AuthorPage, OperaTabComponent]
 })
 export class AuthorPageModule { }
