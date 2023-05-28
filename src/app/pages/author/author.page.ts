@@ -17,15 +17,12 @@ export class AuthorPage implements OnInit {
 
   constructor(private route: ActivatedRoute, private authorService: AuthorService) {
     this.idAuhtor = this.route.snapshot.params['id'];
-    this.authorService.get(this.idAuhtor).subscribe({
-      next: a => {
-        this.author = a[0]; //FIXME
-        console.log(this.author);
-      }
-    })
   }
 
   ngOnInit() {
+    this.authorService.get(this.idAuhtor).subscribe({
+      next: a => this.author = a
+    })
   }
 
 }

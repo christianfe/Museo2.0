@@ -16,6 +16,6 @@ export class AuthorService {
   }
 
   get(id: number) {
-    return this.http.get<Autore[]>(this.baseUrl + "?id=" + id)
+    return this.http.get<Autore>(this.baseUrl + "/" + id)
   }
 }

@@ -40,11 +40,15 @@
       "data_nascita": "2023-01-24 -01:00",
       "data_morte": "2020-01-18 -01:00",
       "luogo_nascita": "Roma",
-      "luogo_morte": "Cellino Attanasio"
+      "luogo_morte": "Cellino Attanasio",
+      "links": [
+        "https://google.com",
+        "https://facebook.com"
+      ]
     },
     {
       "id": 1,
-      "url": "http://placehold.it/32x32",
+      "url": "http://placehold.it/320x200",
       "nome": "Rachel",
       "cognome": " Schultz",
       "soprannome": "<ReferenceError: nicknome is not defined>",
@@ -52,11 +56,15 @@
       "data_nascita": "2016-07-02 -02:00",
       "data_morte": "2021-07-06 -02:00",
       "luogo_nascita": "Roma",
-      "luogo_morte": "Cellino Attanasio"
+      "luogo_morte": "Cellino Attanasio",
+      "links": [
+        "https://google.com",
+        "https://facebook.com"
+      ]
     },
     {
       "id": 2,
-      "url": "http://placehold.it/32x32",
+      "url": "http://placehold.it/320x200",
       "nome": "Ashley",
       "cognome": " Lucas",
       "soprannome": "<ReferenceError: nicknome is not defined>",
@@ -64,11 +72,15 @@
       "data_nascita": "2019-01-20 -01:00",
       "data_morte": "2017-02-28 -01:00",
       "luogo_nascita": "Roma",
-      "luogo_morte": "Cellino Attanasio"
+      "luogo_morte": "Cellino Attanasio",
+      "links": [
+        "https://google.com",
+        "https://facebook.com"
+      ]
     },
     {
       "id": 3,
-      "url": "http://placehold.it/32x32",
+      "url": "http://placehold.it/320x200",
       "nome": "Oneil",
       "cognome": " Walker",
       "soprannome": "<ReferenceError: nicknome is not defined>",
@@ -76,11 +88,15 @@
       "data_nascita": "2021-08-02 -02:00",
       "data_morte": "2023-01-31 -01:00",
       "luogo_nascita": "Roma",
-      "luogo_morte": "Cellino Attanasio"
+      "luogo_morte": "Cellino Attanasio",
+      "links": [
+        "https://google.com",
+        "https://facebook.com"
+      ]
     },
     {
       "id": 4,
-      "url": "http://placehold.it/32x32",
+      "url": "http://placehold.it/320x200",
       "nome": "Lawanda",
       "cognome": " Berg",
       "soprannome": "<ReferenceError: nicknome is not defined>",
@@ -88,7 +104,11 @@
       "data_nascita": "2017-06-10 -02:00",
       "data_morte": "2018-05-31 -02:00",
       "luogo_nascita": "Roma",
-      "luogo_morte": "Cellino Attanasio"
+      "luogo_morte": "Cellino Attanasio",
+      "links": [
+        "https://google.com",
+        "https://facebook.com"
+      ]
     }
   ],
   "stanze": [

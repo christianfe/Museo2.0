@@ -9,4 +9,5 @@ export interface Autore {
   luogoNascita: String;
   luogoMorte: String;
   url: string;
+  links: string[];
 }
