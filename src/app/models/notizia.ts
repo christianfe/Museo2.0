@@ -3,4 +3,6 @@ export class Notizia{
   titolo!: String;
   sottotitolo!: String;
   testo!: String;
+  nextId!: number;
+  prevId!: number;
 }

@@ -26,6 +26,10 @@ const routes: Routes = [
     redirectTo: 'tabs/scan-qr'
   },
   {
+    path: 'news',
+    redirectTo: 'tabs/news' 
+  },
+  {
     path: 'not-found',
     component: NotfoundComponent
   },
@@ -33,7 +37,8 @@ const routes: Routes = [
     path: '**',
     component: NotfoundComponent,
     pathMatch: "full"
-  },  {
+  },
+  {
     path: 'guestbook',
     loadChildren: () => import('./pages/guestbook/guestbook.module').then( m => m.GuestbookPageModule)
   },
@@ -45,7 +50,6 @@ const routes: Routes = [
     path: 'author',
     loadChildren: () => import('./pages/author/author.module').then( m => m.AuthorPageModule)
   }
-
 ];
 
 @NgModule({
