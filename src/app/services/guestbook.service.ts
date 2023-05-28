@@ -8,7 +8,7 @@ import { Observable, forkJoin } from 'rxjs';
   providedIn: 'root'
 })
 export class GuestbookService {
-  baseUrl = environment.apiUrl + "feedback/";
+  baseUrl = environment.apiUrl + "feedback";
   data: Feedback[] = []
   constructor(private http: HttpClient) { }
 
