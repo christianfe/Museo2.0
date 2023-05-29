@@ -10,7 +10,7 @@
       "picture": "http://placehold.it/320x200",
       "dataInizio": "2020-02-25 -01:00",
       "dataFine": "2021-03-26 -01:00",
-      "nomeAutore": "Glenna "
+      "idAutore": 0
     },
     {
       "id": 1,
@@ -22,7 +22,7 @@
       "picture": "http://placehold.it/320x200",
       "dataInizio": "2015-08-18 -02:00",
       "dataFine": "2016-10-01 -02:00",
-      "nomeAutore": "Dillard "
+      "idAutore": 0
     },
     {
       "id": 2,
@@ -34,7 +34,7 @@
       "picture": "http://placehold.it/320x200",
       "dataInizio": "2015-01-27 -01:00",
       "dataFine": "2021-10-17 -02:00",
-      "nomeAutore": "Clara "
+      "idAutore": 0
     },
     {
       "id": 3,
@@ -46,7 +46,7 @@
       "picture": "http://placehold.it/320x200",
       "dataInizio": "2022-02-15 -01:00",
       "dataFine": "2017-02-25 -01:00",
-      "nomeAutore": "Newman "
+      "idAutore": 0
     },
     {
       "id": 4,
@@ -58,7 +58,7 @@
       "picture": "http://placehold.it/320x200",
       "dataInizio": "2020-11-13 -01:00",
       "dataFine": "2016-04-20 -02:00",
-      "nomeAutore": "Jaime "
+      "idAutore": 0
     },
     {
       "id": 5,
@@ -70,7 +70,7 @@
       "picture": "http://placehold.it/320x200",
       "dataInizio": "2021-09-02 -02:00",
       "dataFine": "2021-10-09 -02:00",
-      "nomeAutore": "Jeanette "
+      "idAutore": 0
     },
     {
       "id": 6,
@@ -82,7 +82,7 @@
       "picture": "http://placehold.it/320x200",
       "dataInizio": "2020-02-27 -01:00",
       "dataFine": "2014-05-10 -02:00",
-      "nomeAutore": "Joanna "
+      "idAutore": 0
     },
     {
       "id": 7,
@@ -94,7 +94,7 @@
       "picture": "http://placehold.it/320x200",
       "dataInizio": "2022-06-07 -02:00",
       "dataFine": "2019-09-10 -02:00",
-      "nomeAutore": "Dillon "
+      "idAutore": 0
     },
     {
       "id": 8,
@@ -106,7 +106,7 @@
       "picture": "http://placehold.it/320x200",
       "dataInizio": "2020-09-10 -02:00",
       "dataFine": "2015-07-06 -02:00",
-      "nomeAutore": "Mona "
+      "idAutore": 0
     }
   ],
   "autori": [
