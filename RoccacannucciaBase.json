@@ -220,19 +220,25 @@
       "id": "1",
       "titolo": "Ufficiale",
       "sottotitolo": "Di Maria alla cremonese",
-      "testo": "L'argentino campione del mondo non vede l'ora"
+      "testo": "L'argentino campione del mondo non vede l'ora",
+      "nextId": "2",
+      "prevId": "3"
     },
     {
       "id": "2",
       "titolo": "Cambio orari",
       "sottotitolo": "Passaggio dall'orario orario estivo a quello invernale ",
-      "testo": "niente, praticamente ora chiudiamo perchè l'inverno fa freddo e non abbiamo i termosifoni"
+      "testo": "niente, praticamente ora chiudiamo perchè l'inverno fa freddo e non abbiamo i termosifoni",
+      "nextId": "3",
+      "prevId": "1"
     },
     {
       "id": "3",
       "titolo": "Cane Abbaia",
       "sottotitolo": "Cane nel Tirolese sorpreso ad abbaiare per strada ",
-      "testo": "I padroni erano increduli: \"non pensavano che un cane potesse abbaiare!\" Ci sono rimasti veramente di stucco!"
+      "testo": "I padroni erano increduli: \"non pensavano che un cane potesse abbaiare!\" Ci sono rimasti veramente di stucco!",
+      "nextId": "1",
+      "prevId": "2"
     }
   ]
 }

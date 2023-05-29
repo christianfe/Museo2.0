@@ -12,8 +12,6 @@ export class NewsService {
 
   baseUrl = environment.apiUrl + "notizie";
 
-  //news!: Observable<Notizia[]>;
-
   constructor(private http: HttpClient) {
   }
 
@@ -22,7 +20,7 @@ export class NewsService {
   }
 
   get(id: number): Observable<Notizia> {
-    return this.http.get<Notizia>(this.baseUrl + "/1");
+    return this.http.get<Notizia>(`${this.baseUrl}\\${id}`);
   }
 
 
