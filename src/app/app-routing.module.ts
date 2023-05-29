@@ -44,6 +44,14 @@ const routes: Routes = [
   {
     path: 'author',
     loadChildren: () => import('./pages/author/author.module').then( m => m.AuthorPageModule)
+  },
+  {
+    path: 'opera',
+    loadChildren: () => import('./pages/opera/opera.module').then( m => m.OperaPageModule)
+  },
+  {
+    path: 'room',
+    loadChildren: () => import('./pages/room/room.module').then( m => m.RoomPageModule)
   }
 
 ];

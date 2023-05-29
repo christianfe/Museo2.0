@@ -10,7 +10,8 @@
       "picture": "http://placehold.it/320x200",
       "dataInizio": "2020-02-14 -01:00",
       "dataFine": "2016-10-03 -02:00",
-      "nomeAutore": "Burgess "
+      "nomeAutore": "Burgess ",
+      "stanza": 1
     },
     {
       "id": 1,
@@ -22,7 +23,8 @@
       "picture": "http://placehold.it/320x200",
       "dataInizio": "2014-03-19 -01:00",
       "dataFine": "2022-03-19 -01:00",
-      "nomeAutore": "Powell "
+      "nomeAutore": "Powell ",
+      "stanza": 1
     },
     {
       "id": 2,
@@ -34,7 +36,8 @@
       "picture": "http://placehold.it/320x200",
       "dataInizio": "2020-01-05 -01:00",
       "dataFine": "2014-08-15 -02:00",
-      "nomeAutore": "Barnes "
+      "nomeAutore": "Barnes ",
+      "stanza": 2
     },
     {
       "id": 3,
@@ -46,7 +49,8 @@
       "picture": "http://placehold.it/320x200",
       "dataInizio": "2020-11-17 -01:00",
       "dataFine": "2022-12-26 -01:00",
-      "nomeAutore": "Morrow "
+      "nomeAutore": "Morrow ",
+      "stanza": 2
     },
     {
       "id": 4,
@@ -58,7 +62,8 @@
       "picture": "http://placehold.it/320x200",
       "dataInizio": "2021-09-16 -02:00",
       "dataFine": "2015-11-17 -01:00",
-      "nomeAutore": "Hanson "
+      "nomeAutore": "Hanson ",
+      "stanza": 2
     },
     {
       "id": 5,
@@ -70,7 +75,8 @@
       "picture": "http://placehold.it/320x200",
       "dataInizio": "2014-08-18 -02:00",
       "dataFine": "2017-05-05 -02:00",
-      "nomeAutore": "Myra "
+      "nomeAutore": "Myra ",
+      "stanza": 2
     }
   ],
   "autori": [
@@ -209,9 +215,24 @@
       "descrizione": "Nice museum, but there is not a snack bar! :_("
     }
   ],
-  "notizie":[
-    {"id":"1", "titolo":"Ufficiale", "sottotitolo":"Di Maria alla cremonese", "testo":"L'argentino campione del mondo non vede l'ora"},
-    {"id":"2", "titolo":"Cambio orari", "sottotitolo":"Passaggio dall'orario orario estivo a quello invernale ", "testo":"niente, praticamente ora chiudiamo perchè l'inverno fa freddo e non abbiamo i termosifoni"},
-    {"id":"3", "titolo":"Cane Abbaia", "sottotitolo":"Cane nel Tirolese sorpreso ad abbaiare per strada ", "testo":"I padroni erano increduli: \"non pensavano che un cane potesse abbaiare!\" Ci sono rimasti veramente di stucco!"}
+  "notizie": [
+    {
+      "id": "1",
+      "titolo": "Ufficiale",
+      "sottotitolo": "Di Maria alla cremonese",
+      "testo": "L'argentino campione del mondo non vede l'ora"
+    },
+    {
+      "id": "2",
+      "titolo": "Cambio orari",
+      "sottotitolo": "Passaggio dall'orario orario estivo a quello invernale ",
+      "testo": "niente, praticamente ora chiudiamo perchè l'inverno fa freddo e non abbiamo i termosifoni"
+    },
+    {
+      "id": "3",
+      "titolo": "Cane Abbaia",
+      "sottotitolo": "Cane nel Tirolese sorpreso ad abbaiare per strada ",
+      "testo": "I padroni erano increduli: \"non pensavano che un cane potesse abbaiare!\" Ci sono rimasti veramente di stucco!"
+    }
   ]
 }

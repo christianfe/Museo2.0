@@ -1,0 +1,32 @@
+<ion-content [fullscreen]="true" *ngIf="room">
+  <br><br><br><br>
+  <ion-title size="large"><strong> {{room.nome}}</strong></ion-title>
+  <ion-content>
+    <ion-grid>
+      <ion-row>
+        <p>{{room.descrizione}}</p>
+      </ion-row>
+      <ion-row *ngIf="room.opere">
+        <ion-title size="small">
+          <strong>Opere nella stanza</strong>
+        </ion-title>
+      </ion-row>
+      <ion-row *ngFor="let o of room.opere">
+        <!--FIXME qua va inserito il componente <Opera-tab-app> -->
+        <ion-card *ngIf="o" (click)="routeToOpera(o.id)">
+          <ion-row>
+            <ion-col>
+              <img alt="opera" src="{{o.picture}}" />
+            </ion-col>
+            <ion-col>
+              <ion-card-header>
+                <ion-card-title>{{o.titolo}}</ion-card-title>
+                <ion-card-subtitle>{{o.nomeAutore}}</ion-card-subtitle>
+              </ion-card-header>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+      </ion-row>
+    </ion-grid>
+  </ion-content>
+</ion-content>
