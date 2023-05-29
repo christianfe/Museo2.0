@@ -1,5 +1,5 @@
-export class form_contact {
-  name?: String;
-  obj?: String;
-  mex?: String;
+export interface form_contact {
+  name: String;
+  obj: String;
+  mex: String;
 }

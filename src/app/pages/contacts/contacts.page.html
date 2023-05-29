@@ -24,3 +24,8 @@
   </form>
 
 </ion-content>
+
+
+<ion-alert [isOpen]="isAlertOpen" header="" subHeader="Messaggio inviato"
+  message="Grazie per averci contattato riceverai una risposta asap" [buttons]="alertButtons"
+  (didDismiss)="setAlertStatus(false)"></ion-alert>

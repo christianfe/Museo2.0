@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder } from '@angular/forms';
-import { form_contact } from 'src/app/models/formContact';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-contacts',
@@ -11,10 +11,12 @@ import { form_contact } from 'src/app/models/formContact';
 
 export class ContactsPage implements OnInit {
 
-  //form: form_contact = new form_contact()
   form: any;
+  isAlertOpen: boolean = false;
+  public alertButtons = ['Chiudi'];
+  public backPage = "/"
 
-  constructor(private fb: FormBuilder) { }
+  constructor(private fb: FormBuilder, private router: Router) { }
 
 
   ngOnInit() {
@@ -30,6 +32,12 @@ export class ContactsPage implements OnInit {
     console.log(this.form.name)
     console.log(this.form.obj)
     console.log(this.form.mex)
+    this.setAlertStatus(true);
   }
 
+  setAlertStatus(s: boolean) {
+    this.isAlertOpen = s
+    if (!s)
+      this.router.navigateByUrl(this.backPage)
+  }
 }
