@@ -37,7 +37,7 @@ export class NewGuestbookPage implements OnInit {
   setAlertStatus(s: boolean) {
     this.isAlertOpen = s
     if (!s)
-      this.router.navigateByUrl(this.backPage)
+      this.router.navigateByUrl(this.backPage) // FIXME  usa nav: NavController -> navigateForward per la navigazione
   }
 }
 
