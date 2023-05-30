@@ -8,9 +8,16 @@
       "lunghezza": "3,745.15",
       "profondita": "3,556.63",
       "picture": "http://placehold.it/320x200",
-      "dataInizio": "2020-02-25 -01:00",
-      "dataFine": "2021-03-26 -01:00",
+      "dataInizio": "2020-02-25",
+      "dataFine": "2021-03-26",
       "idAutore": 0,
+      "links": [
+        "https://google.com",
+        "https://facebook.com"
+      ],
+      "commenti":[
+        2,3,5
+      ],
       "descrizione": "Sint amet pariatur eiusmod aliquip incididunt nostrud sint ipsum ipsum ex. Voluptate fugiat minim in et nulla quis sint veniam commodo. Nostrud ad ullamco Lorem Lorem nostrud ut quis irure ad sit quis esse. Consequat enim reprehenderit deserunt dolore occaecat est eiusmod aliqua commodo adipisicing ullamco aliqua ex. Lorem nisi minim aliquip commodo. Adipisicing amet irure tempor dolore pariatur consectetur ut minim. Sit fugiat aliqua duis non sit elit culpa culpa deserunt minim consequat nulla nisi.\r\n"
 
     },
@@ -22,9 +29,16 @@
       "lunghezza": "3,374.59",
       "profondita": "2,449.28",
       "picture": "http://placehold.it/320x200",
-      "dataInizio": "2015-08-18 -02:00",
-      "dataFine": "2016-10-01 -02:00",
+      "dataInizio": "2015-08-18",
+      "dataFine": "2016-10-01",
       "idAutore": 0,
+      "links": [
+        "https://google.com",
+        "https://facebook.com"
+      ],
+      "commenti":[
+        2,3,5
+      ],
       "descrizione": "Sint amet pariatur eiusmod aliquip incididunt nostrud sint ipsum ipsum ex. Voluptate fugiat minim in et nulla quis sint veniam commodo. Nostrud ad ullamco Lorem Lorem nostrud ut quis irure ad sit quis esse. Consequat enim reprehenderit deserunt dolore occaecat est eiusmod aliqua commodo adipisicing ullamco aliqua ex. Lorem nisi minim aliquip commodo. Adipisicing amet irure tempor dolore pariatur consectetur ut minim. Sit fugiat aliqua duis non sit elit culpa culpa deserunt minim consequat nulla nisi.\r\n"
 
     },
@@ -36,9 +50,16 @@
       "lunghezza": "1,459.59",
       "profondita": "1,920.87",
       "picture": "http://placehold.it/320x200",
-      "dataInizio": "2015-01-27 -01:00",
-      "dataFine": "2021-10-17 -02:00",
+      "dataInizio": "2015-01-27",
+      "dataFine": "2021-10-17",
       "idAutore": 0,
+      "links": [
+        "https://google.com",
+        "https://facebook.com"
+      ],
+      "commenti":[
+        2,3,5
+      ],
       "descrizione": "Sint amet pariatur eiusmod aliquip incididunt nostrud sint ipsum ipsum ex. Voluptate fugiat minim in et nulla quis sint veniam commodo. Nostrud ad ullamco Lorem Lorem nostrud ut quis irure ad sit quis esse. Consequat enim reprehenderit deserunt dolore occaecat est eiusmod aliqua commodo adipisicing ullamco aliqua ex. Lorem nisi minim aliquip commodo. Adipisicing amet irure tempor dolore pariatur consectetur ut minim. Sit fugiat aliqua duis non sit elit culpa culpa deserunt minim consequat nulla nisi.\r\n"
 
     },
@@ -50,9 +71,16 @@
       "lunghezza": "3,456.53",
       "profondita": "2,849.87",
       "picture": "http://placehold.it/320x200",
-      "dataInizio": "2022-02-15 -01:00",
-      "dataFine": "2017-02-25 -01:00",
+      "dataInizio": "2022-02-15",
+      "dataFine": "2017-02-25",
       "idAutore": 0,
+      "links": [
+        "https://google.com",
+        "https://facebook.com"
+      ],
+      "commenti":[
+        2,3,5
+      ],
       "descrizione": "Sint amet pariatur eiusmod aliquip incididunt nostrud sint ipsum ipsum ex. Voluptate fugiat minim in et nulla quis sint veniam commodo. Nostrud ad ullamco Lorem Lorem nostrud ut quis irure ad sit quis esse. Consequat enim reprehenderit deserunt dolore occaecat est eiusmod aliqua commodo adipisicing ullamco aliqua ex. Lorem nisi minim aliquip commodo. Adipisicing amet irure tempor dolore pariatur consectetur ut minim. Sit fugiat aliqua duis non sit elit culpa culpa deserunt minim consequat nulla nisi.\r\n"
 
     },
@@ -64,9 +92,17 @@
       "lunghezza": "3,940.71",
       "profondita": "2,855.76",
       "picture": "http://placehold.it/320x200",
-      "dataInizio": "2020-11-13 -01:00",
-      "dataFine": "2016-04-20 -02:00",
+      "dataInizio": "2020-11-13",
+      "dataFine": "2016-04-20",
       "idAutore": 0,
+      "links": [
+        "https://google.com",
+        "https://facebook.com"
+      ],
+
+      "commenti":[
+        2,3,5
+      ],
       "descrizione": "Sint amet pariatur eiusmod aliquip incididunt nostrud sint ipsum ipsum ex. Voluptate fugiat minim in et nulla quis sint veniam commodo. Nostrud ad ullamco Lorem Lorem nostrud ut quis irure ad sit quis esse. Consequat enim reprehenderit deserunt dolore occaecat est eiusmod aliqua commodo adipisicing ullamco aliqua ex. Lorem nisi minim aliquip commodo. Adipisicing amet irure tempor dolore pariatur consectetur ut minim. Sit fugiat aliqua duis non sit elit culpa culpa deserunt minim consequat nulla nisi.\r\n"
     },
     {
@@ -77,9 +113,17 @@
       "lunghezza": "2,420.93",
       "profondita": "1,950.69",
       "picture": "http://placehold.it/320x200",
-      "dataInizio": "2021-09-02 -02:00",
-      "dataFine": "2021-10-09 -02:00",
+      "dataInizio": "2021-09-02",
+      "dataFine": "2021-10-09",
       "idAutore": 0,
+      "links": [
+        "https://google.com",
+        "https://facebook.com"
+      ],
+
+      "commenti":[
+        2,3,5
+      ],
       "descrizione": "Sint amet pariatur eiusmod aliquip incididunt nostrud sint ipsum ipsum ex. Voluptate fugiat minim in et nulla quis sint veniam commodo. Nostrud ad ullamco Lorem Lorem nostrud ut quis irure ad sit quis esse. Consequat enim reprehenderit deserunt dolore occaecat est eiusmod aliqua commodo adipisicing ullamco aliqua ex. Lorem nisi minim aliquip commodo. Adipisicing amet irure tempor dolore pariatur consectetur ut minim. Sit fugiat aliqua duis non sit elit culpa culpa deserunt minim consequat nulla nisi.\r\n"
 
     },
@@ -91,9 +135,17 @@
       "lunghezza": "1,670.19",
       "profondita": "1,257.51",
       "picture": "http://placehold.it/320x200",
-      "dataInizio": "2020-02-27 -01:00",
-      "dataFine": "2014-05-10 -02:00",
+      "dataInizio": "2020-02-27",
+      "dataFine": "2014-05-10",
       "idAutore": 0,
+      "links": [
+        "https://google.com",
+        "https://facebook.com"
+      ],
+
+      "commenti":[
+        2,3,5
+      ],
       "descrizione": "Sint amet pariatur eiusmod aliquip incididunt nostrud sint ipsum ipsum ex. Voluptate fugiat minim in et nulla quis sint veniam commodo. Nostrud ad ullamco Lorem Lorem nostrud ut quis irure ad sit quis esse. Consequat enim reprehenderit deserunt dolore occaecat est eiusmod aliqua commodo adipisicing ullamco aliqua ex. Lorem nisi minim aliquip commodo. Adipisicing amet irure tempor dolore pariatur consectetur ut minim. Sit fugiat aliqua duis non sit elit culpa culpa deserunt minim consequat nulla nisi.\r\n"
 
     },
@@ -105,9 +157,17 @@
       "lunghezza": "3,055.20",
       "profondita": "2,092.95",
       "picture": "http://placehold.it/320x200",
-      "dataInizio": "2022-06-07 -02:00",
-      "dataFine": "2019-09-10 -02:00",
+      "dataInizio": "2022-06-07",
+      "dataFine": "2019-09-10",
       "idAutore": 0,
+      "links": [
+        "https://google.com",
+        "https://facebook.com"
+      ],
+
+      "commenti":[
+        2,3,5
+      ],
       "descrizione": "Sint amet pariatur eiusmod aliquip incididunt nostrud sint ipsum ipsum ex. Voluptate fugiat minim in et nulla quis sint veniam commodo. Nostrud ad ullamco Lorem Lorem nostrud ut quis irure ad sit quis esse. Consequat enim reprehenderit deserunt dolore occaecat est eiusmod aliqua commodo adipisicing ullamco aliqua ex. Lorem nisi minim aliquip commodo. Adipisicing amet irure tempor dolore pariatur consectetur ut minim. Sit fugiat aliqua duis non sit elit culpa culpa deserunt minim consequat nulla nisi.\r\n"
 
     },
@@ -119,9 +179,17 @@
       "lunghezza": "2,158.68",
       "profondita": "3,791.82",
       "picture": "http://placehold.it/320x200",
-      "dataInizio": "2020-09-10 -02:00",
-      "dataFine": "2015-07-06 -02:00",
+      "dataInizio": "2020-09-10",
+      "dataFine": "2015-07-06",
       "idAutore": 0,
+      "links": [
+        "https://google.com",
+        "https://facebook.com"
+      ],
+
+      "commenti":[
+        2,3,5
+      ],
       "descrizione": "Sint amet pariatur eiusmod aliquip incididunt nostrud sint ipsum ipsum ex. Voluptate fugiat minim in et nulla quis sint veniam commodo. Nostrud ad ullamco Lorem Lorem nostrud ut quis irure ad sit quis esse. Consequat enim reprehenderit deserunt dolore occaecat est eiusmod aliqua commodo adipisicing ullamco aliqua ex. Lorem nisi minim aliquip commodo. Adipisicing amet irure tempor dolore pariatur consectetur ut minim. Sit fugiat aliqua duis non sit elit culpa culpa deserunt minim consequat nulla nisi.\r\n"
 
     }

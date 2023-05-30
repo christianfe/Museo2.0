@@ -10,5 +10,7 @@ export interface Opera {
   nomeAutore: string;
   idAutore: number;
   picture: String;
+  links: String[];
+  commenti: any;
 
 }
