@@ -5,4 +5,5 @@ export interface Notizia {
   testo: String;
   nextId: number;
   prevId: number;
+  url:String;
 }

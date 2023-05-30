@@ -12,7 +12,7 @@ import { ActivatedRoute, ParamMap } from '@angular/router';
 
 export class NewsPage implements OnInit {
 
-  protected notizia! : Observable<Notizia>;
+  protected notizia : Observable<Notizia> | undefined;
 
 
   constructor(private newservice: NewsService, private route: ActivatedRoute) {}

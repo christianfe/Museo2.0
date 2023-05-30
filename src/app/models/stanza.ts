@@ -8,6 +8,6 @@ export class Stanza { //FIXME interface
   constructor(id: number, nome: string, descrizione: string) {
     this.id = id;
     this.nome = nome;
-    this.descrizione = descrizione
+    this.descrizione = descrizione;
   }
 }

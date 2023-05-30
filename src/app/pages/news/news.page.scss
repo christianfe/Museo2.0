@@ -1,57 +1,15 @@
-ion-card {
-    width: 80%;
-    height: 75%;
-    bottom: 65px;
-    margin-left: 5%;
-    margin-right: 5%;
-    position: absolute;
-    background-color: white;
-}
-
-.immagine{
+ion-grid {
+    height: 100%;
     width: 100%;
-    height: 40%;
-    position: absolute;
-    top: 4%;
-    left: 4%;
-    transform: translate(-4%, -12%);
-}
-
-.titolo{
-    text-align: left;
-    position: absolute;
-    height: 20%;
-    color: white;
-}
-
-.sottotitolo{
-    text-align: left;
-    position: absolute;
-    bottom: -38px;
-    color: white;
-    
-}
-
-.testo{
-    text-align: left;
-    position: absolute;
-    bottom: 40%;
-}
-
-.bottoneNext {
-    text-align: center;
-    position: absolute;
-    width: 24%;
-    height: 8%;
-    bottom: 0%;
-    margin-left: 50%;
-}
-
-.bottonePrevious {
-    text-align: center;
-    position: absolute;
-    width: 24%;
-    height: 8%;
-    bottom: 0%;
-    margin-left: 20%;
+  
+    ion-row {
+      max-height: 250px;
+      overflow: hidden;
+    }
+  
+    ion-img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
 }
