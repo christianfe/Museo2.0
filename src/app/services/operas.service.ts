@@ -17,10 +17,10 @@ export class OperasService {
   constructor(private http: HttpClient) { }
 
   getAll() {
-    throw new Error("not Implemented")
+
   }
   get(id: number) {
-    throw new Error("not Implemented")
+    return this.http.get<Opera>(this.baseUrl+ id)
   }
   getOperaByAuthor(idAuhtor: number) {
     return this.http.get<Opera[]>(this.baseUrl + "?autore=" + idAuhtor)

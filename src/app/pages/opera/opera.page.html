@@ -1,6 +1,51 @@
-<ion-content [fullscreen]="true">
-  <br>
-  <br>
-  <br>
-  <ion-title size="large">opera {{idOpera}}</ion-title>
+<ion-content>
+
+
+<ion-card id="maincard" *ngIf="(opera | async) as o">
+  <img src="{{o.picture}}" />
+  <ion-card-header>
+    <ion-card-title>{{o.titolo}}</ion-card-title>
+    <ion-card-subtitle *ngIf="(autore |async) as a" [routerLink]="['/tabs/author/', a.id]" routerLinkActive="router-link-active" >{{a.soprannome}}, {{a.nome}} {{a.cognome}}</ion-card-subtitle>
+  </ion-card-header>
+
+
+  <ion-card-content>
+  <ion-card-subtitle><b>Data Creazione</b></ion-card-subtitle>
+    {{o.dataInizio | date : "dd/MM/yyyy"  }} - {{o.dataFine | date : "dd/MM/yyyy" }}
+  </ion-card-content>
+
+
+  <ion-card-content>
+  <ion-card-subtitle><b>Descrizione</b></ion-card-subtitle>
+    {{o.descrizione}}
+  </ion-card-content>
+
+  <ion-card-content>
+    <ion-card-subtitle><b>Link utili</b></ion-card-subtitle>
+    <ion-text  style="display: block;" *ngFor="let link of o.links"> <a href="{{link}}"> {{link}} </a> </ion-text>
+  </ion-card-content>
+
+  <ion-card-content>
+
+    <ion-card-subtitle><b>Commenti</b></ion-card-subtitle>
+
+    <ion-card *ngFor="let c of this.commenti">
+      <ion-card-content>
+        {{c.descrizione}}
+        <p style="text-align: right"><strong>{{c.nome}}</strong></p>
+      </ion-card-content>
+    </ion-card>
+
+     <!-- FIXME: Qui va implementata la parte relativa ai commenti sulle opere -->
+      <ion-buttons>
+        <ion-button > Tutti i commenti </ion-button>
+        <ion-button> commenta </ion-button>
+      </ion-buttons>
+
+  </ion-card-content>
+
+
+
+
+</ion-card>
 </ion-content>
