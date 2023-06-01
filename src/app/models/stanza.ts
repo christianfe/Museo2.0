@@ -4,6 +4,7 @@ export class Stanza { //FIXME interface
   id: number | undefined;
   nome: String | undefined;
   descrizione: String | undefined;
+  operaRappresentativa!: Opera;
   opere: Opera[] = []
   constructor(id: number, nome: string, descrizione: string) {
     this.id = id;

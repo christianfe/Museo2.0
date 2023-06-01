@@ -1,25 +1,26 @@
+<!--
 <ion-content class="ion-padding" [fullscreen]="true">
   <br><br><br><br>
   <ion-content>
       <ion-grid>
         <ion-row>
-          <ion-col>
+          
             <ion-card-title>Museum Index</ion-card-title>
             <ion-card-subtitle>onec euismod, dui id dictum utlricies, mauris eros auctor magna, non hendrerit tortor justo sed nunc.</ion-card-subtitle>
             <ion-searchbar></ion-searchbar>
-          </ion-col>
+          
         </ion-row>
-        <ion-row *ngFor="let s of stanze | async">
+        <ion-row *ngFor="let s of stanze">
             <ion-row>
-              <ion-col>
+              
                 <ion-card-title>{{s.nome}}</ion-card-title>
                 <ion-card-subtitle>{{s.descrizione}}</ion-card-subtitle>
-                <ion-img src=""> </ion-img>
-              </ion-col>
+                <ion-img src="{{s.operaRappresentativa.picture}}"> </ion-img>
+              
             </ion-row>
             <ion-row>
               <ion-col>
-                <ion-card-title size="small"><strong></strong>, </ion-card-title>
+                <ion-card-title size="small"><strong>{{s.operaRappresentativa.titolo}}</strong>, {{s.operaRappresentativa.nomeAutore}}</ion-card-title>
               </ion-col>
               <ion-col>
                 <ion-button fill="clear" [routerLink]="['../room/', s.id]" routerDirection="forward">
@@ -30,4 +31,31 @@
         </ion-row>
       </ion-grid>
   </ion-content>
+</ion-content>
+-->
+
+
+<ion-content>
+
+  <ion-card id="maincard">
+    <ion-card-header>
+      <ion-card-title id="mainTitolo"><strong>Museum Index</strong></ion-card-title>
+      <ion-card-subtitle id="mainTitolo">onec euismod, dui id dictum utlricies, mauris eros auctor magna, non hendrerit tortor justo sed nunc.</ion-card-subtitle>
+      <ion-searchbar></ion-searchbar>
+    </ion-card-header>
+
+    <ion-card *ngFor="let s of stanze" id="stanze">
+      <ion-card-content>
+        <ion-card-title id="titolo"><strong>{{s.nome}}</strong></ion-card-title>
+        <ion-card-subtitle id="sottotitolo">{{s.descrizione}}</ion-card-subtitle>
+        <ion-img src="{{s.operaRappresentativa.picture}}" [routerLink]="['/tabs/opera/', s.operaRappresentativa.id]"></ion-img>
+        <ion-card-subtitle id="sottotitolo" size="small"><strong>{{s.operaRappresentativa.titolo}}</strong>, nome autore</ion-card-subtitle>
+        <ion-button id="bottone" style="float: right;" size="small" fill="clear" [routerLink]="['../room/', s.id]" routerDirection="forward">
+            More About >
+        </ion-button>
+      </ion-card-content>
+    </ion-card>
+
+  </ion-card>
+
 </ion-content>

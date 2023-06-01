@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Stanza } from 'src/app/models/stanza';
 import { Observable } from 'rxjs';
 import { MuseumIndexService } from 'src/app/services/museumindex.service';
+import { OperasService } from 'src/app/services/operas.service';
+import { Opera } from 'src/app/models/opera';
 
 
 @Component({
@@ -13,19 +15,21 @@ export class MuseumindexPage implements OnInit {
 
 
  
-  protected stanza : Observable<Stanza> | undefined;
-  protected stanze : Observable<Stanza[]> | undefined;
+  // protected opera : Observable<Opera> | undefined;
+  protected stanze : Stanza[] | undefined;
 
   
 
-  constructor(private museumIndexService: MuseumIndexService) {
+  constructor(private museumIndexService: MuseumIndexService, private operasService: OperasService) {
    }
 
   ngOnInit() {
 
-    this.stanze = this.museumIndexService.getAll();
+    this.museumIndexService.getAll().subscribe(dati=>{
+      this.stanze = dati;
+    });
+  
 
-    
 
 
   }
