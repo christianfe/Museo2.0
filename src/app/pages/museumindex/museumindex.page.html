@@ -43,16 +43,30 @@ QUI INIZIA ___
       <ion-card-title id="mainTitolo"><strong>Museum Index</strong></ion-card-title>
       <ion-card-subtitle id="mainTitolo">onec euismod, dui id dictum utlricies, mauris eros auctor magna, non hendrerit
         tortor justo sed nunc.</ion-card-subtitle>
-      <ion-searchbar></ion-searchbar>
+
+
+        <ion-searchbar  animated="true"
+                        placeholder="Cerca"
+                        (ionBlur)="ChangeFocus()"
+                        (ionFocus)="ChangeFocus()"
+                        (ionChange)="CommittedSearch($event)"
+                        ></ion-searchbar>
+        <ion-text *ngIf="this.searching">Sta cercando</ion-text>
+
     </ion-card-header>
 
     <ion-card *ngFor="let s of stanze" id="stanze">
       <ion-card-content>
-        <ion-card-title id="titolo"><strong>{{s.nome}}</strong></ion-card-title>
-        <ion-card-subtitle id="sottotitolo">{{s.descrizione}}</ion-card-subtitle>
+        <ion-card-content>
+          <ion-card-title id="titolo"><strong>{{s.nome}}</strong></ion-card-title>
+          <br>
+          <ion-card-subtitle id="sottotitolo">{{s.descrizione}}</ion-card-subtitle>
+        </ion-card-content>
+        <ion-card-content>
         <ion-img src="{{s.operaRappresentativa?.picture}}"
-          [routerLink]="['/tabs/opera/', s.operaRappresentativa?.id]"></ion-img>
+          [routerLink]="['/tabs/opera/', s.operaRappresentativa?.id]" ></ion-img>
         <ion-card-subtitle id="sottotitolo" size="small"><strong>{{s.operaRappresentativa?.titolo}}</strong>, {{s.operaRappresentativa?.autore?.nome}}</ion-card-subtitle>
+      </ion-card-content>
         <ion-button id="bottone" style="float: right;" size="small" fill="clear" [routerLink]="['../room/', s.id]"
           routerDirection="forward">
           More About >

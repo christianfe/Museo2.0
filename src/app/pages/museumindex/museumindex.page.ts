@@ -20,15 +20,16 @@ export class MuseumindexPage implements OnInit {
   protected stanzemap! : Observable<Map<String, String>[]>;
   protected stanze!: Stanza[];
 
+  //searchbar
+  protected searching : boolean = false;
 
   constructor(private museumIndexService: MuseumIndexService,
     private operasService: OperasService,
     private autoreservice: AuthorService) {
    }
 
+
   ngOnInit() {
-
-
     this.museumIndexService.getAll().subscribe(
       ( objs : any )=> {
         this.stanze = [];
@@ -54,13 +55,23 @@ export class MuseumindexPage implements OnInit {
             }
           );
         }
-
-
       }
     )
+  }
 
-
+  handleInput(event : any) {
 
   }
+
+  ChangeFocus(){
+    this.searching = !this.searching;
+  }
+
+  CommittedSearch(event :any ){
+    this.ChangeFocus();
+    console.log("search done");
+  }
+
+
 
 }

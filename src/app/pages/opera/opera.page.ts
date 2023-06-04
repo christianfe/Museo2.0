@@ -37,7 +37,6 @@ export class OperaPage implements OnInit {
       for (let id of opera.commenti){
         this.guestbookservice.get(id).subscribe( commento => this.commenti.push(commento));
       }
-
       this.autore = this.autoreservice.get(opera.idAutore);
     })
 
