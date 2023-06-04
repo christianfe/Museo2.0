@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { NavController } from '@ionic/angular';
 import { Opera } from 'src/app/models/opera';
 
 @Component({
@@ -10,12 +10,12 @@ import { Opera } from 'src/app/models/opera';
 export class OperaTabComponent implements OnInit {
 
   @Input() public opera: Opera | undefined;
-  constructor(private router: Router) { }
+  constructor(private nav: NavController) { }
 
   ngOnInit() { }
 
   routeToOpera(idOpera: number) {
-    this.router.navigateByUrl("/tabs/opera/" + idOpera)
+    this.nav.navigateForward("/tabs/opera/" + idOpera)
   }
 
 }

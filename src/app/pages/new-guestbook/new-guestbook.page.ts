@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder } from '@angular/forms';
-import { Router } from '@angular/router';
-import { Feedback } from 'src/app/models/feedback';
+import { NavController } from '@ionic/angular';
 import { GuestbookService } from 'src/app/services/guestbook.service';
 
 @Component({
@@ -15,7 +14,7 @@ export class NewGuestbookPage implements OnInit {
   public alertButtons = ['Chiudi'];
   public backPage = "/tabs/guestbook"
 
-  constructor(private fb: FormBuilder, private router: Router, private guestbookService: GuestbookService) { }
+  constructor(private fb: FormBuilder, private nav: NavController, private guestbookService: GuestbookService) { }
 
   ngOnInit() {
     this.form = this.fb.group({
@@ -37,7 +36,7 @@ export class NewGuestbookPage implements OnInit {
   setAlertStatus(s: boolean) {
     this.isAlertOpen = s
     if (!s)
-      this.router.navigateByUrl(this.backPage) // FIXME  usa nav: NavController -> navigateForward per la navigazione
+      this.nav.navigateForward(this.backPage)
   }
 }
 

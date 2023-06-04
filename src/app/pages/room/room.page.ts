@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
+import { NavController } from '@ionic/angular';
 import { Stanza } from 'src/app/models/stanza';
 import { OperasService } from 'src/app/services/operas.service';
 
@@ -10,7 +11,7 @@ import { OperasService } from 'src/app/services/operas.service';
 })
 export class RoomPage implements OnInit {
   room: Stanza | undefined
-  constructor(private route: ActivatedRoute, private operasService: OperasService, private router: Router) { }
+  constructor(private route: ActivatedRoute, private operasService: OperasService, private nav: NavController) { }
 
   ngOnInit() {
     this.room = new Stanza(this.route.snapshot.params['id'], "stanza", "descrizione")
@@ -20,6 +21,6 @@ export class RoomPage implements OnInit {
   }
 
   routeToOpera(idOpera: number) {
-    this.router.navigateByUrl("/tabs/opera/" + idOpera)
+    this.nav.navigateForward("/tabs/opera/" + idOpera)
   }
 }

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Route, Router } from '@angular/router';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-notfound',
@@ -8,10 +8,10 @@ import { Route, Router } from '@angular/router';
 })
 export class NotfoundComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  constructor(private nav: NavController) { }
 
   ngOnInit() { }
   navigate() {
-    this.router.navigate(['/tabs/homepage'])
+    this.nav.navigateBack(['/tabs/homepage'])
   }
 }

@@ -10,20 +10,25 @@ import { Observable, forkJoin } from 'rxjs';
 export class GuestbookService {
   baseUrl = environment.apiUrl + "feedback";
   data: Feedback[] = []
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {
+    this.http.get<Feedback[]>(this.baseUrl).subscribe({
+      next: d => this.data = d
+    });
+  }
 
   getAll() {
-    return this.http.get<Feedback[]>(this.baseUrl);
+    return this.data;
   }
 
   get(id: number) {
     //FIXME 404 error
-    return this.http.get<Feedback>(this.baseUrl + "/" + id);
+    let x = this.http.get<Feedback>(this.baseUrl + "/" + id);
+    return x
   }
 
   add(f: Feedback) {
     this.http.post<Feedback>(this.baseUrl, f).subscribe({
-      next: d => console.log(d) //FIXME deve leggere i guestbook che ha in memoria
+      next: _ => this.data.push(f)
     })
   }
 

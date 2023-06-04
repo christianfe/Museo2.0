@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder } from '@angular/forms';
-import { Router } from '@angular/router';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-contacts',
@@ -16,7 +16,7 @@ export class ContactsPage implements OnInit {
   public alertButtons = ['Chiudi'];
   public backPage = "/"
 
-  constructor(private fb: FormBuilder, private router: Router) { }
+  constructor(private fb: FormBuilder, private nav: NavController) { }
 
 
   ngOnInit() {
@@ -38,6 +38,6 @@ export class ContactsPage implements OnInit {
   setAlertStatus(s: boolean) {
     this.isAlertOpen = s
     if (!s)
-      this.router.navigateByUrl(this.backPage)
+      this.nav.navigateForward(this.backPage)
   }
 }
