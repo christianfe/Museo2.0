@@ -32,9 +32,10 @@
       </ion-grid>
   </ion-content>
 </ion-content>
+
+
+QUI INIZIA ___
 -->
-
-
 <ion-content>
 
   <ion-card id="maincard">
@@ -51,8 +52,7 @@
         <ion-card-subtitle id="sottotitolo">{{s.descrizione}}</ion-card-subtitle>
         <ion-img src="{{s.operaRappresentativa?.picture}}"
           [routerLink]="['/tabs/opera/', s.operaRappresentativa?.id]"></ion-img>
-        <ion-card-subtitle id="sottotitolo" size="small"><strong>{{s.operaRappresentativa?.titolo}}</strong>, nome
-          autore</ion-card-subtitle>
+        <ion-card-subtitle id="sottotitolo" size="small"><strong>{{s.operaRappresentativa?.titolo}}</strong>, {{s.operaRappresentativa?.autore?.nome}}</ion-card-subtitle>
         <ion-button id="bottone" style="float: right;" size="small" fill="clear" [routerLink]="['../room/', s.id]"
           routerDirection="forward">
           More About >
@@ -63,3 +63,6 @@
   </ion-card>
 
 </ion-content>
+
+
+

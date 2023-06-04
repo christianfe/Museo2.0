@@ -286,55 +286,13 @@
       "id": "1",
       "nome": "STANZA ROSSA",
       "descrizione": "Aliquam vitae euismod justo. Suspendisse sed mollis sem, interdum mollis velit. Aliquam imperdiet vitae libero a laoreet.",
-      "operaRappresentativa": {
-        "id": 0,
-        "titolo": "Mcclure",
-        "stanza": 1,
-        "altezza": "2,814.64",
-        "lunghezza": "3,745.15",
-        "profondita": "3,556.63",
-        "picture": "http://placehold.it/320x200",
-        "dataInizio": "2020-02-25 -01:00",
-        "dataFine": "2021-03-26 -01:00",
-        "idAutore": 0,
-        "descrizione": "Sint amet pariatur eiusmod aliquip incididunt nostrud sint ipsum ipsum ex. Voluptate fugiat minim in et nulla quis sint veniam commodo. Nostrud ad ullamco Lorem Lorem nostrud ut quis irure ad sit quis esse. Consequat enim reprehenderit deserunt dolore occaecat est eiusmod aliqua commodo adipisicing ullamco aliqua ex. Lorem nisi minim aliquip commodo. Adipisicing amet irure tempor dolore pariatur consectetur ut minim. Sit fugiat aliqua duis non sit elit culpa culpa deserunt minim consequat nulla nisi.\r\n",
-        "links": [
-          "https://google.com",
-          "https://facebook.com"
-        ],
-        "commenti": [
-          2,
-          3,
-          5
-        ]
-      }
+      "operaRappresentativa": 1
     },
     {
       "id": "2",
       "nome": "STANZA VERDE",
       "descrizione": "Vivamus purus turpis, egestas ut varius vel, faucibus sed augue. Pellentesque dictum dui at orci cursus, et tempus urna finibus.",
-      "operaRappresentativa": {
-        "id": 0,
-        "titolo": "Mcclure",
-        "stanza": 1,
-        "altezza": "2,814.64",
-        "lunghezza": "3,745.15",
-        "profondita": "3,556.63",
-        "picture": "http://placehold.it/320x200",
-        "dataInizio": "2020-02-25 -01:00",
-        "dataFine": "2021-03-26 -01:00",
-        "idAutore": 0,
-        "descrizione": "Sint amet pariatur eiusmod aliquip incididunt nostrud sint ipsum ipsum ex. Voluptate fugiat minim in et nulla quis sint veniam commodo. Nostrud ad ullamco Lorem Lorem nostrud ut quis irure ad sit quis esse. Consequat enim reprehenderit deserunt dolore occaecat est eiusmod aliqua commodo adipisicing ullamco aliqua ex. Lorem nisi minim aliquip commodo. Adipisicing amet irure tempor dolore pariatur consectetur ut minim. Sit fugiat aliqua duis non sit elit culpa culpa deserunt minim consequat nulla nisi.\r\n",
-        "links": [
-          "https://google.com",
-          "https://facebook.com"
-        ],
-        "commenti": [
-          2,
-          3,
-          5
-        ]
-      }
+      "operaRappresentativa": 1
     }
   ],
   "feedback": [

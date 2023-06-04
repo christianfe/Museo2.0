@@ -6,6 +6,7 @@ export class Stanza {
   descrizione: String | undefined;
   operaRappresentativa: Opera | undefined;
   opere: Opera[] = []
+
   constructor(id: number, nome: string, descrizione: string) {
     this.id = id;
     this.nome = nome;

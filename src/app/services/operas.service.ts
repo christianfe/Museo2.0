@@ -22,6 +22,12 @@ export class OperasService {
   get(id: number) {
     return this.http.get<Opera>(this.baseUrl+ id)
   }
+
+
+  getMap(id: number) {
+    return this.http.get<Map<String, String>>(this.baseUrl+ id)
+  }
+
   getOperaByAuthor(idAuhtor: number) {
     return this.http.get<Opera[]>(this.baseUrl + "?autore=" + idAuhtor)
   }

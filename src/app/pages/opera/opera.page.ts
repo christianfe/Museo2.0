@@ -22,8 +22,6 @@ export class OperaPage implements OnInit {
 
   commenti: Feedback[] = [];
 
-
-
   constructor(private route: ActivatedRoute,
               private operaservice: OperasService,
               private autoreservice: AuthorService,
@@ -32,8 +30,9 @@ export class OperaPage implements OnInit {
   }
 
   ngOnInit() {
+
     this.opera = this.operaservice.get(this.idOpera);
-    this.opera.subscribe(opera => {
+    this.opera.subscribe((opera : any) => {
 
       for (let id of opera.commenti){
         this.guestbookservice.get(id).subscribe( commento => this.commenti.push(commento));
@@ -41,6 +40,7 @@ export class OperaPage implements OnInit {
 
       this.autore = this.autoreservice.get(opera.idAutore);
     })
+
   }
 
 }
