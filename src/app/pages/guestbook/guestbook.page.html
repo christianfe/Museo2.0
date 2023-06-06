@@ -12,7 +12,7 @@
   </ion-item>
 
 
-  <ion-card *ngFor="let d of guestbookService.getAll().reverse()">
+  <ion-card *ngFor="let d of data">
     <ion-card-content>
       {{d.descrizione}}
       <p style="text-align: right"><strong>{{d.nome}}</strong></p>

@@ -15,11 +15,6 @@
       "links": [
         "https://google.com",
         "https://facebook.com"
-      ],
-      "commenti": [
-        2,
-        3,
-        5
       ]
     },
     {
@@ -37,11 +32,6 @@
       "links": [
         "https://google.com",
         "https://facebook.com"
-      ],
-      "commenti": [
-        2,
-        3,
-        5
       ]
     },
     {
@@ -59,11 +49,6 @@
       "links": [
         "https://google.com",
         "https://facebook.com"
-      ],
-      "commenti": [
-        2,
-        3,
-        5
       ]
     },
     {
@@ -81,11 +66,6 @@
       "links": [
         "https://google.com",
         "https://facebook.com"
-      ],
-      "commenti": [
-        2,
-        3,
-        5
       ]
     },
     {
@@ -103,11 +83,6 @@
       "links": [
         "https://google.com",
         "https://facebook.com"
-      ],
-      "commenti": [
-        2,
-        3,
-        5
       ]
     },
     {
@@ -125,11 +100,6 @@
       "links": [
         "https://google.com",
         "https://facebook.com"
-      ],
-      "commenti": [
-        2,
-        3,
-        5
       ]
     },
     {
@@ -147,11 +117,6 @@
       "links": [
         "https://google.com",
         "https://facebook.com"
-      ],
-      "commenti": [
-        2,
-        3,
-        5
       ]
     },
     {
@@ -169,11 +134,6 @@
       "links": [
         "https://google.com",
         "https://facebook.com"
-      ],
-      "commenti": [
-        2,
-        3,
-        5
       ]
     },
     {
@@ -283,13 +243,13 @@
   ],
   "stanze": [
     {
-      "id": "1",
+      "id": 1,
       "nome": "STANZA ROSSA",
       "descrizione": "Aliquam vitae euismod justo. Suspendisse sed mollis sem, interdum mollis velit. Aliquam imperdiet vitae libero a laoreet.",
       "operaRappresentativa": 1
     },
     {
-      "id": "2",
+      "id": 2,
       "nome": "STANZA VERDE",
       "descrizione": "Vivamus purus turpis, egestas ut varius vel, faucibus sed augue. Pellentesque dictum dui at orci cursus, et tempus urna finibus.",
       "operaRappresentativa": 1
@@ -299,57 +259,116 @@
     {
       "id": 1,
       "nome": "Anna",
-      "descrizione": "what an enjoyable day! Greetings from south pole!"
+      "descrizione": "what an enjoyable day! Greetings from south pole!",
+      "link": -1
     },
     {
       "id": 2,
       "nome": "Benedetta",
-      "descrizione": "Nice museum, nice staff. We had a great time here in Roccacannuccia"
+      "descrizione": "Nice museum, nice staff. We had a great time here in Roccacannuccia",
+      "link": -1
     },
     {
       "id": 3,
       "nome": "Chiara",
-      "descrizione": "The owner is a fiend of mine, so i didn't pay the ticket, worthy!"
+      "descrizione": "The owner is a fiend of mine, so i didn't pay the ticket, worthy!",
+      "link": -1
     },
     {
       "id": 4,
       "nome": "Daniela",
-      "descrizione": "Nice museum, but there is not a snack bar! :_("
+      "descrizione": "Nice museum, but there is not a snack bar! :_(",
+      "link": -1
     },
     {
       "id": 5,
       "nome": "Anna",
-      "descrizione": "what an enjoyable day! Greetings from south pole!"
+      "descrizione": "what an enjoyable day! Greetings from south pole!",
+      "link": -1
     },
     {
       "id": 6,
       "nome": "Benedetta",
-      "descrizione": "Nice museum, nice staff. We had a great time here in Roccacannuccia"
+      "descrizione": "Nice museum, nice staff. We had a great time here in Roccacannuccia",
+      "link": 1
     },
     {
       "id": 7,
       "nome": "Chiara",
-      "descrizione": "The owner is a fiend of mine, so i didn't pay the ticket, worthy!"
+      "descrizione": "The owner is a fiend of mine, so i didn't pay the ticket, worthy!",
+      "link": 2
     },
     {
       "id": 8,
       "nome": "Daniela",
-      "descrizione": "Nice museum, but there is not a snack bar! :_("
+      "descrizione": "Nice museum, but there is not a snack bar! :_(",
+      "link": 1
     },
     {
-      "id": 993,
+      "id": 9,
       "nome": "c",
-      "descrizione": "d"
+      "descrizione": "d",
+      "link": 2
     },
     {
-      "id": 431,
+      "id": 10,
       "nome": "dwd",
-      "descrizione": "wdwd"
+      "descrizione": "wdwd",
+      "link": 1
     },
     {
-      "id": 69,
+      "id": 11,
       "nome": "ciao",
-      "descrizione": "ciao\n"
+      "descrizione": "ciao",
+      "link": 1
+    },
+    {
+      "id": 12,
+      "nome": "coi",
+      "descrizione": "oco",
+      "link": 1
+    },
+    {
+      "id": 13,
+      "nome": "ciao",
+      "descrizione": "commento opera 1",
+      "link": "1"
+    },
+    {
+      "id": 14,
+      "nome": "ciao",
+      "descrizione": "ciaoo",
+      "link": -1
+    },
+    {
+      "id": 15,
+      "nome": "test",
+      "descrizione": "test",
+      "link": -1
+    },
+    {
+      "id": 16,
+      "nome": "c",
+      "descrizione": "c",
+      "link": -1
+    },
+    {
+      "id": 17,
+      "nome": "d",
+      "descrizione": "d",
+      "link": -1
+    },
+    {
+      "id": 18,
+      "nome": "23",
+      "descrizione": "2",
+      "link": -1
+    },
+    {
+      "id": 19,
+      "nome": "ciao",
+      "descrizione": "ciao",
+      "link": "1"
     }
   ],
   "notizie": [

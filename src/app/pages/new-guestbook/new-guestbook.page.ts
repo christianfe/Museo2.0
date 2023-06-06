@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder } from '@angular/forms';
+import { Route, Router } from '@angular/router';
 import { NavController } from '@ionic/angular';
 import { GuestbookService } from 'src/app/services/guestbook.service';
 
@@ -14,7 +15,7 @@ export class NewGuestbookPage implements OnInit {
   public alertButtons = ['Chiudi'];
   public backPage = "/tabs/guestbook"
 
-  constructor(private fb: FormBuilder, private nav: NavController, private guestbookService: GuestbookService) { }
+  constructor(private fb: FormBuilder, private router: Router, private guestbookService: GuestbookService) { }
 
   ngOnInit() {
     this.form = this.fb.group({
@@ -26,9 +27,10 @@ export class NewGuestbookPage implements OnInit {
 
   onSubmit() {
     this.guestbookService.add({
-      id: Math.floor(Math.random() * 1000), //FIXME obv not a random id
+      id: null,
       nome: this.form.name,
-      descrizione: this.form.descrizione
+      descrizione: this.form.descrizione,
+      link: -1
     })
     this.setAlertStatus(true);
   }
@@ -36,7 +38,7 @@ export class NewGuestbookPage implements OnInit {
   setAlertStatus(s: boolean) {
     this.isAlertOpen = s
     if (!s)
-      this.nav.navigateForward(this.backPage)
+      this.router.navigateByUrl(this.backPage)
   }
 }
 

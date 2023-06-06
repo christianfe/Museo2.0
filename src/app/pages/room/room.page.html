@@ -12,7 +12,7 @@
         </ion-title>
       </ion-row>
       <ion-row *ngFor="let o of room.opere">
-        <ion-card *ngIf="o" (click)="routeToOpera(o.id)">
+        <ion-card *ngIf="o" (click)="routeToOpera(o.id!)">
           <ion-row>
             <ion-col>
               <img alt="opera" src="{{o.picture}}" />
