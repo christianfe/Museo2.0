@@ -1,18 +1,18 @@
 <ion-content *ngIf="opera as o">
 
-
   <ion-card id="maincard">
     <img src="{{o.picture}}" />
     <ion-card-header>
       <ion-card-title>{{o.titolo}}</ion-card-title>
-      <ion-card-subtitle *ngIf="(autore |async) as a" [routerLink]="['/tabs/author/', a.id]"
+      <ion-card-subtitle *ngIf="o.autore as a" [routerLink]="['/tabs/author/', a.id]"
         routerLinkActive="router-link-active">{{a.soprannome}}, {{a.nome}} {{a.cognome}}</ion-card-subtitle>
     </ion-card-header>
 
 
     <ion-card-content>
       <ion-card-subtitle><b>Data Creazione</b></ion-card-subtitle>
-      {{o.dataInizio | date : "dd/MM/yyyy" }} - {{o.dataFine | date : "dd/MM/yyyy" }}
+      <p>Inizio: {{o.dataInizio | date : "dd/MM/yyyy" }}</p>
+      <p>Fine: {{o.dataFine | date : "dd/MM/yyyy" }}</p>
     </ion-card-content>
 
 

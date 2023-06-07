@@ -9,8 +9,8 @@ export class Opera {
   altezza: number | undefined;
   lunghezza: number | undefined;
   profondita: number | undefined;
-  nomeAutore: string | undefined;
   autore: Autore | undefined;
+  idAutore: number | undefined;
   picture: String | undefined;
   links: String[] = [];
   commenti: any;

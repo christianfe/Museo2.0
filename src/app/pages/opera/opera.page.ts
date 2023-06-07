@@ -42,7 +42,13 @@ export class OperaPage implements OnInit {
   constructor(private route: ActivatedRoute, private operaservice: OperasService, private autoreservice: AuthorService, private guestbookservice: GuestbookService) {
     this.idOpera = route.snapshot.params['id']
     this.operaservice.get(this.idOpera).subscribe({
-      next: o => this.opera = o
+      next: o => {
+        this.opera = o
+        if (o.idAutore)
+          this.autoreservice.get(o.idAutore).subscribe({
+            next: a => this.opera!.autore = a
+          });
+      }
     });
     this.guestbookservice.getAll(this.idOpera).subscribe((f: Feedback[]) => {
       for (let c of f)
@@ -50,20 +56,16 @@ export class OperaPage implements OnInit {
       this.commenti.reverse()
       this.pushComments();
     });
-    //FIXME this.autore = this.autoreservice.get(this.opera.idAutore);
-  }
-
-  ngOnInit() {
-
 
   }
+
+  ngOnInit() { }
 
 
   pushComments() {
     for (let i = 0; ((i < 3) && (this.commentiVisibili.length < this.commenti.length)); i++)
       this.commentiVisibili.push(this.commenti[this.commentiVisibili.length]);
   }
-
 
   addComment() {
     this.isInputOpen = true;
