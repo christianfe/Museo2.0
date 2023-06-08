@@ -37,9 +37,17 @@
         </ion-card-content>
       </ion-card>
 
+      <ion-card-subtitle color="medium" *ngIf="!commenti.length" style="margin: 0.7em;margin-top: 0.7em;">
+        Nessun commento fin'ora...
+      </ion-card-subtitle>
+
       <ion-buttons>
-        <ion-button (click)="pushComments()" [disabled]="commentiVisibili.length >= commenti.length">
-          Mostra altri
+        <ion-button (click)="pushComments()" *ngIf="commenti.length"
+          [disabled]="commentiVisibili.length >= commenti.length">
+          {{commentiVisibili.length >= commenti.length ? "" : "Mostra altri"}}
+        </ion-button>
+        <ion-button *ngIf="!commenti.length">
+
         </ion-button>
         <ion-button (click)="addComment()">Commenta</ion-button>
       </ion-buttons>
