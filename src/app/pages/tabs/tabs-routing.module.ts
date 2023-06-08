@@ -48,6 +48,10 @@ const routes: Routes = [
       {
         path: 'opera/:id',
         loadChildren: () => import("../opera/opera.module").then(m => m.OperaPageModule)
+      },
+      {
+        path: 'ricerca',
+        loadChildren: () => import('../ricerca/ricerca.module').then( m => m.RicercaPageModule)
       }
 
     ]

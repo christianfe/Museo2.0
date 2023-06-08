@@ -1,9 +1,9 @@
 export interface Autore {
   id: number;
-  nome: String;
-  cognome: String;
-  soprannome: String;
-  descrizione: String;
+  nome: string;
+  cognome: string;
+  soprannome: string;
+  descrizione: string;
   dataNascita: Date;
   dataMorte: Date;
   luogoNascita: String;

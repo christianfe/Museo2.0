@@ -8,7 +8,7 @@ import { Autore } from '../models/autore';
   providedIn: 'root'
 })
 export class AuthorService {
-  baseUrl = environment.apiUrl + "autori/";
+  baseUrl = environment.apiUrl + "autori";
   data: Autore[] = []
   constructor(private http: HttpClient) { }
 
@@ -20,4 +20,13 @@ export class AuthorService {
     return this.http.get<Autore>(this.baseUrl + "/" + id)
   }
 
+  getByFilterNome(filter : string){
+    console.log(this.baseUrl + `?nome_like=^(${filter}).*`);
+    return this.http.get<Autore[]>(this.baseUrl + `?nome_like=^(${filter}).*`);
+  }
+
+  getByFilterCognome(filter : string){
+    console.log(this.baseUrl + `?cognome_like=^(${filter}).*`);
+    return this.http.get<Autore[]>(this.baseUrl + `?cognome_like=^(${filter}).*`);
+  }
 }

@@ -8,14 +8,16 @@ import { GuestbookService } from 'src/app/services/guestbook.service';
   styleUrls: ['./guestbook.page.scss'],
 })
 export class GuestbookPage implements OnInit {
+  data: Feedback[] = []
 
-  constructor(public guestbookService: GuestbookService) {
+  constructor(private guestbookService: GuestbookService) {
+
   }
 
   ngOnInit() {
-    // this.guestbookService.getAll().subscribe({
-    //   next: d => this.data = d
-    // })
+    this.guestbookService.getAll(-1).subscribe({
+      next: (f: Feedback[]) => this.data = f.reverse()
+    });
   }
 
 }

@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, OnInit } from '@angular/core';
 import { Feedback } from '../models/feedback';
 import { environment } from 'src/environments/environment';
 import { HttpClient } from '@angular/common/http';
@@ -11,17 +11,15 @@ export class GuestbookService {
   baseUrl = environment.apiUrl + "feedback";
   data: Feedback[] = []
   constructor(private http: HttpClient) {
-    this.http.get<Feedback[]>(this.baseUrl).subscribe({
-      next: d => this.data = d
-    });
+
   }
 
-  getAll() {
-    return this.data;
+
+  getAll(link: number) {
+    return this.http.get<Feedback[]>(this.baseUrl + "?link=" + link)
   }
 
   get(id: number) {
-    //FIXME 404 error
     let x = this.http.get<Feedback>(this.baseUrl + "/" + id);
     return x
   }
@@ -33,7 +31,7 @@ export class GuestbookService {
   }
 
   getHomeFeeds(): Observable<Feedback[]> {
-
+    //FIXME
     let observables: Observable<Feedback>[] = [
       this.get(1),
       this.get(2),

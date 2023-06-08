@@ -8,6 +8,7 @@ import { OperasService } from 'src/app/services/operas.service';
 import { formatDate } from '@angular/common';
 import { Feedback } from 'src/app/models/feedback';
 import { GuestbookService } from 'src/app/services/guestbook.service';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-opera',
@@ -17,30 +18,71 @@ import { GuestbookService } from 'src/app/services/guestbook.service';
 export class OperaPage implements OnInit {
 
   idOpera: number;
-  opera: Observable<Opera> | undefined;
+  opera: Opera | undefined;
   autore: Observable<Autore> | undefined;
 
-  commenti: Feedback[] = [];
-
-
-
-  constructor(private route: ActivatedRoute,
-              private operaservice: OperasService,
-              private autoreservice: AuthorService,
-              private guestbookservice: GuestbookService) {
-    this.idOpera = route.snapshot.params['id']
-  }
-
-  ngOnInit() {
-    this.opera = this.operaservice.get(this.idOpera);
-    this.opera.subscribe(opera => {
-
-      for (let id of opera.commenti){
-        this.guestbookservice.get(id).subscribe( commento => this.commenti.push(commento));
+  public commenti: Feedback[] = [];
+  public commentiVisibili: Feedback[] = [];
+  isInputOpen = false;
+  public alertButtons = ['Inserisci'];
+  public alertInputs = [
+    {
+      placeholder: 'Nome',
+      attributes: {
+        maxlength: 20,
       }
+    },
+    {
+      type: 'textarea',
+      placeholder: 'inserisci il tuo commento'
+    },
+  ];
 
-      this.autore = this.autoreservice.get(opera.idAutore);
-    })
+
+  constructor(private route: ActivatedRoute, private operaservice: OperasService, private autoreservice: AuthorService, private guestbookservice: GuestbookService) {
+    this.idOpera = route.snapshot.params['id']
+    this.operaservice.get(this.idOpera).subscribe({
+      next: o => {
+        this.opera = o
+        if (o.idAutore)
+          this.autoreservice.get(o.idAutore).subscribe({
+            next: a => this.opera!.autore = a
+          });
+      }
+    });
+    this.guestbookservice.getAll(this.idOpera).subscribe((f: Feedback[]) => {
+      for (let c of f)
+        this.commenti.push(c)
+      this.commenti.reverse()
+      this.pushComments();
+    });
+
   }
 
+  ngOnInit() { }
+
+
+  pushComments() {
+    for (let i = 0; ((i < 3) && (this.commentiVisibili.length < this.commenti.length)); i++)
+      this.commentiVisibili.push(this.commenti[this.commentiVisibili.length]);
+  }
+
+  addComment() {
+    this.isInputOpen = true;
+  }
+  alertDimiss(e: any) {
+    this.isInputOpen = false;
+    if (!e["detail"]["data"])
+      return
+    let user = e["detail"]["data"]["values"][0];
+    let text = e["detail"]["data"]["values"][1];
+    let comm: Feedback = {
+      id: null,
+      nome: user,
+      descrizione: text,
+      link: this.idOpera
+    }
+    this.guestbookservice.add(comm)
+    this.commentiVisibili.splice(0, 0, comm)
+  }
 }

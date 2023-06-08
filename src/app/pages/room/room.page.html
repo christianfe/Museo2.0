@@ -12,7 +12,7 @@
         </ion-title>
       </ion-row>
       <ion-row *ngFor="let o of room.opere">
-        <ion-card *ngIf="o" (click)="routeToOpera(o.id)">
+        <ion-card *ngIf="o" (click)="routeToOpera(o.id!)">
           <ion-row>
             <ion-col>
               <img alt="opera" src="{{o.picture}}" />
@@ -20,7 +20,7 @@
             <ion-col>
               <ion-card-header>
                 <ion-card-title>{{o.titolo}}</ion-card-title>
-                <ion-card-subtitle>{{o.nomeAutore}}</ion-card-subtitle>
+                <ion-card-subtitle>{{o.autore?.nome + " " + o.autore?.cognome}}</ion-card-subtitle>
               </ion-card-header>
             </ion-col>
           </ion-row>

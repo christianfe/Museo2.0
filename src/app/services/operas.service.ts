@@ -17,15 +17,27 @@ export class OperasService {
   constructor(private http: HttpClient) { }
 
   getAll() {
-
+    return this.http.get(this.baseUrl);
   }
+
   get(id: number) {
     return this.http.get<Opera>(this.baseUrl+ id)
   }
+
+
+  getMap(id: number) {
+    return this.http.get<Map<String, String>>(this.baseUrl+ id)
+  }
+
   getOperaByAuthor(idAuhtor: number) {
     return this.http.get<Opera[]>(this.baseUrl + "?autore=" + idAuhtor)
   }
   getOperaByStanza(idStanza: number) {
     return this.http.get<Opera[]>(this.baseUrl + "?stanza=" + idStanza)
+  }
+
+  getByFilter(filter : string){
+    console.log(this.baseUrl + `?titolo_like=^(${filter}).*`);
+    return this.http.get<Opera[]>(this.baseUrl + `?titolo_like=^(${filter}).*`);
   }
 }

@@ -13,7 +13,7 @@ export class MuseumIndexService {
   constructor(private http: HttpClient) { }
 
   getAll() {
-    return this.http.get<Stanza[]>(this.baseUrl)
+    return this.http.get(this.baseUrl)
   }
 
   get(id: number) {
