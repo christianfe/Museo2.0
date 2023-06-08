@@ -4,39 +4,38 @@ import { NavController } from '@ionic/angular';
 import { GuestbookService } from 'src/app/services/guestbook.service';
 
 @Component({
-  selector: 'app-new-guestbook',
-  templateUrl: './new-guestbook.page.html',
-  styleUrls: ['./new-guestbook.page.scss'],
+	selector: 'app-new-guestbook',
+	templateUrl: './new-guestbook.page.html',
+	styleUrls: ['./new-guestbook.page.scss'],
 })
 export class NewGuestbookPage implements OnInit {
-  form: any
-  isAlertOpen: boolean = false;
-  public alertButtons = ['Chiudi'];
-  public backPage = "/tabs/guestbook"
+	form: any
+	isAlertOpen: boolean = false;
+	public alertButtons = ['Chiudi'];
+	public backPage = "/tabs/guestbook"
 
-  constructor(private fb: FormBuilder, private nav: NavController, private guestbookService: GuestbookService) { }
+	constructor(private fb: FormBuilder, private nav: NavController, private guestbookService: GuestbookService) { }
 
-  ngOnInit() {
-    this.form = this.fb.group({
-      name: [''],
-      descrizione: ['']
-    });
-  }
+	ngOnInit() {
+		this.form = this.fb.group({
+			name: [''],
+			descrizione: ['']
+		});
+	}
 
 
-  onSubmit() {
-    this.guestbookService.add({
-      id: Math.floor(Math.random() * 1000), //FIXME obv not a random id
-      nome: this.form.name,
-      descrizione: this.form.descrizione
-    })
-    this.setAlertStatus(true);
-  }
+	onSubmit() {
+		this.guestbookService.add({
+			id: null,
+			nome: this.form.name,
+			descrizione: this.form.descrizione
+		})
+		this.setAlertStatus(true);
+	}
 
-  setAlertStatus(s: boolean) {
-    this.isAlertOpen = s
-    if (!s)
-      this.nav.navigateForward(this.backPage)
-  }
+	setAlertStatus(s: boolean) {
+		this.isAlertOpen = s
+		if (!s)
+			this.nav.navigateForward(this.backPage)
+	}
 }
-

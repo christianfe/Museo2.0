@@ -1,5 +1,5 @@
 export interface Feedback {
-  id: number;
+  id: number | null;
   nome: string;
   descrizione: string;
 }
