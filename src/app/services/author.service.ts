@@ -20,4 +20,13 @@ export class AuthorService {
     return this.http.get<Autore>(this.baseUrl + "/" + id)
   }
 
+  getByFilterNome(filter : string){
+    console.log(this.baseUrl + `?nome_like=^(${filter}).*`);
+    return this.http.get<Autore[]>(this.baseUrl + `?nome_like=^(${filter}).*`);
+  }
+
+  getByFilterCognome(filter : string){
+    console.log(this.baseUrl + `?cognome_like=^(${filter}).*`);
+    return this.http.get<Autore[]>(this.baseUrl + `?cognome_like=^(${filter}).*`);
+  }
 }

@@ -56,7 +56,9 @@ const routes: Routes = [
     path: '**',
     component: NotfoundComponent,
     pathMatch: "full"
-  }
+  },
+
+
 ];
 
 @NgModule({

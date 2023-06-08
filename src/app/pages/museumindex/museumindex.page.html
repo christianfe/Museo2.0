@@ -45,13 +45,9 @@ QUI INIZIA ___
         tortor justo sed nunc.</ion-card-subtitle>
 
 
-        <ion-searchbar  animated="true"
-                        placeholder="Cerca"
-                        (ionBlur)="ChangeFocus()"
-                        (ionFocus)="ChangeFocus()"
-                        (ionChange)="CommittedSearch($event)"
-                        ></ion-searchbar>
-        <ion-text *ngIf="this.searching">Sta cercando</ion-text>
+        <ion-button fill="clear" size="defailt" [routerLink]="['/tabs/ricerca']"><ion-icon name="search-outline"></ion-icon>Cerca un'opera</ion-button>
+
+
 
     </ion-card-header>
 

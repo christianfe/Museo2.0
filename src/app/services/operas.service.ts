@@ -17,8 +17,9 @@ export class OperasService {
   constructor(private http: HttpClient) { }
 
   getAll() {
-
+    return this.http.get(this.baseUrl);
   }
+
   get(id: number) {
     return this.http.get<Opera>(this.baseUrl+ id)
   }
@@ -33,5 +34,10 @@ export class OperasService {
   }
   getOperaByStanza(idStanza: number) {
     return this.http.get<Opera[]>(this.baseUrl + "?stanza=" + idStanza)
+  }
+
+  getByFilter(filter : string){
+    console.log(this.baseUrl + `?titolo_like=^(${filter}).*`);
+    return this.http.get<Opera[]>(this.baseUrl + `?titolo_like=^(${filter}).*`);
   }
 }
