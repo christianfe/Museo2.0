@@ -3,7 +3,7 @@ import { Autore } from "./autore";
 export class Opera {
   id: number | undefined;
   titolo: String | undefined;
-  descrizione: String | undefined;
+  descrizione: string | undefined;
   dataInizio: Date | undefined;
   dataFine: Date | undefined;
   altezza: number | undefined;

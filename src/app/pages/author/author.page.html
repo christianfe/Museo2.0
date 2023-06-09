@@ -29,7 +29,20 @@
         </ion-title>
       </ion-row>
       <ion-row *ngFor="let o of operas">
-        <app-opera-tab [opera]="o"></app-opera-tab>
+        <ion-card (click)="routeToOpera(o.id!)">
+          <ion-row>
+            <ion-col>
+              <img alt="opera" src="{{o.picture}}" />
+            </ion-col>
+            <ion-col>
+              <ion-card-header>
+                <ion-card-title>{{o.titolo}}</ion-card-title>
+                <ion-card-subtitle>{{o.descrizione! | slice:0:25}}...</ion-card-subtitle>
+              </ion-card-header>
+
+            </ion-col>
+          </ion-row>
+        </ion-card>
       </ion-row>
     </ion-grid>
   </ion-content>

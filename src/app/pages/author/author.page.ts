@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { NavController } from '@ionic/angular';
 import { Autore } from 'src/app/models/autore';
 import { Opera } from 'src/app/models/opera';
 import { AuthorService } from 'src/app/services/author.service';
@@ -16,7 +17,7 @@ export class AuthorPage implements OnInit {
   author: Autore | undefined
   operas: Opera[] | undefined
 
-  constructor(private route: ActivatedRoute, private authorService: AuthorService, private operaService: OperasService) {
+  constructor(private route: ActivatedRoute, private authorService: AuthorService, private operaService: OperasService, private nav: NavController) {
     this.idAuhtor = this.route.snapshot.params['id'];
   }
 
@@ -27,6 +28,9 @@ export class AuthorPage implements OnInit {
     this.operaService.getOperaByAuthor(this.idAuhtor).subscribe({
       next: o => this.operas = o
     });
+  }
+  routeToOpera(idOpera: number) {
+    this.nav.navigateForward("/tabs/opera/" + idOpera)
   }
 
 }

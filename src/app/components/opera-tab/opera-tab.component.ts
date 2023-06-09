@@ -14,8 +14,6 @@ export class OperaTabComponent implements OnInit {
 
   ngOnInit() { }
 
-  routeToOpera(idOpera: number) {
-    this.nav.navigateForward("/tabs/opera/" + idOpera)
-  }
+
 
 }
