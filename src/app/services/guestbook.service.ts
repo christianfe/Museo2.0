@@ -24,6 +24,11 @@ export class GuestbookService {
     return x
   }
 
+  getPage(id: number, page: number, limit: number) {
+    let x = this.http.get<Feedback[]>(this.baseUrl + "?link=" + id + "&_sort=id&_order=desc&_page=" + page + "&_limit=" + limit);
+    return x
+  }
+
   add(f: Feedback) {
     this.http.post<Feedback>(this.baseUrl, f).subscribe({
       next: _ => this.data.push(f)
@@ -31,12 +36,6 @@ export class GuestbookService {
   }
 
   getHomeFeeds(): Observable<Feedback[]> {
-    //FIXME
-    let observables: Observable<Feedback>[] = [
-      this.get(1),
-      this.get(2),
-      this.get(3)
-    ]
-    return forkJoin(observables);
+    return this.http.get<Feedback[]>(this.baseUrl + "?_sort=id&_order=desc&_page=1&_limit=5&link=-1");
   }
 }

@@ -1,49 +1,42 @@
-<ion-content [fullscreen]="true" *ngIf="author">
+<ion-content *ngIf="author">
   <br><br><br><br>
-  <ion-title size="large"><strong> {{author.nome + " " + author.cognome}}</strong></ion-title>
-  <ion-content>
-    <ion-grid>
-      <ion-row>
-        <ion-col>
-          <ion-img src="{{author.url}}"> </ion-img><!--FIXME immagine va strechata-->
-        </ion-col>
-      </ion-row>
-      <ion-row>
-        <p>{{author.descrizione}}</p>
-      </ion-row>
-      <ion-row>
-        <ion-title size="small">
-          <strong>Link utili</strong>
-        </ion-title>
-      </ion-row>
-      <ion-row>
-        <ion-list lines="none">
-          <ion-item *ngFor="let l of author.links">
-            <ion-label><a href="{{l}}" target="_blank">{{l}}</a></ion-label>
-          </ion-item>
-        </ion-list>
-      </ion-row>
-      <ion-row *ngIf="operas">
-        <ion-title size="small">
-          <strong>Altro di {{author.nome + " " + author.cognome}}</strong>
-        </ion-title>
-      </ion-row>
-      <ion-row *ngFor="let o of operas">
-        <ion-card (click)="routeToOpera(o.id!)">
-          <ion-row>
-            <ion-col>
-              <img alt="opera" src="{{o.picture}}" />
-            </ion-col>
-            <ion-col>
-              <ion-card-header>
-                <ion-card-title>{{o.titolo}}</ion-card-title>
-                <ion-card-subtitle>{{o.descrizione! | slice:0:25}}...</ion-card-subtitle>
-              </ion-card-header>
-
-            </ion-col>
-          </ion-row>
-        </ion-card>
-      </ion-row>
-    </ion-grid>
-  </ion-content>
+  <ion-title style="margin-bottom: 0.5em"><strong> {{author.nome + " " + author.cognome}}</strong></ion-title>
+  <ion-img src="{{author.url}}"> </ion-img>
+  <ion-grid>
+    <ion-row>
+      <p class="text-justify mx-1">{{author.descrizione}}</p>
+    </ion-row>
+    <ion-row>
+      <ion-title size="small" class="mb-0">
+        <strong>Link utili</strong>
+      </ion-title>
+    </ion-row>
+    <ion-row>
+      <ion-list lines="none" class="my-0 p-0">
+        <ion-item *ngFor="let l of author.links">
+          <ion-label class="mt-1 mb-0"><strong>&middot;</strong><a href="{{l}}" target="_blank">{{l}}</a></ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-row>
+    <ion-row *ngIf="operas" class="mt-2">
+      <ion-title size="small">
+        <strong>Altro di {{author.nome + " " + author.cognome}}</strong>
+      </ion-title>
+    </ion-row>
+    <ion-row *ngFor="let o of operas">
+      <ion-card (click)="routeToOpera(o.id!)">
+        <ion-row>
+          <ion-col>
+            <img alt="opera" src="{{o.picture}}" />
+          </ion-col>
+          <ion-col>
+            <ion-card-header>
+              <ion-card-title>{{o.titolo}}</ion-card-title>
+              <ion-card-subtitle>{{o.descrizione! | slice:0:25}}...</ion-card-subtitle>
+            </ion-card-header>
+          </ion-col>
+        </ion-row>
+      </ion-card>
+    </ion-row>
+  </ion-grid>
 </ion-content>

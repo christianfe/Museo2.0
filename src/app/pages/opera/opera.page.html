@@ -1,4 +1,4 @@
-<ion-content *ngIf="opera as o">
+<ion-content *ngIf="(opera | async) as o">
 
   <ion-card id="maincard">
     <img src="{{o.picture}}" />
@@ -30,7 +30,7 @@
 
       <ion-card-subtitle><b>Commenti</b></ion-card-subtitle>
 
-      <ion-card *ngFor="let c of commentiVisibili">
+      <ion-card *ngFor="let c of commenti">
         <ion-card-content>
           {{c.descrizione}}
           <p style="text-align: right"><strong>{{c.nome}}</strong></p>
@@ -42,14 +42,13 @@
       </ion-card-subtitle>
 
       <ion-buttons>
-        <ion-button (click)="pushComments()" *ngIf="commenti.length"
-          [disabled]="commentiVisibili.length >= commenti.length">
-          {{commentiVisibili.length >= commenti.length ? "" : "Mostra altri"}}
+        <ion-button (click)="pushComments()" *ngIf="commenti.length" [disabled]="noMoreComments">
+          {{noMoreComments ? "" : "Mostra altri"}}
         </ion-button>
         <ion-button *ngIf="!commenti.length">
 
         </ion-button>
-        <ion-button (click)="addComment()">Commenta</ion-button>
+        <ion-button (click)="addComment()" [disabled]="!QRcodeChecker">Commenta</ion-button>
       </ion-buttons>
     </ion-card-content>
 

@@ -5,10 +5,10 @@ import { Autore } from 'src/app/models/autore';
 import { Opera } from 'src/app/models/opera';
 import { AuthorService } from 'src/app/services/author.service';
 import { OperasService } from 'src/app/services/operas.service';
-import { formatDate } from '@angular/common';
 import { Feedback } from 'src/app/models/feedback';
 import { GuestbookService } from 'src/app/services/guestbook.service';
-import { NavController } from '@ionic/angular';
+import { LocalStorageService } from 'src/app/services/local-storage.service';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-opera',
@@ -17,13 +17,14 @@ import { NavController } from '@ionic/angular';
 })
 export class OperaPage implements OnInit {
 
-  idOpera: number;
-  opera: Opera | undefined;
-  autore: Observable<Autore> | undefined;
-
+  public idOpera: number;
+  public opera: Observable<Opera> | undefined;
+  public autore: Observable<Autore> | undefined;
+  private page: number = 1;
+  public noMoreComments = false;
   public commenti: Feedback[] = [];
-  public commentiVisibili: Feedback[] = [];
-  isInputOpen = false;
+  public isInputOpen = false;
+  public QRcodeChecker: boolean = false;
   public alertButtons = ['Inserisci'];
   public alertInputs = [
     {
@@ -39,32 +40,28 @@ export class OperaPage implements OnInit {
   ];
 
 
-  constructor(private route: ActivatedRoute, private operaservice: OperasService, private autoreservice: AuthorService, private guestbookservice: GuestbookService) {
+  constructor(private route: ActivatedRoute, private local: LocalStorageService, private operaservice: OperasService, private autoreservice: AuthorService, private guestbookservice: GuestbookService) {
     this.idOpera = route.snapshot.params['id']
-    this.operaservice.get(this.idOpera).subscribe({
-      next: o => {
-        this.opera = o
-        if (o.idAutore)
-          this.autoreservice.get(o.idAutore).subscribe({
-            next: a => this.opera!.autore = a
-          });
-      }
-    });
-    this.guestbookservice.getAll(this.idOpera).subscribe((f: Feedback[]) => {
-      for (let c of f)
-        this.commenti.push(c)
-      this.commenti.reverse()
-      this.pushComments();
-    });
-
+    this.opera = this.operaservice.get(this.idOpera)
+    this.pushComments();
+    //local.setData(environment.QrCodeCheckedVAR, "1");
+    //local.clearData()
+    this.QRcodeChecker = local.getData(environment.QrCodeCheckedVAR) == "1"
   }
 
   ngOnInit() { }
 
 
   pushComments() {
-    for (let i = 0; ((i < 3) && (this.commentiVisibili.length < this.commenti.length)); i++)
-      this.commentiVisibili.push(this.commenti[this.commentiVisibili.length]);
+    if (this.noMoreComments)
+      return
+    this.guestbookservice.getPage(this.idOpera, this.page, 3).subscribe((f: Feedback[]) => {
+      this.noMoreComments = f.length != 3;
+      for (let c of f)
+        this.commenti.push(c)
+    });
+    this.page++;
+
   }
 
   addComment() {
@@ -83,6 +80,6 @@ export class OperaPage implements OnInit {
       link: this.idOpera
     }
     this.guestbookservice.add(comm)
-    this.commentiVisibili.splice(0, 0, comm)
+    this.commenti.splice(0, 0, comm)
   }
 }
