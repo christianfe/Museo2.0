@@ -513,5 +513,14 @@
       "prevId": 8,
       "nextId": 2
     }
+  ],
+  "contatti": [
+    {
+      "id": 0,
+      "nome": "nome",
+      "mail": "mail@google.com",
+      "oggetto": "oggetto richiesta",
+      "messaggio": "messaggio"
+    }
   ]
 }
