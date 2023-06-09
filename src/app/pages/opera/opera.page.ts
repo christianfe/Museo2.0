@@ -20,34 +20,23 @@ import { AlertController } from '@ionic/angular';
 export class OperaPage implements OnInit {
 
   public idOpera: number;
-  public opera: Observable<Opera> | undefined;
+  public opera: Opera | undefined;
   public autore: Observable<Autore> | undefined;
   private page: number = 1;
   public noMoreComments = false;
   public commenti: Feedback[] = [];
-  public isInputOpen = false;
-  public isConfirmOpen = false;
-  public result_h: string = "";
   public QRcodeChecker: boolean = false;
-  public alertButtons = ['Inserisci'];
-  public confirmButtons = ['OK'];
-  public alertInputs = [
-    {
-      placeholder: 'Nome',
-      attributes: {
-        maxlength: 20
-      }
-    },
-    {
-      type: 'textarea',
-      placeholder: 'inserisci il tuo commento'
-    },
-  ];
 
 
-  constructor(private route: ActivatedRoute, private local: LocalStorageService, private operaservice: OperasService, private guestbookservice: GuestbookService, private alertCtrl: AlertController) {
+  constructor(private route: ActivatedRoute, private local: LocalStorageService, private operaservice: OperasService, private guestbookservice: GuestbookService, private alertCtrl: AlertController, public autoreService: AuthorService) {
     this.idOpera = route.snapshot.params['id']
-    this.opera = this.operaservice.get(this.idOpera)
+    this.operaservice.get(this.idOpera).subscribe({
+      next: d => {
+        this.opera = d;
+        if (d.idAutore)
+          this.autore = autoreService.get(d.idAutore)
+      }
+    })
     this.pushComments();
     //local.setData(environment.QrCodeCheckedVAR, "1");
     //local.clearData()
@@ -66,7 +55,6 @@ export class OperaPage implements OnInit {
         this.commenti.push(c)
     });
     this.page++;
-
   }
 
   addComment() {
@@ -134,27 +122,4 @@ export class OperaPage implements OnInit {
     alert.then(alert => alert.present());
   }
 
-  // alertDimiss(e: any) {
-  //   if (!this.isInputOpen) {
-  //     this.isInputOpen = false;
-  //     return
-  //   }
-  //   this.isConfirmOpen = false;
-  //   if (!e)
-  //     return
-  //   let user = e["detail"]["data"]["values"][0];
-  //   let text = e["detail"]["data"]["values"][1];
-
-  //   if (user != "" && text != null) {
-  //     this.result_h = "Il tuo commento è stato inserito!"
-  //     this.isConfirmOpen = true;
-  //   } else {
-  //     this.result_h = "Non puoi lasciare i campi vuoti, riprova";
-  //     this.isConfirmOpen = true;
-  //     window.location.reload();
-  //     return
-  //   }
-
-
-  // }
 }
