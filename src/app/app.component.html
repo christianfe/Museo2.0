@@ -1,9 +1,8 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title [routerLink]="['/']">Museo 2.0 - Rocca Cannuccia</ion-title>
+    <ion-title [routerLink]="['/']" (click)="destroyScanner()">Museo 2.0 - Rocca Cannuccia</ion-title>
   </ion-toolbar>
 </ion-header>
-
 
 <ion-app>
   <ion-router-outlet></ion-router-outlet>

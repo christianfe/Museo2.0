@@ -1,6 +1,3 @@
-
-
-
 <ion-tabs>
   <ion-tab-bar slot="bottom">
     <ion-tab-button tab="contacts">
@@ -11,10 +8,9 @@
       <ion-icon name="storefront"></ion-icon>
       Museum
     </ion-tab-button>
-    <ion-tab-button tab="scan-qr">
+    <ion-tab-button (click)="openScanner()">
       <ion-icon name="qr-code-outline"></ion-icon>
       QR code
     </ion-tab-button>
-
   </ion-tab-bar>
 </ion-tabs>
