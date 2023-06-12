@@ -1,12 +1,13 @@
+<!--
 <ion-content [fullscreen]="true" *ngIf="(notizia | async) as n">
-  
+
   <div style="background-image: url({{n.url}});" id="box">
     <ion-card-title>{{n.titolo}}</ion-card-title>
     <ion-card-subtitle class="newstitle">{{n.sottotitolo}}</ion-card-subtitle>
   </div>
-  
-  
-  
+
+
+
   <ion-content>
     <ion-grid>
       <ion-row id="testo">
@@ -28,5 +29,41 @@
       </ion-row>
     </ion-grid>
   </ion-content>
+</ion-content> -->
+
+<ion-content [fullscreen]="true" *ngIf="(notizia | async) as n">
+  <br><br><br>
+
+  <ion-card style="width: 100%; margin: 0; box-shadow: none;">
+
+    <ion-card-content>
+      <ion-card-title>{{n.titolo}}</ion-card-title>
+      <ion-card-subtitle class="newstitle">{{n.sottotitolo}}</ion-card-subtitle>
+    </ion-card-content>
+
+
+  <ion-img src="{{n.url}}"></ion-img>
+
+
+    <ion-card-content>
+      <ion-text>{{n.testo}}</ion-text>
+    </ion-card-content>
+
+
+  </ion-card>
+
+  <ion-content>
+  <div id="prev_next_btnscontainer">
+    <ion-button fill="clear" [routerLink]="['../', n.prevId]" routerDirection="forward">
+      <ion-icon slot="start" name="arrow-back-outline"></ion-icon>
+      Precedente
+    </ion-button>
+
+    <ion-button  fill="clear" [routerLink]="['../', n.nextId]" routerDirection="forward">
+      <ion-icon slot="end" name="arrow-forward-outline"></ion-icon>
+      Successivo
+    </ion-button>
+  </div>
 </ion-content>
 
+</ion-content>

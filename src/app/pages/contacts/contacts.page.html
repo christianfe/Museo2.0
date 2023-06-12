@@ -1,32 +1,41 @@
-<ion-content class="ion-padding">
-  <br><br>
-  <br>
-
-  <ion-title><strong>Contattaci</strong></ion-title>
-  <p>Testo da inserire, lorem ipsum</p>
-  <p><strong>Telefono</strong>: +390000000000</p>
-  <p><strong>Mail</strong>: +390000000000</p>
-  <ion-title class="ion-margin-bottom"><strong>Segnala un problema</strong></ion-title>
 
 
+  <ion-card id="maincard">
+    <ion-card-header>
+      <ion-card-title><b>Contattaci</b></ion-card-title>
+      <ion-card-subtitle>Puoi contattarci telefonicamente o via mail attraverso i seguenti recapiti:</ion-card-subtitle>
+    </ion-card-header>
 
-  <form (submit)="onSubmit()" #contactForm="ngForm">
-    <ion-input class="ion-margin-bottom" ngModel [(ngModel)]="form.name" name="name" label="Nome"
-      labelPlacement="floating" placeholder="Inserisci il tuo nome" fill="solid" required ins>
-    </ion-input>
-    <ion-input class="ion-margin-bottom" ngModel [(ngModel)]="form.mail" name="mail" label="email" required="required"
-      labelPlacement="floating" placeholder="Inserisci il tuo indirizzo email" fill="solid" type="mail">
-    </ion-input>
-    <ion-input class="ion-margin-bottom" ngModel [(ngModel)]="form.obj" name="obj" label="Oggetto" required="required"
-      labelPlacement="floating" placeholder="Inserisci l'oggetto del messaggio" fill="solid">
-    </ion-input>
-    <ion-textarea class="ion-margin-bottom" ngModel [(ngModel)]="form.mex" name="mex" label="Messaggio"
-      labelPlacement="floating" placeholder="Inserisci il messaggio" fill="solid" style="height: 150px;" required>
-    </ion-textarea>
-    <ion-button type="submit" color="primary" expand="block" [disabled]="!contactForm.valid">Invia</ion-button>
-  </form>
+  <ion-card-content>
+    <ion-text><b>Telefono:</b> +39 999 999 9999</ion-text>
+    <br>
+    <ion-text><b>E-mail:</b> info@mail.com</ion-text>
+  </ion-card-content>
 
-</ion-content>
+  <ion-card-content>
+    <form (submit)="onSubmit()" #contactForm="ngForm">
+      <ion-input class="ion-margin-bottom" ngModel [(ngModel)]="form.name" name="name" label="Nome"
+        labelPlacement="floating" placeholder="Inserisci il tuo nome" fill="solid" required ins>
+      </ion-input>
+      <ion-input class="ion-margin-bottom" ngModel [(ngModel)]="form.mail" name="mail" label="email" required="required"
+        labelPlacement="floating" placeholder="Inserisci il tuo indirizzo email" fill="solid" type="mail">
+      </ion-input>
+      <ion-input class="ion-margin-bottom" ngModel [(ngModel)]="form.obj" name="obj" label="Oggetto" required="required"
+        labelPlacement="floating" placeholder="Inserisci l'oggetto del messaggio" fill="solid">
+      </ion-input>
+      <ion-textarea class="ion-margin-bottom" ngModel [(ngModel)]="form.mex" name="mex" label="Messaggio"
+        labelPlacement="floating" placeholder="Inserisci il messaggio" fill="solid" style="height: 150px;" required>
+      </ion-textarea>
+      <ion-button fill="clear" type="submit" color="primary" expand="block" [disabled]="!contactForm.valid">Invia</ion-button>
+    </form>
+  </ion-card-content>
+
+
+  </ion-card>
+
+
+
+
 
 
 <ion-alert [isOpen]="isAlertOpen" header="" subHeader="Messaggio inviato"

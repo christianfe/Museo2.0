@@ -7,7 +7,7 @@
       "altezza": "2,814.64",
       "lunghezza": "3,745.15",
       "profondita": "3,556.63",
-      "picture": "http://placehold.it/320x200",
+      "picture": "https://picsum.photos/640/400",
       "dataInizio": "2020-02-25",
       "dataFine": "2021-03-26",
       "idAutore": 1,
@@ -24,7 +24,7 @@
       "altezza": "1,840.53",
       "lunghezza": "3,374.59",
       "profondita": "2,449.28",
-      "picture": "http://placehold.it/320x200",
+      "picture": "https://picsum.photos/640/400",
       "dataInizio": "2015-08-18",
       "dataFine": "2016-10-01",
       "idAutore": 1,
@@ -41,7 +41,7 @@
       "altezza": "2,525.09",
       "lunghezza": "1,459.59",
       "profondita": "1,920.87",
-      "picture": "http://placehold.it/320x200",
+      "picture": "https://picsum.photos/640/400",
       "dataInizio": "2015-01-27",
       "dataFine": "2021-10-17",
       "idAutore": 1,
@@ -58,7 +58,7 @@
       "altezza": "2,073.71",
       "lunghezza": "3,456.53",
       "profondita": "2,849.87",
-      "picture": "http://placehold.it/320x200",
+      "picture": "https://picsum.photos/640/400",
       "dataInizio": "2022-02-15",
       "dataFine": "2017-02-25",
       "idAutore": 1,
@@ -75,7 +75,7 @@
       "altezza": "3,266.33",
       "lunghezza": "3,940.71",
       "profondita": "2,855.76",
-      "picture": "http://placehold.it/320x200",
+      "picture": "https://picsum.photos/640/400",
       "dataInizio": "2020-11-13",
       "dataFine": "2016-04-20",
       "idAutore": 2,
@@ -92,7 +92,7 @@
       "altezza": "3,742.00",
       "lunghezza": "2,420.93",
       "profondita": "1,950.69",
-      "picture": "http://placehold.it/320x200",
+      "picture": "https://picsum.photos/640/400",
       "dataInizio": "2021-09-02",
       "dataFine": "2021-10-09",
       "idAutore": 1,
@@ -109,7 +109,7 @@
       "altezza": "3,720.54",
       "lunghezza": "1,670.19",
       "profondita": "1,257.51",
-      "picture": "http://placehold.it/320x200",
+      "picture": "https://picsum.photos/640/400",
       "dataInizio": "2020-02-27",
       "dataFine": "2014-05-10",
       "idAutore": 2,
@@ -126,7 +126,7 @@
       "altezza": "3,376.84",
       "lunghezza": "3,055.20",
       "profondita": "2,092.95",
-      "picture": "http://placehold.it/320x200",
+      "picture": "https://picsum.photos/640/400",
       "dataInizio": "2022-06-07",
       "dataFine": "2019-09-10",
       "idAutore": 2,
@@ -143,7 +143,7 @@
       "altezza": "2,274.42",
       "lunghezza": "2,158.68",
       "profondita": "3,791.82",
-      "picture": "http://placehold.it/320x200",
+      "picture": "https://picsum.photos/640/400",
       "dataInizio": "2020-09-10",
       "dataFine": "2015-07-06",
       "idAutore": 3,
@@ -162,7 +162,7 @@
   "autori": [
     {
       "id": 0,
-      "url": "http://placehold.it/320x200",
+      "url": "https://picsum.photos/640/400",
       "nome": "Marks",
       "cognome": "Wade",
       "soprannome": "nickname",
@@ -178,7 +178,7 @@
     },
     {
       "id": 1,
-      "url": "http://placehold.it/320x200",
+      "url": "https://picsum.photos/640/400",
       "nome": "Rachel",
       "cognome": "Schultz",
       "soprannome": "nickname",
@@ -194,7 +194,7 @@
     },
     {
       "id": 2,
-      "url": "http://placehold.it/320x200",
+      "url": "https://picsum.photos/640/400",
       "nome": "Ashley",
       "cognome": "Lucas",
       "soprannome": "nickname",
@@ -210,7 +210,7 @@
     },
     {
       "id": 3,
-      "url": "http://placehold.it/320x200",
+      "url": "https://picsum.photos/640/400",
       "nome": "Oneil",
       "cognome": "Walker",
       "soprannome": "nickname",
@@ -226,7 +226,7 @@
     },
     {
       "id": 4,
-      "url": "http://placehold.it/320x200",
+      "url": "https://picsum.photos/640/400",
       "nome": "Lawanda",
       "cognome": "Berg",
       "soprannome": "nickname",
@@ -365,8 +365,8 @@
       "titolo": "Tara",
       "sottotitolo": "Aliqua esse aliqua ut est ad mollit ex eu laboris qui ea cupidatat.",
       "testo": "Lorem eu laborum nostrud proident cillum mollit duis. Ea ipsum et anim sint ex. Labore deserunt sit amet incididunt ad. Quis quis culpa ipsum duis. Non eu aliquip deserunt cupidatat eiusmod elit minim Lorem in id deserunt minim consectetur. Officia non tempor aliqua occaecat sit nostrud dolore commodo eu duis.\r\n",
-      "url": "http://placehold.it/320x320",
-      "prevId": 9,
+      "url": "https://www.toppr.com/bytes/wp-content/uploads/2019/06/school-time-table-1024x768.jpeg",
+      "prevId": 3,
       "nextId": 1
     },
     {
@@ -374,7 +374,7 @@
       "titolo": "Annette",
       "sottotitolo": "Officia culpa consequat sint consectetur culpa dolore consectetur est.",
       "testo": "Non amet esse id tempor irure proident proident exercitation ad sit esse sunt cillum. Mollit officia consequat sint et irure aliqua elit velit est eu deserunt. Sint eiusmod ut quis in id proident nisi fugiat quis aliqua laboris eiusmod Lorem. Commodo est exercitation id enim velit ut laboris consectetur.\r\n",
-      "url": "http://placehold.it/320x320",
+      "url": "https://assets1.cbsnewsstatic.com/hub/i/2022/09/28/9685c8b3-6750-4950-8a53-c5cd4a314118/cbs-evening-news-3840x2160.jpg",
       "prevId": 0,
       "nextId": 2
     },
@@ -383,7 +383,7 @@
       "titolo": "Connie",
       "sottotitolo": "Fugiat cillum et excepteur nostrud officia ea.",
       "testo": "Aliqua nostrud occaecat ad proident proident culpa. Exercitation aliquip ea exercitation proident velit dolor. Ullamco laborum do non exercitation aliquip dolore commodo nulla do eiusmod proident dolore ullamco. Magna laboris commodo quis fugiat mollit elit excepteur ea enim deserunt ullamco. Incididunt proident id et laborum excepteur cillum adipisicing occaecat pariatur laborum voluptate occaecat. Velit sit nisi magna esse aute amet nulla. Nostrud proident velit sit labore aliquip deserunt laboris veniam qui qui dolore sit.\r\n",
-      "url": "http://placehold.it/320x320",
+      "url": "https://news.microsoft.com/wp-content/uploads/prod/sites/56/2023/05/Accessibility-Day-924x520.jpg",
       "prevId": 1,
       "nextId": 3
     },
@@ -392,126 +392,9 @@
       "titolo": "John",
       "sottotitolo": "Elit cillum occaecat enim dolor eiusmod.",
       "testo": "Irure ex nostrud sunt aute Lorem laborum ad minim dolore. Magna nulla officia fugiat ex amet eiusmod velit ullamco et laboris. Esse velit ad nisi nisi enim laborum non eu officia do amet excepteur sunt sint. Aute ea ut esse aliquip cillum. Ut dolor ipsum voluptate aliqua officia fugiat dolor cillum officia occaecat tempor. Aute proident dolor tempor sint occaecat aute veniam proident elit veniam deserunt cillum.\r\n",
-      "url": "http://placehold.it/320x320",
+      "url": "https://www.calcioatalanta.it/wp-content/uploads/2023/05/Gasperini_ICA_0771.jpg",
       "prevId": 2,
-      "nextId": 4
-    },
-    {
-      "id": 4,
-      "titolo": "Sadie",
-      "sottotitolo": "Veniam consectetur amet fugiat eu ad eu.",
-      "testo": "Laborum incididunt aliquip tempor nulla mollit voluptate cupidatat enim excepteur et exercitation proident. Ut incididunt laborum occaecat elit laborum. Duis enim sit ullamco anim minim labore culpa esse tempor dolore. Ex est consequat anim elit dolore eu qui Lorem.\r\n",
-      "url": "http://placehold.it/320x320",
-      "prevId": 3,
-      "nextId": 5
-    },
-    {
-      "id": 5,
-      "titolo": "Candace",
-      "sottotitolo": "Quis velit in est nulla Lorem.",
-      "testo": "Aliquip consectetur eiusmod aute eu tempor sit qui anim excepteur nulla aliquip reprehenderit do. Aliqua culpa amet enim sint id deserunt nostrud esse dolore laborum. Duis tempor quis ullamco minim culpa nostrud cillum aliquip sit elit excepteur mollit.\r\n",
-      "url": "http://placehold.it/320x320",
-      "prevId": 4,
-      "nextId": 6
-    },
-    {
-      "id": 6,
-      "titolo": "Celia",
-      "sottotitolo": "Labore ipsum cillum mollit adipisicing aliqua duis minim fugiat elit amet amet do consectetur deserunt.",
-      "testo": "Ullamco ullamco tempor consectetur proident anim laborum anim nostrud duis. In ea esse adipisicing veniam laborum voluptate adipisicing deserunt amet eiusmod nulla incididunt laboris. Laborum minim minim deserunt sunt aliquip adipisicing dolore minim.\r\n",
-      "url": "http://placehold.it/320x320",
-      "prevId": 5,
-      "nextId": 7
-    },
-    {
-      "id": 7,
-      "titolo": "Marci",
-      "sottotitolo": "Minim excepteur dolor enim amet magna Lorem proident fugiat aliquip non ex non.",
-      "testo": "Labore deserunt nulla et nulla culpa aliqua anim ad. Minim magna duis consequat Lorem. Pariatur cillum Lorem eu incididunt ea tempor veniam excepteur culpa non. Consectetur laborum velit voluptate ullamco occaecat elit reprehenderit.\r\n",
-      "url": "http://placehold.it/320x320",
-      "prevId": 6,
-      "nextId": 8
-    },
-    {
-      "id": 1,
-      "titolo": "Annette",
-      "sottotitolo": "Officia culpa consequat sint consectetur culpa dolore consectetur est.",
-      "testo": "Non amet esse id tempor irure proident proident exercitation ad sit esse sunt cillum. Mollit officia consequat sint et irure aliqua elit velit est eu deserunt. Sint eiusmod ut quis in id proident nisi fugiat quis aliqua laboris eiusmod Lorem. Commodo est exercitation id enim velit ut laboris consectetur.\r\n",
-      "url": "http://placehold.it/320x320",
-      "prevId": 0,
-      "nextId": 2
-    },
-    {
-      "id": 2,
-      "titolo": "Connie",
-      "sottotitolo": "Fugiat cillum et excepteur nostrud officia ea.",
-      "testo": "Aliqua nostrud occaecat ad proident proident culpa. Exercitation aliquip ea exercitation proident velit dolor. Ullamco laborum do non exercitation aliquip dolore commodo nulla do eiusmod proident dolore ullamco. Magna laboris commodo quis fugiat mollit elit excepteur ea enim deserunt ullamco. Incididunt proident id et laborum excepteur cillum adipisicing occaecat pariatur laborum voluptate occaecat. Velit sit nisi magna esse aute amet nulla. Nostrud proident velit sit labore aliquip deserunt laboris veniam qui qui dolore sit.\r\n",
-      "url": "http://placehold.it/320x320",
-      "prevId": 1,
-      "nextId": 3
-    },
-    {
-      "id": 3,
-      "titolo": "John",
-      "sottotitolo": "Elit cillum occaecat enim dolor eiusmod.",
-      "testo": "Irure ex nostrud sunt aute Lorem laborum ad minim dolore. Magna nulla officia fugiat ex amet eiusmod velit ullamco et laboris. Esse velit ad nisi nisi enim laborum non eu officia do amet excepteur sunt sint. Aute ea ut esse aliquip cillum. Ut dolor ipsum voluptate aliqua officia fugiat dolor cillum officia occaecat tempor. Aute proident dolor tempor sint occaecat aute veniam proident elit veniam deserunt cillum.\r\n",
-      "url": "http://placehold.it/320x320",
-      "prevId": 2,
-      "nextId": 4
-    },
-    {
-      "id": 4,
-      "titolo": "Sadie",
-      "sottotitolo": "Veniam consectetur amet fugiat eu ad eu.",
-      "testo": "Laborum incididunt aliquip tempor nulla mollit voluptate cupidatat enim excepteur et exercitation proident. Ut incididunt laborum occaecat elit laborum. Duis enim sit ullamco anim minim labore culpa esse tempor dolore. Ex est consequat anim elit dolore eu qui Lorem.\r\n",
-      "url": "http://placehold.it/320x320",
-      "prevId": 3,
-      "nextId": 5
-    },
-    {
-      "id": 5,
-      "titolo": "Candace",
-      "sottotitolo": "Quis velit in est nulla Lorem.",
-      "testo": "Aliquip consectetur eiusmod aute eu tempor sit qui anim excepteur nulla aliquip reprehenderit do. Aliqua culpa amet enim sint id deserunt nostrud esse dolore laborum. Duis tempor quis ullamco minim culpa nostrud cillum aliquip sit elit excepteur mollit.\r\n",
-      "url": "http://placehold.it/320x320",
-      "prevId": 4,
-      "nextId": 6
-    },
-    {
-      "id": 6,
-      "titolo": "Celia",
-      "sottotitolo": "Labore ipsum cillum mollit adipisicing aliqua duis minim fugiat elit amet amet do consectetur deserunt.",
-      "testo": "Ullamco ullamco tempor consectetur proident anim laborum anim nostrud duis. In ea esse adipisicing veniam laborum voluptate adipisicing deserunt amet eiusmod nulla incididunt laboris. Laborum minim minim deserunt sunt aliquip adipisicing dolore minim.\r\n",
-      "url": "http://placehold.it/320x320",
-      "prevId": 5,
-      "nextId": 7
-    },
-    {
-      "id": 7,
-      "titolo": "Marci",
-      "sottotitolo": "Minim excepteur dolor enim amet magna Lorem proident fugiat aliquip non ex non.",
-      "testo": "Labore deserunt nulla et nulla culpa aliqua anim ad. Minim magna duis consequat Lorem. Pariatur cillum Lorem eu incididunt ea tempor veniam excepteur culpa non. Consectetur laborum velit voluptate ullamco occaecat elit reprehenderit.\r\n",
-      "url": "http://placehold.it/320x320",
-      "prevId": 6,
-      "nextId": 8
-    },
-    {
-      "id": 8,
-      "titolo": "Heather",
-      "sottotitolo": "Excepteur aute excepteur dolore irure qui.",
-      "testo": "Sunt excepteur anim sint minim incididunt eiusmod aliquip aliqua reprehenderit id Lorem. Non aute nisi sunt occaecat minim duis exercitation mollit magna elit ullamco tempor exercitation. Minim in ad reprehenderit exercitation dolore exercitation aliqua sit officia excepteur qui magna nisi consectetur.\r\n",
-      "url": "http://placehold.it/320x320",
-      "prevId": 7,
-      "nextId": 9
-    },
-    {
-      "id": 9,
-      "titolo": "Bertie",
-      "sottotitolo": "Enim est ipsum ullamco ad sint fugiat anim id.",
-      "testo": "In ut irure cillum incididunt. Minim cupidatat elit irure laborum voluptate irure aliquip occaecat. Proident occaecat deserunt aliquip aliquip proident duis in proident in dolore eu. Sit laboris officia id occaecat adipisicing amet fugiat ea aliquip sint.\r\n",
-      "url": "http://placehold.it/320x320",
-      "prevId": 8,
-      "nextId": 2
+      "nextId": 0
     }
   ],
   "contatti": [

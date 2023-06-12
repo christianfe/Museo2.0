@@ -1,12 +1,19 @@
+#prev_next_btnscontainer{
+
+
+  display: flex;
+  justify-content: space-between;
+}
+/*
 ion-grid {
     height: 100%;
     width: 100%;
-  
+
     ion-row {
       max-height: 250px;
       overflow: hidden;
     }
-  
+
     ion-img {
       height: 100%;
       width: 100%;
@@ -35,3 +42,4 @@ ion-card-subtitle {
 #testo{
   padding: 0 5px;
 }
+*/

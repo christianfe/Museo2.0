@@ -2,8 +2,10 @@
   margin: 0;
   height: 70%;
   width: 100%;
-  background-image: url("https://docs-demo.ionic.io/assets/madison.jpg");
   border-radius: 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 #opacitylayer{
   padding-left: 10%;
@@ -28,3 +30,4 @@
   right: 0px;
   color: white;
 }
+
