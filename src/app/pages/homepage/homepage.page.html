@@ -17,7 +17,7 @@
       <h2>I messaggi dei nostri ospiti</h2>
     </ion-card-content>
 
-  <ion-card *ngFor="let d of this.guests | async">
+  <ion-card *ngFor="let d of this.guests | async" class="guestmessage">
     <ion-card-content>
       {{d.descrizione}}
       <p style="text-align: right"><strong>{{d.nome}}</strong></p>

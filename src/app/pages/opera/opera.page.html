@@ -30,7 +30,7 @@
 
       <ion-card-subtitle><b>Commenti</b></ion-card-subtitle>
 
-      <ion-card *ngFor="let c of commenti">
+      <ion-card *ngFor="let c of commenti" class="guestmessage">
         <ion-card-content>
           {{c.descrizione}}
           <p style="text-align: right"><strong>{{c.nome}}</strong></p>

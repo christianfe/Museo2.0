@@ -1,4 +1,64 @@
 :root {
+	--ion-color-primary: #954915;
+	--ion-color-primary-rgb: 149,73,21;
+	--ion-color-primary-contrast: #ffffff;
+	--ion-color-primary-contrast-rgb: 255,255,255;
+	--ion-color-primary-shade: #834012;
+	--ion-color-primary-tint: #a05b2c;
+
+	--ion-color-secondary: #ffd9b7;
+	--ion-color-secondary-rgb: 255,217,183;
+	--ion-color-secondary-contrast: #000000;
+	--ion-color-secondary-contrast-rgb: 0,0,0;
+	--ion-color-secondary-shade: #e0bfa1;
+	--ion-color-secondary-tint: #ffddbe;
+
+	--ion-color-tertiary: #462201;
+	--ion-color-tertiary-rgb: 70,34,1;
+	--ion-color-tertiary-contrast: #ffffff;
+	--ion-color-tertiary-contrast-rgb: 255,255,255;
+	--ion-color-tertiary-shade: #3e1e01;
+	--ion-color-tertiary-tint: #59381a;
+
+	--ion-color-success: #2dd36f;
+	--ion-color-success-rgb: 45,211,111;
+	--ion-color-success-contrast: #000000;
+	--ion-color-success-contrast-rgb: 0,0,0;
+	--ion-color-success-shade: #28ba62;
+	--ion-color-success-tint: #42d77d;
+
+	--ion-color-warning: #ffc409;
+	--ion-color-warning-rgb: 255,196,9;
+	--ion-color-warning-contrast: #000000;
+	--ion-color-warning-contrast-rgb: 0,0,0;
+	--ion-color-warning-shade: #e0ac08;
+	--ion-color-warning-tint: #ffca22;
+
+	--ion-color-danger: #eb445a;
+	--ion-color-danger-rgb: 235,68,90;
+	--ion-color-danger-contrast: #ffffff;
+	--ion-color-danger-contrast-rgb: 255,255,255;
+	--ion-color-danger-shade: #cf3c4f;
+	--ion-color-danger-tint: #ed576b;
+
+	--ion-color-medium: #92949c;
+	--ion-color-medium-rgb: 146,148,156;
+	--ion-color-medium-contrast: #000000;
+	--ion-color-medium-contrast-rgb: 0,0,0;
+	--ion-color-medium-shade: #808289;
+	--ion-color-medium-tint: #9d9fa6;
+
+	--ion-color-light: #fff2e5;
+	--ion-color-light-rgb: 255,242,229;
+	--ion-color-light-contrast: #000000;
+	--ion-color-light-contrast-rgb: 0,0,0;
+	--ion-color-light-shade: #e0d5ca;
+	--ion-color-light-tint: #fff3e8;
+
+}
+
+/*
+:root {
 	--ion-color-primary: #3880ff;
 	--ion-color-primary-rgb: 56,128,255;
 	--ion-color-primary-contrast: #ffffff;
@@ -56,3 +116,5 @@
 	--ion-color-light-tint: #f5f6f9;
 
 }
+
+*/
