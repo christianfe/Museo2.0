@@ -52,7 +52,8 @@ export class TabsPage implements OnInit, OnDestroy {
   }
 
   getLink(data: string): string {
-    // QR CODE FORMAT OP#3 - AU#2
+    console.log("ho letto: " + data);
+    // QR CODE FORMAT OP#3 - AU#2 - MU#
     let type: string = "";
     let id: string = "";
     let d: string[] = data.split("#");
@@ -65,18 +66,28 @@ export class TabsPage implements OnInit, OnDestroy {
       case "AU":
         type = "author"
         break;
+      case "MU":
+        type = "museumindex"
+        break;
       default:
         return ""
     }
 
     try {
-      if (Number(d[1]) <= 0)
+      console.log(type);
+
+      if (Number(d[1]) < 0)
         return ""
-      id = d[1];
+      else if (d[1] == "")
+        id = "";
+      else
+      id = "/" + d[1];
     } catch (error) {
       return ""
     }
     localStorage.setItem(environment.QrCodeCheckedVAR, "1")
-    return 'tabs/' + type + "/" + id;
+    let link = 'tabs/' + type + id;
+    console.log(link)
+    return link;
   }
 }
