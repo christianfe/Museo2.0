@@ -1,15 +1,16 @@
 <ion-content>
+<ion-card id="maincard">
+
+  <ion-card-content id="newstitle">
+    <ion-card-title><strong>News</strong></ion-card-title>
+    <ion-card-subtitle>Entra nella sezione news per restare aggiornato sulle nuove opere, orari ed eventi! </ion-card-subtitle>
+  </ion-card-content>
 
   <ion-card *ngIf="(this.notizia | async) as n" id="newsbox" style="background-image: url({{n.url}});">
-    <div id="opacitylayer">
-      <ion-card-header>
-        <ion-card-title class="newstitle">{{n.titolo}}</ion-card-title>
 
-        <ion-card-subtitle class="newstitle">{{n.sottotitolo}}</ion-card-subtitle>
-      </ion-card-header>
       <ion-button id="newsbutton" fill="clear" [routerLink]="['../news', n.id]" routerDirection="forward">scopri di più
         ></ion-button>
-    </div>
+
   </ion-card>
 
   <ion-card style="box-shadow: none;">
@@ -40,5 +41,5 @@
 
 
 -->
-
+</ion-card>
 </ion-content>

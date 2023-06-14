@@ -1,16 +1,21 @@
 <ion-content class="ion-padding">
-  <br><br><br>
-  <ion-title>Guestbook</ion-title>
-  <p>Questo è un simpatico Guestbook</p>
 
-  <ion-item>
-    <ion-button fill="clear" size="small" class="right" slot="end" routerLink="/tabs/new-feedback"
+
+  <ion-card id="maincard">
+
+  <ion-card-content>
+    <ion-card-title><strong>Guestbook</strong></ion-card-title>
+    <ion-text>In questa sezione è possibile visualizzare tutti i commenti </ion-text>
+
+  </ion-card-content>
+
+  <ion-card-content id="guestintro">
+    <ion-button fill="clear"  size="default" class="right" slot="end" routerLink="/tabs/new-feedback"
       style="text-align: right;" [disabled]="!QRcodeChecker">
       Aggiungi
       <ion-icon name="add-circle-outline"></ion-icon>
     </ion-button>
-  </ion-item>
-
+  </ion-card-content>
 
   <ion-card *ngFor="let d of data" class="guestmessage">
     <ion-card-content>
@@ -18,5 +23,5 @@
       <p style="text-align: right"><strong>{{d.nome}}</strong></p>
     </ion-card-content>
   </ion-card>
-
+</ion-card>
 </ion-content>

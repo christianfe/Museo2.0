@@ -1,7 +1,7 @@
 #maincard{
     width: 100%;
     margin: 0;
-    margin-top: 55px;
+    margin-top: 70px;
     box-shadow: none;
 }
 
@@ -18,7 +18,7 @@ ion-img{
     width: 100%;
     border-radius: 5px;
     overflow:hidden;
-  }
+}
 
 #titolo{
     color: white;
@@ -33,3 +33,6 @@ ion-img{
     text-decoration: solid;
 }
 
+ion-card-content > p{
+  text-align: justify;
+}

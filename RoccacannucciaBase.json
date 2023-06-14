@@ -350,6 +350,13 @@
       "mail": "mail@google.com",
       "oggetto": "oggetto richiesta",
       "messaggio": "messaggio"
+    },
+    {
+      "id": 1,
+      "nome": "Alessio",
+      "mail": "alessio.erasmo@student.univaq.it",
+      "oggetto": "Reclamo",
+      "messaggio": "un reclamo"
     }
   ]
 }

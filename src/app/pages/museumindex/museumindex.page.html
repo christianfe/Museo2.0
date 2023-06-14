@@ -43,16 +43,12 @@ QUI INIZIA ___
     <ion-card-content>
       <ion-card-title id="mainTitolo"><strong>Indice Museo</strong></ion-card-title>
       <ion-card-subtitle id="mainTitolo">Ti diamo il benvenuto nel museo di Roccacannuccia!</ion-card-subtitle>
+      <ion-text>da questa pagina è possibile effettuare una ricerca di opere ed autori oppure accedere alle opere di ogni stanza</ion-text>
+    </ion-card-content>
 
-      <p>da questa pagina è possibile effettuare una ricerca di opere ed autori oppure accedere alle opere di ogni stanza</p>
-
-
-
-
-
-      </ion-card-content>
-      <ion-button fill="clear" size="defailt"  [routerLink]="['/tabs/ricerca']"><ion-icon name="search-outline"></ion-icon>Cerca un'opera</ion-button>
-
+    <ion-card-content>
+      <ion-button style="margin-left: 50%; transform: translateX(-50%);" fill="clear" size="defailt"  [routerLink]="['/tabs/ricerca']"><ion-icon name="search-outline"></ion-icon>Cerca all'interno del museo</ion-button>
+    </ion-card-content>
 
     <ion-card *ngFor="let s of stanze" id="stanze">
       <ion-card-content>
