@@ -26,7 +26,7 @@ export class HomepagePage implements OnInit {
   ngOnInit() {
 
     //inizializzazione notizia
-    this.notizia= this.newservice.get(1);
+    this.notizia= this.newservice.get(0);
 
     //inizializzazione guestbook
     this.guests = this.guestbookservice.getHomeFeeds();

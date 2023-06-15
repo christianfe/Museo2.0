@@ -35,7 +35,7 @@ export class MuseumindexPage implements OnInit {
         this.stanze = [];
         for (let obj of objs){
           //posso iniziare a creare l'oggetto stanza
-          let stanza : Stanza = new Stanza(Number(obj.id), String(obj.nome), String(obj.descrizione));
+          let stanza : Stanza = new Stanza(Number(obj.id), String(obj.nome), String(obj.descrizione), String(obj.colore));
           //devo recuperare l'opera rappresentativa
           this.operasService.getMap(Number(obj.operaRappresentativa)).subscribe(
             (opj : any ) => {

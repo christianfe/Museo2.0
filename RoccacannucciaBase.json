@@ -2,256 +2,311 @@
   "opere": [
     {
       "id": 0,
-      "titolo": "Mcclure",
-      "stanza": 1,
-      "altezza": "2,814.64",
-      "lunghezza": "3,745.15",
-      "profondita": "3,556.63",
-      "picture": "https://picsum.photos/640/400",
-      "dataInizio": "2020-02-25",
-      "dataFine": "2021-03-26",
-      "idAutore": 1,
-      "descrizione": "Sint amet pariatur eiusmod aliquip incididunt nostrud sint ipsum ipsum ex. Voluptate fugiat minim in et nulla quis sint veniam commodo. Nostrud ad ullamco Lorem Lorem nostrud ut quis irure ad sit quis esse. Consequat enim reprehenderit deserunt dolore occaecat est eiusmod aliqua commodo adipisicing ullamco aliqua ex. Lorem nisi minim aliquip commodo. Adipisicing amet irure tempor dolore pariatur consectetur ut minim. Sit fugiat aliqua duis non sit elit culpa culpa deserunt minim consequat nulla nisi.\r\n",
+      "titolo": "Notte stellata",
+      "stanza": 3,
+      "altezza": "73,7",
+      "lunghezza": "92,1",
+      "profondita": "0",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/450px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+      "dataInizio": "1889-05-01",
+      "dataFine": "1889-06-01",
+      "idAutore": 0,
+      "descrizione": "Dipinta tra maggio e giugno – la datazione esatta è tutt’ora incerta – Notte stellata ritrae il paesaggio idealmente visto da Van Gogh dalla propria finestra mentre il buio della notte avvolge il mondo esterno. Un cipresso sulla sinistra anticipa la visione del soggetto posto al centro, ossia un piccolo villaggio illuminato al cui centro svetta il campanile della chiesa ed una fitta vegetazione sul lato destro del dipinto. Sopra questo piccolo nucleo abitativo si staglia un grande cielo stellato che occupa due terzi del dipinto e sembra avvolgere interamente il resto della composizione, rapendo da subito l’occhio dell’osservatore. Al netto di un contesto reale ed autobiografico, il dipinto non è tuttavia una fedele trasposizione di quanto visto da Vincent Van Gogh, ma una sua idealizzazione ed interiorizzazione: le emozioni contrastanti di Van Gogh emergono con forza nella Notte stellata, così come forti sono le pennellate che lo compongono. Sogno e realtà si nutrono l’uno dell’altro in un rapporto simbiotico le cui componenti spesso sono inscindibili ed egualmente necessarie.\r\n",
       "links": [
-        "https://google.com",
-        "https://facebook.com"
+        "https://it.wikipedia.org/wiki/Notte_stellata"
       ]
     },
     {
       "id": 1,
-      "titolo": "Chan",
-      "stanza": 2,
-      "altezza": "1,840.53",
-      "lunghezza": "3,374.59",
-      "profondita": "2,449.28",
-      "picture": "https://picsum.photos/640/400",
-      "dataInizio": "2015-08-18",
-      "dataFine": "2016-10-01",
-      "idAutore": 1,
-      "descrizione": "Sint amet pariatur eiusmod aliquip incididunt nostrud sint ipsum ipsum ex. Voluptate fugiat minim in et nulla quis sint veniam commodo. Nostrud ad ullamco Lorem Lorem nostrud ut quis irure ad sit quis esse. Consequat enim reprehenderit deserunt dolore occaecat est eiusmod aliqua commodo adipisicing ullamco aliqua ex. Lorem nisi minim aliquip commodo. Adipisicing amet irure tempor dolore pariatur consectetur ut minim. Sit fugiat aliqua duis non sit elit culpa culpa deserunt minim consequat nulla nisi.\r\n",
+      "titolo": "I mangiatori di patate",
+      "stanza": 3,
+      "altezza": "82",
+      "lunghezza": "114",
+      "profondita": "0",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Vincent_van_Gogh_-_The_potato_eaters_-_Google_Art_Project_%285776925%29.jpg/450px-Vincent_van_Gogh_-_The_potato_eaters_-_Google_Art_Project_%285776925%29.jpg",
+      "dataInizio": "1885-08-18",
+      "dataFine": "1885-10-01",
+      "idAutore": 0,
+      "descrizione": "Una modesta famiglia di contadini è riunita intorno al tavolo di sera. Una debole luce proviene dalla lanterna appesa al soffitto. Illumina i loro volti e il cibo sul tavolo di legno. Le loro fisionomie sono rocciose e quasi deformi. Anche le mani sono nodose. Le nocche descrivono il peso delle loro fatiche. Infine, un’espressione stanca e priva di speranza è dipinta sui loro volti.\r\n",
       "links": [
-        "https://google.com",
-        "https://facebook.com"
+        "https://it.wikipedia.org/wiki/I_mangiatori_di_patate"
       ]
     },
     {
       "id": 2,
-      "titolo": "Burke",
+      "titolo": "La persistenza della memoria",
       "stanza": 3,
-      "altezza": "2,525.09",
-      "lunghezza": "1,459.59",
-      "profondita": "1,920.87",
-      "picture": "https://picsum.photos/640/400",
-      "dataInizio": "2015-01-27",
-      "dataFine": "2021-10-17",
+      "altezza": "24",
+      "lunghezza": "33",
+      "profondita": "0",
+      "picture": "https://www.analisidellopera.it/wp-content/uploads/2018/10/Dali_La_persistenza_della_memoria-1-768x553.jpg",
+      "dataInizio": "1931-01-27",
+      "dataFine": "1931-10-17",
       "idAutore": 1,
-      "descrizione": "Sint amet pariatur eiusmod aliquip incididunt nostrud sint ipsum ipsum ex. Voluptate fugiat minim in et nulla quis sint veniam commodo. Nostrud ad ullamco Lorem Lorem nostrud ut quis irure ad sit quis esse. Consequat enim reprehenderit deserunt dolore occaecat est eiusmod aliqua commodo adipisicing ullamco aliqua ex. Lorem nisi minim aliquip commodo. Adipisicing amet irure tempor dolore pariatur consectetur ut minim. Sit fugiat aliqua duis non sit elit culpa culpa deserunt minim consequat nulla nisi.\r\n",
+      "descrizione": "All’interno di un paesaggio fantastico sono disposti alcuni oggetti irreali. Dominano la scena alcuni orologi dalla consistenza deformata. Sono chiamati, infatti, orologi molli. Pur segnando ancora il tempo, sembrano aver perso la loro solidità. Sopra al parallelepipedo dipinto a sinistra, un orologio è poggiato per una metà sul piano. Sopra di esso, si è appoggiata una mosca che crea una lunga ombra verso le dodici. La metà inferiore, invece, pende mollemente lungo il fianco del solido. Un altro orologio, con la cassa però chiusa, è poggiato più a sinistra. Su di esso alcune formiche, grandi e piccole, creano un motivo decorativo. Verso il bordo posteriore del solido, un esile tronco morto si alza verso il cielo e un suo ramo di ulivo sostiene un altro orologio che pende verso il basso. Sul terreno, un essere mostruoso composto da un grande occhio chiuso, con lunghe ciglia, sopracciglia e la lingua al di fuori porta come una groppa un altro orologio. Verso il fondo dello spazio rappresentato, si apre uno specchio d’acqua. A destra, alcuni faraglioni avanzano verso l’acqua. A sinistra, invece, è dipinto un piano geometrico che avanza verso la riva. Il cielo è limpido e privo di nubi.\r\n",
       "links": [
-        "https://google.com",
-        "https://facebook.com"
+        "https://it.wikipedia.org/wiki/La_persistenza_della_memoria"
       ]
     },
     {
       "id": 3,
-      "titolo": "Roberts",
-      "stanza": 2,
-      "altezza": "2,073.71",
-      "lunghezza": "3,456.53",
-      "profondita": "2,849.87",
-      "picture": "https://picsum.photos/640/400",
-      "dataInizio": "2022-02-15",
-      "dataFine": "2017-02-25",
+      "titolo": "Sogno causato dal volo di un'ape intorno a una melagrana un attimo prima del risveglio",
+      "stanza": 3,
+      "altezza": "51",
+      "lunghezza": "41",
+      "profondita": "0",
+      "picture": "https://www.analisidellopera.it/wp-content/uploads/2018/01/Dali_Sogno_causato_dal_volo_di_un_ape-768x968.jpg",
+      "dataInizio": "1944-02-15",
+      "dataFine": "1944-04-25",
       "idAutore": 1,
-      "descrizione": "Sint amet pariatur eiusmod aliquip incididunt nostrud sint ipsum ipsum ex. Voluptate fugiat minim in et nulla quis sint veniam commodo. Nostrud ad ullamco Lorem Lorem nostrud ut quis irure ad sit quis esse. Consequat enim reprehenderit deserunt dolore occaecat est eiusmod aliqua commodo adipisicing ullamco aliqua ex. Lorem nisi minim aliquip commodo. Adipisicing amet irure tempor dolore pariatur consectetur ut minim. Sit fugiat aliqua duis non sit elit culpa culpa deserunt minim consequat nulla nisi.\r\n",
+      "descrizione": "Sogno causato dal volo di un’ape intorno a una melagrana un attimo prima del risveglio, è il titolo completo di quest’opera, dipinta da Salvador Dalì nel 1944. Il corpo nudo di una donna distesa levita su di uno scoglio sospeso nel vuoto. La superficie, perfettamente liscia della struttura, pare emergere da un mare dalla superficie piatta e vetrificata. La donna sembra dormire serenamente mentre due tigri la stanno per aggredire. In realtà tutta la scena è, tipicamente, surreale. A destra nel dipinto da una melagrana spaccata esce un grande pesce. Dalla bocca dell’animale, poi, fuoriesce una grande tigre. Quindi un’altra esce dalla bocca della prima e l’azione prosegue con un fucile a baionetta la cui punta sta per toccare il braccio della donna distesa. La scena riserva altre visioni surreali. In primo piano un’ape vola intorno ad una melagrana. Sullo sfondo un elefante dalle zampe di ragno traversa tranquillamente la scena portando sulla sua groppa un obelisco di pietra. A destra, verso il bordo del dipinto un promontorio si affaccia sul mare ideale. Il tema dell’elefantino con obelisco sulla schiena fu, probabilmente ispirato a Salvador Dalì da quello creato da Bernini e posto sulla fontana in piazza Minerva a Roma.\r\n",
       "links": [
-        "https://google.com",
-        "https://facebook.com"
+        "https://it.wikipedia.org/wiki/Sogno_causato_dal_volo_di_un%27ape_intorno_a_una_melagrana_un_attimo_prima_del_risveglio"
       ]
     },
     {
       "id": 4,
-      "titolo": "Callahan",
-      "stanza": 3,
-      "altezza": "3,266.33",
-      "lunghezza": "3,940.71",
-      "profondita": "2,855.76",
-      "picture": "https://picsum.photos/640/400",
-      "dataInizio": "2020-11-13",
-      "dataFine": "2016-04-20",
-      "idAutore": 2,
-      "descrizione": "Sint amet pariatur eiusmod aliquip incididunt nostrud sint ipsum ipsum ex. Voluptate fugiat minim in et nulla quis sint veniam commodo. Nostrud ad ullamco Lorem Lorem nostrud ut quis irure ad sit quis esse. Consequat enim reprehenderit deserunt dolore occaecat est eiusmod aliqua commodo adipisicing ullamco aliqua ex. Lorem nisi minim aliquip commodo. Adipisicing amet irure tempor dolore pariatur consectetur ut minim. Sit fugiat aliqua duis non sit elit culpa culpa deserunt minim consequat nulla nisi.\r\n",
+      "titolo": "David",
+      "stanza": 2,
+      "altezza": "517",
+      "lunghezza": "199",
+      "profondita": "113",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Michelangelo%27s_David_-_right_view_2.jpg/358px-Michelangelo%27s_David_-_right_view_2.jpg",
+      "dataInizio": "1501-08-16",
+      "dataFine": "1504-01-25",
+      "idAutore": 5,
+      "descrizione": "La commissione dell’opera fu assegnata al Buonarroti dagli operai della Cattedrale di Firenze il 16 agosto 1501, per un compenso di 400 ducati. Il 25 gennaio 1504 una commissione composta dai maggiori artisti dell’epoca (tra gli altri, Leonardo da Vinci, Sandro Botticelli, Filippino Lippi, il Perugino) decise che la scultura dovesse essere posta all’ingresso di Palazzo Vecchio, come emblema della forza e indipendenza dei fiorentini. L’8 settembre 1504 la statua fu rivelata alla città, suscitando l’ammirazione di tutti. In origine alcune parti erano dorate: una ghirlanda sul capo, il tronco (o broncone) dietro la gamba destra e la fionda. La scultura, con la base scolpita, è alta 517 centimetri e pesa 5560 chili. Il marmo fu oggetto di un’accurata pulitura nel 2003-2004 ed è periodicamente sottoposto a spolverature di manutenzione, per consentirne un preciso monitoraggio.\r\n",
       "links": [
-        "https://google.com",
-        "https://facebook.com"
+        "https://it.wikipedia.org/wiki/David_(Michelangelo)"
       ]
     },
     {
       "id": 5,
-      "titolo": "Camacho",
+      "titolo": "Pietà vaticana",
       "stanza": 2,
-      "altezza": "3,742.00",
-      "lunghezza": "2,420.93",
-      "profondita": "1,950.69",
-      "picture": "https://picsum.photos/640/400",
-      "dataInizio": "2021-09-02",
-      "dataFine": "2021-10-09",
-      "idAutore": 1,
-      "descrizione": "Sint amet pariatur eiusmod aliquip incididunt nostrud sint ipsum ipsum ex. Voluptate fugiat minim in et nulla quis sint veniam commodo. Nostrud ad ullamco Lorem Lorem nostrud ut quis irure ad sit quis esse. Consequat enim reprehenderit deserunt dolore occaecat est eiusmod aliqua commodo adipisicing ullamco aliqua ex. Lorem nisi minim aliquip commodo. Adipisicing amet irure tempor dolore pariatur consectetur ut minim. Sit fugiat aliqua duis non sit elit culpa culpa deserunt minim consequat nulla nisi.\r\n",
+      "altezza": "174",
+      "lunghezza": "195",
+      "profondita": "69",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Michelangelo%27s_Piet%C3%A0%2C_St_Peter%27s_Basilica_%281498%E2%80%9399%29.jpg/450px-Michelangelo%27s_Piet%C3%A0%2C_St_Peter%27s_Basilica_%281498%E2%80%9399%29.jpg",
+      "dataInizio": "1497-09-02",
+      "dataFine": "1499-10-09",
+      "idAutore": 5,
+      "descrizione": "Michelangelo realizza l’opera fra il 1497 e il 1499. La scultura è alta 174 cm, larga 195 cm e profonda 69 cm. La pietà di Michelangelo è considerata uno dei capolavori del suo genio anche grazie al dinamismo e alla morbidezza delle linee, la resa plastica delle forme corporee e delle pieghe di tessuti. Il gruppo scultoreo rappresenta la Madonna che tiene sulle ginocchia il figlio appena deposto dalla croce. La Madonna sorregge il figlio, mentre rivolge lo sguardo verso il basso, con la mano destra sotto il braccio del figlio, nelle mani di Gesù sono perfettamente visibili i buchi della croce.\r\n",
       "links": [
-        "https://google.com",
-        "https://facebook.com"
+        "https://it.wikipedia.org/wiki/Piet%C3%A0_vaticana"
       ]
     },
     {
       "id": 6,
-      "titolo": "Wolfe",
-      "stanza": 3,
-      "altezza": "3,720.54",
-      "lunghezza": "1,670.19",
-      "profondita": "1,257.51",
-      "picture": "https://picsum.photos/640/400",
-      "dataInizio": "2020-02-27",
-      "dataFine": "2014-05-10",
+      "titolo": "Figlio Velato",
+      "stanza": 2,
+      "altezza": "50",
+      "lunghezza": "200",
+      "profondita": "100",
+      "picture": "https://ilmanifesto.it/cdn-cgi/image/width=1200,format=auto,quality=85/https://static.ilmanifesto.it/2023/05/19soc1-riapertura-figlio-velato-jago.jpeg",
+      "dataInizio": "2019-02-27",
+      "dataFine": "2019-05-10",
       "idAutore": 2,
-      "descrizione": "Sint amet pariatur eiusmod aliquip incididunt nostrud sint ipsum ipsum ex. Voluptate fugiat minim in et nulla quis sint veniam commodo. Nostrud ad ullamco Lorem Lorem nostrud ut quis irure ad sit quis esse. Consequat enim reprehenderit deserunt dolore occaecat est eiusmod aliqua commodo adipisicing ullamco aliqua ex. Lorem nisi minim aliquip commodo. Adipisicing amet irure tempor dolore pariatur consectetur ut minim. Sit fugiat aliqua duis non sit elit culpa culpa deserunt minim consequat nulla nisi.\r\n",
+      "descrizione": "L’opera è scolpita in un unico blocco di marmo e raffigura un fanciullo coperto da un velo, che racconta la morte di tutti gli innocenti del nostro tempo. Figlio velato si ispira al Cristo Velato di Giuseppe Sammartino, che celebra il sacrificio di un uomo che muore per la collettività. L’opera di Jago, invece, fissa nel marmo la realtà contemporanea, costringendoci a confrontarci con una delle immagini che spesso ci lasciano indifferenti. Figlio velato costringe lo spettatore a guardare in faccia la realtà contemporanea e le sue vittime innocenti\r\n",
       "links": [
-        "https://google.com",
-        "https://facebook.com"
+        "https://it.wikipedia.org/wiki/Figlio_Velato",
+        "https://jago.art/it/opere/figlio-velato/"
       ]
     },
     {
       "id": 7,
-      "titolo": "Nicholson",
-      "stanza": 3,
-      "altezza": "3,376.84",
-      "lunghezza": "3,055.20",
-      "profondita": "2,092.95",
-      "picture": "https://picsum.photos/640/400",
-      "dataInizio": "2022-06-07",
-      "dataFine": "2019-09-10",
+      "titolo": "Muscolo minerale",
+      "stanza": 2,
+      "altezza": "40",
+      "lunghezza": "30",
+      "profondita": "60",
+      "picture": "https://jago.art/wp-content/uploads/2022/03/9-Muscolo_minerale.jpg",
+      "dataInizio": "2017-06-07",
+      "dataFine": "2017-09-10",
       "idAutore": 2,
-      "descrizione": "Sint amet pariatur eiusmod aliquip incididunt nostrud sint ipsum ipsum ex. Voluptate fugiat minim in et nulla quis sint veniam commodo. Nostrud ad ullamco Lorem Lorem nostrud ut quis irure ad sit quis esse. Consequat enim reprehenderit deserunt dolore occaecat est eiusmod aliqua commodo adipisicing ullamco aliqua ex. Lorem nisi minim aliquip commodo. Adipisicing amet irure tempor dolore pariatur consectetur ut minim. Sit fugiat aliqua duis non sit elit culpa culpa deserunt minim consequat nulla nisi.\r\n",
+      "descrizione": "Muscolo Minerale è la scultura di un busto, che lascia vedere, al suo interno, il cuore che lo tiene in vita. Ma Jago si rende conto che a quel cuore manca qualcosa di fondamentale, manca l'azione principale di quel muscolo che ha il compito, delicato e importantissimo, di mantenere vivo un organismo: la pulsazione. Il suo desiderio era quello di veder battere un cuore di ceramica. E quando una cosa non esiste ma lui la vuole vedere, allora la crea. Il risultato è lo stravolgimento totale di qualsiasi schema razionale e mentale predefinito. Ci si trova di fronte a qualcosa di mai visto: un cuore, il cui movimento e il cui suono ricordano un muscolo umano, ma che è fatto di un materiale solido, che di per sé è fisso e non fa rumore.\r\n",
       "links": [
-        "https://google.com",
-        "https://facebook.com"
+        "https://jago.art/it/opere/muscolo-minerale/"
       ]
     },
     {
       "id": 8,
-      "titolo": "Madden",
-      "stanza": 3,
-      "altezza": "2,274.42",
-      "lunghezza": "2,158.68",
-      "profondita": "3,791.82",
-      "picture": "https://picsum.photos/640/400",
-      "dataInizio": "2020-09-10",
-      "dataFine": "2015-07-06",
+      "titolo": "Il cervo ferito",
+      "stanza": 1,
+      "altezza": "30",
+      "lunghezza": "22",
+      "profondita": "0",
+      "picture": "https://www.falsi-d-autore.it/images/ARTE036/ARTE036914.jpg",
+      "dataInizio": "1946-09-10",
+      "dataFine": "1946-07-11",
       "idAutore": 3,
-      "descrizione": "Sint amet pariatur eiusmod aliquip incididunt nostrud sint ipsum ipsum ex. Voluptate fugiat minim in et nulla quis sint veniam commodo. Nostrud ad ullamco Lorem Lorem nostrud ut quis irure ad sit quis esse. Consequat enim reprehenderit deserunt dolore occaecat est eiusmod aliqua commodo adipisicing ullamco aliqua ex. Lorem nisi minim aliquip commodo. Adipisicing amet irure tempor dolore pariatur consectetur ut minim. Sit fugiat aliqua duis non sit elit culpa culpa deserunt minim consequat nulla nisi.\r\n",
+      "descrizione": "Frida Kahlo dipinse Il cervo ferito nel 1946 dopo aver subito un intervento chirurgico alla colonna vertebrale negli Stati Uniti e questa opera d'arte ci permette di comprendere la personalità dietro l'arte in modo molto più approfondito.\r\n",
       "links": [
-        "https://google.com",
-        "https://facebook.com"
-      ],
-      "commenti": [
-        2,
-        3,
-        5
+        "https://www.kahlo.org/it/il-cervo-ferito/?utm_content=cmp-true"
+      ]
+    },
+    {
+      "id": 9,
+      "titolo": "Diego e io",
+      "stanza": 1,
+      "altezza": "30",
+      "lunghezza": "22,4",
+      "profondita": "0",
+      "picture": "https://www.kahlo.org/Diego%20and%20I%20Frida%20Kahlo.jpg?ezimgfmt=rs:400x534/rscb2/ngcb2/notWebP",
+      "dataInizio": "1949-09-10",
+      "dataFine": "1949-07-11",
+      "idAutore": 3,
+      "descrizione": "Frida Kahlo ha incontrato per la prima volta suo marito, Diego Rivera, quando era una studentessa d'arte di 22 anni.All'epoca Rivera aveva 42 anni, un artista murale di successo che aveva già due mogli di common law. Era un donnaiolo confessato fin dall'inizio della loro relazione. Kahlo e Rivera si sposarono per la prima volta nell'agosto 1929 e l'evento fu ampiamente seguito dai media messicani e internazionali.\r\n",
+      "links": [
+        "https://www.kahlo.org/it/diego-e-io/"
+      ]
+    },
+    {
+      "id": 10,
+      "titolo": "Red Canna",
+      "stanza": 1,
+      "altezza": "73,7",
+      "lunghezza": "45,7",
+      "profondita": "0",
+      "picture": "https://upload.wikimedia.org/wikipedia/en/c/ca/Red_Canna_%281924%29_by_Georgia_O%27Keeffe.jpg",
+      "dataInizio": "1924-09-10",
+      "dataFine": "1924-07-11",
+      "idAutore": 4,
+      "descrizione": "Georgia O'Keeffe ha iniziato a dipingere le sue grandi tele floreali nel 1924. Racconta lei stessa che un giorno d'estate, guardando un fiore, ha avuto come una folgorazione. Ha pensato che, ingrandendone a dismisura le dimensioni, anche una semplice pianta potesse farci scoprire quanto di straordinario ci sia nelle cose che siamo abituati a vedere tutti i giorni, senza mai avvertirne la meraviglia. Ed è proprio la meraviglia che intende trasmettere con questa tela. Non si tratta, certo, dell'illustrazione precisa di un testo di botanica, né tanto meno di uno schizzo eseguito dal vero, spinta dall'emozione di un momento. È un quadro, invece, studiato in ogni particolare, partendo da una serie di disegni e tracciando, poi, i contorni dei petali, fino a arrivare a una composizione astratta che rievochi, con il suo insieme di linee e di colori sfavillanti, le forme stesse della natura. \r\n",
+      "links": [
+        "https://en.wikipedia.org/wiki/Red_Canna_(paintings)"
+      ]
+    },
+    {
+      "id": 11,
+      "titolo": "Jimson Weed",
+      "stanza": 1,
+      "altezza": "180",
+      "lunghezza": "212",
+      "profondita": "0",
+      "picture": "https://upload.wikimedia.org/wikipedia/en/0/07/Jimson_Weed_by_Georgia_O%27Keeffe.jpg",
+      "dataInizio": "1936-09-10",
+      "dataFine": "1936-07-11",
+      "idAutore": 4,
+      "descrizione": "Jimson Weed, White Flower No. 1, raffigura uno dei soggetti preferiti di O'Keeffe: un fiore ingrandito. Per lei, i delicati fiori rappresentavano alcuni dei pezzi più trascurati della bellezza naturale, oggetti che il vivace mondo contemporaneo ignorava. Così ha fatto della sua missione quella di evidenziare le loro strutture complesse, spiegando: 'Quando prendi un fiore in mano e lo guardi davvero, è il tuo mondo per il momento. Voglio dare quel mondo a qualcun altro. La maggior parte delle persone nella città va in giro così, non hanno tempo per guardare un fiore. Voglio che lo vedano, che lo vogliano o no.'\r\n",
+      "links": [
+        "https://en.wikipedia.org/wiki/Jimson_Weed_(painting)"
       ]
     }
   ],
   "autori": [
     {
       "id": 0,
-      "url": "https://picsum.photos/640/400",
-      "nome": "Marks",
-      "cognome": "Wade",
-      "soprannome": "nickname",
-      "descrizione": "Sint dolor veniam ad dolor ullamco enim excepteur est. Nostrud occaecat qui irure sunt laborum ut deserunt consequat est. In ex cupidatat deserunt cillum deserunt pariatur labore occaecat ad aliqua aliqua cupidatat. Et sint ipsum ex magna. Labore ex est excepteur ut esse Lorem voluptate ea sit occaecat duis tempor. Consequat in elit tempor velit ipsum voluptate.\r\n",
-      "data_nascita": "2023-01-24",
-      "data_morte": "",
-      "luogo_nascita": "Roma",
-      "luogo_morte": "Cellino Attanasio",
+      "url": "https://biografieonline.it/img/bio/Vincent_van_Gogh_2.jpg",
+      "nome": "Vincent",
+      "cognome": "Van Gogh",
+      "soprannome": "Van Gogh",
+      "descrizione": "Vincent Van Gogh nacque il 30 marzo 1853 a Zundert, nei Paesi Bassi. Era figlio di un pastore protestante e durante l'infanzia patì molto il suo ruolo di sostituto del fratello, nato morto un anno esatto prima di lui, a cui pure era stato dato il nome Vincent. Il piccolo Vincent fu un bambino solitario e frequentò la scuola in modo molto irregolare, finché a quindici anni non la abbandonò definitivamente. Da adolescente sviluppò un carattere assai difficile e una personalità mutevole e instabile. Anni dopo avrebbe commentato: «La mia giovinezza è stata triste, fredda e sterile».\r\n",
+      "data_nascita": "1853-03-30",
+      "data_morte": "1890-07-29",
+      "luogo_nascita": "Zundert",
+      "luogo_morte": "Auvers-sur-Oise",
       "links": [
-        "https://google.com",
-        "https://facebook.com"
+        "https://it.wikipedia.org/wiki/Vincent_van_Gogh"
       ]
     },
     {
       "id": 1,
-      "url": "https://picsum.photos/640/400",
-      "nome": "Rachel",
-      "cognome": "Schultz",
-      "soprannome": "nickname",
-      "descrizione": "Sint amet pariatur eiusmod aliquip incididunt nostrud sint ipsum ipsum ex. Voluptate fugiat minim in et nulla quis sint veniam commodo. Nostrud ad ullamco Lorem Lorem nostrud ut quis irure ad sit quis esse. Consequat enim reprehenderit deserunt dolore occaecat est eiusmod aliqua commodo adipisicing ullamco aliqua ex. Lorem nisi minim aliquip commodo. Adipisicing amet irure tempor dolore pariatur consectetur ut minim. Sit fugiat aliqua duis non sit elit culpa culpa deserunt minim consequat nulla nisi.\r\n",
-      "data_nascita": "2016-07-02",
-      "data_morte": "2021-07-06",
-      "luogo_nascita": "Roma",
-      "luogo_morte": "Cellino Attanasio",
+      "url": "https://images.mubicdn.net/images/cast_member/58/cache-335-1538033657/image-w856.jpg?size=800x",
+      "nome": "Salvador",
+      "cognome": "Dalì",
+      "soprannome": "Dalì",
+      "descrizione": "Salvador Domingo Felipe Jacinto Dalí i Domènech (Figueres, 1904 - 1989) è una delle figure più importanti ed eccentriche della storia dell’arte, ed è noto a livello mondiale per le sue opere surrealiste. Conosciuto soprattutto per il suo approccio al surrealismo con il metodo paranoico-critico, è autore di numerose opere famosissime come La persistenza della memoria (1931), Morbida costruzione con fagioli bolliti: premonizione di guerra civile (1936), Sogno causato dal volo di un’ape intorno a una melagrana un attimo prima del risveglio (1944), Gli Elefanti (1948), Galatea delle Sfere (1952). La sua produzione artistica, inoltre, non si limita solo alla creazione di opere pittoriche, ma, al contrario, spazia anche nel campo del cinema con la realizzazione insieme a Luis Buñuel di Un Chien Andalou (1929)o nel campo del design con la progettazione di oggetti famosi come il Telefono aragosta (1936) o il Divano - labbra di Mae West (1937). Oltre che per le sue doti artistiche è conosciuto anche per la sua personalità eccentrica e per il suo modo di vestire e acconciarsi: ancora oggi i suoi baffi costituiscono il suo segno particolare e di riconoscimento.\r\n",
+      "data_nascita": "1904-05-11",
+      "data_morte": "1989-01-23",
+      "luogo_nascita": "Figueres",
+      "luogo_morte": "Figueres",
       "links": [
-        "https://google.com",
-        "https://facebook.com"
+        "https://it.wikipedia.org/wiki/Salvador_Dal%C3%AD"
       ]
     },
     {
       "id": 2,
-      "url": "https://picsum.photos/640/400",
-      "nome": "Ashley",
-      "cognome": "Lucas",
-      "soprannome": "nickname",
-      "descrizione": "Ipsum magna labore adipisicing dolore sunt qui culpa. Sint et dolore ea do do ex quis. Nisi excepteur cillum ipsum amet. Sit aute minim elit cillum pariatur. Enim pariatur ad aute cupidatat quis consequat proident sint. Commodo incididunt commodo culpa laboris quis ipsum.\r\n",
-      "data_nascita": "2019-01-20",
-      "data_morte": "2017-02-28",
-      "luogo_nascita": "Roma",
-      "luogo_morte": "Cellino Attanasio",
+      "url": "https://www.corriere.it/methode_image/2023/01/16/Interni/Foto%20Interni%20-%20Trattate/lapr0983-u33501735829456pth-494x465corriere-print-nazionale1-kkde-u33902068130530nwf-656x492corriere-web-sezioni_MASTER.jpg",
+      "nome": "Jacopo",
+      "cognome": "Cardillo",
+      "soprannome": "Jago",
+      "descrizione": "Jago, pseudonimo di Jacopo Cardillo, nasce ad Anagni nel 1987, dove ha frequentato il liceo artistico e poi l’Accademia di Belle Arti (lasciata nel 2010). Dal 2016, anno della sua prima mostra personale nella Capitale, ha vissuto e lavorato in Italia, Cina e America. È stato professore ospite alla New York Academy of Art, dove ha tenuto una masterclass e diverse lezioni nel 2018. Ha ottenuto numerosi premi nazionali e internazionali quali: la Medaglia Pontificia (consegnatali dal cardinale Ravasi in occasione del premio delle Pontificie Accademie  nel 2010), il premio Gala de l'Art di Monte Carlo nel 2013, il premio Pio Catel nel 2015, il Premio del pubblico Arte Fiera nel 2017 e ha inoltre ricevuto l'investitura come Mastro della Pietra al MarmoMacc del 2017.\r\n",
+      "data_nascita": "1987-04-18",
+      "data_morte": "",
+      "luogo_nascita": "Anagni",
+      "luogo_morte": "",
       "links": [
-        "https://google.com",
-        "https://facebook.com"
+        "https://it.wikipedia.org/wiki/Jago_(scultore)",
+        "https://jago.art/it/"
       ]
     },
     {
       "id": 3,
-      "url": "https://picsum.photos/640/400",
-      "nome": "Oneil",
-      "cognome": "Walker",
-      "soprannome": "nickname",
-      "descrizione": "Culpa proident excepteur fugiat nulla ad Lorem aute proident dolor sit tempor non. Id cupidatat commodo officia ut eu. Excepteur nostrud laborum in culpa minim laborum consequat id ipsum dolor. Consectetur minim aute anim velit commodo est. Commodo dolore aliqua ea aliqua cupidatat anim excepteur ea ex nulla aute duis. Aute quis consequat velit sint tempor enim dolor elit ipsum reprehenderit culpa.\r\n",
-      "data_nascita": "2021-08-02",
-      "data_morte": "2023-01-31",
-      "luogo_nascita": "Roma",
-      "luogo_morte": "Cellino Attanasio",
+      "url": "https://cdn.studenti.stbm.it/images/2020/12/01/frida-kahlo-orig.jpeg",
+      "nome": "Frida",
+      "cognome": "Kahlo",
+      "soprannome": "Kahlo",
+      "descrizione": "Frida Kahlo (Coyoacán, 1907 – 1954) è stata una delle artiste più importanti dell’arte messicana del ventesimo secolo. Lei e il marito Diego Rivera (Guanajuato, 1986 – Città del Messico, 1957) formarono una delle coppie più emblematiche del Novecento: la loro storia d’amore fu tanto passionale quanto tormentata e infedele. A soli diciotto anni, Kahlo, fu vittime di un terribile incidente che le causò la rottura della colonna vertebrale, delle costole e del piede, e nel corso della sua vita subì circa trentadue operazioni chirurgiche con la speranza di ridurre il dolore. Tuttavia, nonostante il debole stato di salute, Frida Kahlo fu descritta da chi ebbe modo di conoscerla come una donna molto passionale, indipendente e ribelle: da adolescente amava vestirsi come le soldaderas (donne che combatterono durante la rivoluzione messicana), si iscrisse al partito comunista ed ebbe numerosi amanti, sia uomini che donne.\r\n",
+      "data_nascita": "1907-07-06",
+      "data_morte": "1954-07-13",
+      "luogo_nascita": "Coyoacán",
+      "luogo_morte": "Coyoacán",
       "links": [
-        "https://google.com",
-        "https://facebook.com"
+        "https://it.wikipedia.org/wiki/Frida_Kahlo"
       ]
     },
     {
       "id": 4,
-      "url": "https://picsum.photos/640/400",
-      "nome": "Lawanda",
-      "cognome": "Berg",
-      "soprannome": "nickname",
-      "descrizione": "Aute voluptate esse nisi anim commodo nulla sint officia. Fugiat non velit irure pariatur enim minim laborum. Et ipsum nulla voluptate duis aliquip ea pariatur enim. Aliqua reprehenderit excepteur non excepteur velit proident. Amet irure minim qui do mollit veniam in enim veniam et cillum pariatur nulla et. Voluptate tempor pariatur nostrud cupidatat laborum et amet proident sint velit amet nisi esse.\r\n",
-      "data_nascita": "2017-06-10",
-      "data_morte": "2018-05-31",
-      "luogo_nascita": "Roma",
-      "luogo_morte": "Cellino Attanasio",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Georgia_O%27Keeffe_UVa.jpg/220px-Georgia_O%27Keeffe_UVa.jpg",
+      "nome": "Georgia Totto",
+      "cognome": "O'Keeffe",
+      "soprannome": "O'Keeffe",
+      "descrizione": "Le opere di Georgia O’Keeffe sono grandiose rappresentazioni della natura. Fiori visti da molto vicino, riprodotti con una minuziosa attenzione ai dettagli e che le hanno consentito di sviluppare un linguaggio espressivo originale che oscilla tra astrazione e figurazione. Il suo percorso artistico l’ha portata a diventare una tra le più importanti pittrici del XX secolo, icona dell’arte moderna americana e la più influente artista di paesaggi e scenari naturali del XX secolo.\r\n",
+      "data_nascita": "1887-11-15",
+      "data_morte": "1986-03-06",
+      "luogo_nascita": "Sun Prairie",
+      "luogo_morte": "Santa Fe",
       "links": [
-        "https://google.com",
-        "https://facebook.com"
+        "https://it.wikipedia.org/wiki/Georgia_O%27Keeffe"
+      ]
+    },
+    {
+      "id": 5,
+      "url": "https://www.arte.it/foto/600x450/dc/1322-Michelangelo-Buonarroti1.jpg",
+      "nome": "Michelangelo",
+      "cognome": "Buonarroti",
+      "soprannome": "Michelangelo",
+      "descrizione": "Architetto, scultore, pittore, poeta (Caprese, od. Caprese Michelangelo, Arezzo, 1475 - Roma 1564). Culmine della civiltà rinascimentale, celebrato come il massimo genio del suo tempo, ne rappresentò anche la drammatica conclusione. Apprendista dal 1487 nella bottega di D. Ghirlandaio, intorno al 1489 venne in contatto presso il giardino di S. Marco, domicilio della collezione di antichità della famiglia Medici, con la statuaria classica e la filosofia neoplatonica, componenti essenziali per lo sviluppo della sua produzione artistica. Nel 1498 il cardinale J. Bilhères gli commissionò per la sua tomba in S. Petronilla a Roma la Pietà : per il carattere di perfetta armonia, grazia e bellezza, l'opera suscitò universale ammirazione. Tornato a Firenze, M. realizzò la statua di David (1501-04), quindi nel 1505 fu di nuovo a Roma per eseguire la tomba di Giulio II in S. Pietro, i cui tormentati lavori si sarebbero protratti per oltre quarant'anni. Nel 1520 gli vennero commissionati per la Sagrestia Nuova della chiesa di S. Lorenzo a Firenze i sepolcri di Giuliano de' Medici e di Lorenzo de' Medici: M. creò un insieme inscindibile di architettura e scultura rinnovando profondamente la tradizione delle cappelle funerarie. Incaricato nel 1533 da Clemente VII di affrescare nella Cappella Sistina la parete dietro l'altare con un'immagine del Giudizio universale, che reinterpretò l'evento facendo ricorso alla straordinaria capacità inventiva e innovativa. L'ultima parte della sua vita fu sostanzialmente dedicata all'architettura: Paolo III gli affidò tra l’altro il completamento del Palazzo Farnese, la sistemazione della piazza del Campidoglio e la cupola di S. Pietro. M. fu inoltre apprezzato scrittore di un epistolario (Lettere, pubblicate nel 1875) e delle Rime, composte per lo più dal 1534.\r\n",
+      "data_nascita": "1475-03-06",
+      "data_morte": "1564-02-18",
+      "luogo_nascita": "Caprese",
+      "luogo_morte": "Roma",
+      "links": [
+        "https://it.wikipedia.org/wiki/Michelangelo_Buonarroti"
       ]
     }
   ],
   "stanze": [
     {
       "id": 1,
-      "nome": "STANZA ROSSA",
-      "descrizione": "Aliquam vitae euismod justo. Suspendisse sed mollis sem, interdum mollis velit. Aliquam imperdiet vitae libero a laoreet.",
-      "operaRappresentativa": 1
+      "nome": "STANZA ROSA",
+      "descrizione": "Questa stanza offre le opere delle più grandi artiste mondiali, grandi donne che, attraverso la loro arte, hanno dato sogni e speranza a milioni di bambine.",
+      "colore": "#e9967a",
+      "operaRappresentativa": 8
     },
     {
       "id": 2,
-      "nome": "STANZA VERDE",
-      "descrizione": "Vivamus purus turpis, egestas ut varius vel, faucibus sed augue. Pellentesque dictum dui at orci cursus, et tempus urna finibus.",
+      "nome": "SCULTORI ITALIANI",
+      "descrizione": "Dal 1500 agli anni 2000, questa stanza offre un viaggio nel tempo attraverso la scultura italiana.",
+      "colore": "#d2b48c",
+      "operaRappresentativa": 7
+    },
+    {
+      "id": 3,
+      "nome": "ARTE ALL'ESTERO",
+      "descrizione": "Scappiamo fuori dal nostro Stivale per ammirare le grandi bellezze estere, un viaggio che vi lascerà mozzafiato.",
+      "colore": "#696969",
       "operaRappresentativa": 1
     }
   ],
@@ -303,48 +358,42 @@
       "nome": "Daniela",
       "descrizione": "Nice museum, but there is not a snack bar! :_(",
       "link": 1
-    },
-    {
-      "id": 9,
-      "nome": "Alessio",
-      "descrizione": "Una gran bella opera!",
-      "link": "0"
     }
   ],
   "notizie": [
     {
       "id": 0,
-      "titolo": "Tara",
-      "sottotitolo": "Aliqua esse aliqua ut est ad mollit ex eu laboris qui ea cupidatat.",
-      "testo": "Lorem eu laborum nostrud proident cillum mollit duis. Ea ipsum et anim sint ex. Labore deserunt sit amet incididunt ad. Quis quis culpa ipsum duis. Non eu aliquip deserunt cupidatat eiusmod elit minim Lorem in id deserunt minim consectetur. Officia non tempor aliqua occaecat sit nostrud dolore commodo eu duis.\r\n",
-      "url": "https://www.toppr.com/bytes/wp-content/uploads/2019/06/school-time-table-1024x768.jpeg",
+      "titolo": "Inaugurazione museo",
+      "sottotitolo": "Ufficialae: siamo tornati!",
+      "testo": "Dopo un lungo periodo di stop, Mercoledì 21 Giugno, il celebre museo di Roccacannuccia riapre! Il nostro staff è pronto ad accogliervi a braccia aperte dal lunedi alla domenica dalle 9 alle 21, vienici a trovare, ti aspettiamo!\r\n",
+      "url": "https://www.arteitalianaweb.it/wp-content/uploads/2020/11/linaugurazione.jpg",
       "prevId": 3,
       "nextId": 1
     },
     {
       "id": 1,
-      "titolo": "Annette",
-      "sottotitolo": "Officia culpa consequat sint consectetur culpa dolore consectetur est.",
-      "testo": "Non amet esse id tempor irure proident proident exercitation ad sit esse sunt cillum. Mollit officia consequat sint et irure aliqua elit velit est eu deserunt. Sint eiusmod ut quis in id proident nisi fugiat quis aliqua laboris eiusmod Lorem. Commodo est exercitation id enim velit ut laboris consectetur.\r\n",
-      "url": "https://assets1.cbsnewsstatic.com/hub/i/2022/09/28/9685c8b3-6750-4950-8a53-c5cd4a314118/cbs-evening-news-3840x2160.jpg",
+      "titolo": "Nuove critiche sulla Sirenetta",
+      "sottotitolo": "L’attrice che la interpreta ha le gambe",
+      "testo": "Non si placa il clamore scatenato dal primo teaser del live action de La Sirenetta, remake dell’omonimo film di animazione della Disney, che racconta la storia di un curioso granchio parlante che cerca di sfuggire dalle grinfie di uno chef francese.Come noto, infatti, il collettivo Makeddaveraaaoh, noto gruppo di filologi esperti dell’opera di Hans Christian Andersen, in queste settimane ha evidenziato le numerose incongruenze -già percepibili dalle prime immagini diffuse dalla casa di produzione californiana- rispetto all’opera originaria.\r\n",
+      "url": "https://staticfanpage.akamaized.net/wp-content/uploads/sites/25/2023/05/Screenshot-2023-05-26-alle-10.17.18.jpg",
       "prevId": 0,
       "nextId": 2
     },
     {
       "id": 2,
-      "titolo": "Connie",
-      "sottotitolo": "Fugiat cillum et excepteur nostrud officia ea.",
-      "testo": "Aliqua nostrud occaecat ad proident proident culpa. Exercitation aliquip ea exercitation proident velit dolor. Ullamco laborum do non exercitation aliquip dolore commodo nulla do eiusmod proident dolore ullamco. Magna laboris commodo quis fugiat mollit elit excepteur ea enim deserunt ullamco. Incididunt proident id et laborum excepteur cillum adipisicing occaecat pariatur laborum voluptate occaecat. Velit sit nisi magna esse aute amet nulla. Nostrud proident velit sit labore aliquip deserunt laboris veniam qui qui dolore sit.\r\n",
-      "url": "https://news.microsoft.com/wp-content/uploads/prod/sites/56/2023/05/Accessibility-Day-924x520.jpg",
+      "titolo": "Scandalo a Napoli",
+      "sottotitolo": "Nelle Bibbie stampate San Paolo cambia nome in Maradona",
+      "testo": "Sta facendo molto discutere l’iniziativa di un gruppo di fedeli partenopei: nelle edizioni della Bibbia stampate a Napoli l’apostolo San Paolo sarà sostituito da Diego Armando Maradona.L’idea si deve a un parroco dei Quartieri Spagnoli, Don Stefano Pisaniello, fan devoto del Pibe de oro: 'Lo stadio San Paolo è stato rinominato stadio Diego Armando Maradona, è ora di completare l’opera. Le gesta di San Paolo sono narrate da oltre duemila anni ma diciamo la verità: lo amiamo e lo rispettiamo, ma non ci ha mica portato uno scudetto!'\r\n",
+      "url": "https://www.lercio.it/wp-content/uploads/2021/06/maradona-apostoli.jpg.webp",
       "prevId": 1,
       "nextId": 3
     },
     {
       "id": 3,
-      "titolo": "John",
-      "sottotitolo": "Elit cillum occaecat enim dolor eiusmod.",
-      "testo": "Irure ex nostrud sunt aute Lorem laborum ad minim dolore. Magna nulla officia fugiat ex amet eiusmod velit ullamco et laboris. Esse velit ad nisi nisi enim laborum non eu officia do amet excepteur sunt sint. Aute ea ut esse aliquip cillum. Ut dolor ipsum voluptate aliqua officia fugiat dolor cillum officia occaecat tempor. Aute proident dolor tempor sint occaecat aute veniam proident elit veniam deserunt cillum.\r\n",
-      "url": "https://www.calcioatalanta.it/wp-content/uploads/2023/05/Gasperini_ICA_0771.jpg",
+      "titolo": "Littizzetto via dalla rai",
+      "sottotitolo": "Negli ultimi giorni la nota giornalista abbandona la celebre emittente televisiva",
+      "testo": "Luciana Littizzetto chiude il suo ultimo intervento a Che Tempo Che Fa con una lettera alla rai: 'Spero ci ritroveremo in un'Italia che costruisca dal basso e favorisca il gioco sulle fasce.'\r\n",
+      "url": "https://www.corriere.it/methode_image/2023/05/29/Spettacoli/Foto%20Spettacoli%20-%20Trattate/FxPe9MnXsAEtxgS-kZbC-U3420820529612ecC-656x492@Corriere-Web-Sezioni.jpeg",
       "prevId": 2,
       "nextId": 0
     }
@@ -356,13 +405,6 @@
       "mail": "mail@google.com",
       "oggetto": "oggetto richiesta",
       "messaggio": "messaggio"
-    },
-    {
-      "id": 1,
-      "nome": "Alessio",
-      "mail": "alessio.erasmo@student.univaq.it",
-      "oggetto": "Reclamo",
-      "messaggio": "un reclamo"
     }
   ]
 }
