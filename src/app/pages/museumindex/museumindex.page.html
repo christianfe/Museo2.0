@@ -50,7 +50,7 @@ QUI INIZIA ___
       <ion-button style="margin-left: 50%; transform: translateX(-50%);" fill="clear" size="defailt"  [routerLink]="['/tabs/ricerca']"><ion-icon name="search-outline"></ion-icon>Cerca all'interno del museo</ion-button>
     </ion-card-content>
 
-    <ion-card *ngFor="let s of stanze" id="stanze">
+    <ion-card *ngFor="let s of stanze" id="stanze" style="background-color: {{s.colore}};">
       <ion-card-content>
         <ion-card-content>
           <ion-card-title id="titolo"><strong>{{s.nome}}</strong></ion-card-title>

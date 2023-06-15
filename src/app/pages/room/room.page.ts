@@ -14,7 +14,7 @@ export class RoomPage implements OnInit {
   constructor(private route: ActivatedRoute, private operasService: OperasService, private nav: NavController) { }
 
   ngOnInit() {
-    this.room = new Stanza(this.route.snapshot.params['id'], "stanza", "descrizione")
+    this.room = new Stanza(this.route.snapshot.params['id'], "stanza", "descrizione", "colore")
     this.operasService.getOperaByStanza(this.room.id!).subscribe({
       next: s => { this.room!.opere = s }
     })
