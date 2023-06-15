@@ -26,7 +26,7 @@ Prof. [Gian Luca Scoccia](https://github.com/gianlucascoccia/)
 
 The documentation of the project is available [here](docs/Template.pdf)
 
-|                                       |                                       |                                       |                                       |
+|Museum|Authors|Rooms|Operas|
 |:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|
 |![Logo](examples/museum.png)|![Logo](examples/author_1.png)|![Logo](examples/room_1.png)|![Logo](examples/opera_1.png)|
 ||![Logo](examples/author_2.png)|![Logo](examples/room_2.png)|![Logo](examples/opera_2.png)|
