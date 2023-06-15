@@ -29,4 +29,10 @@ export class AuthorService {
     console.log(this.baseUrl + `?cognome_like=^(${filter}).*`);
     return this.http.get<Autore[]>(this.baseUrl + `?cognome_like=^(${filter}).*`);
   }
+
+  getByFilterSoprannome(filter : string){
+    console.log(this.baseUrl + `?soprannome_like=^(${filter}).*`);
+    return this.http.get<Autore[]>(this.baseUrl + `?soprannome_like=^(${filter}).*`);
+  }
+
 }

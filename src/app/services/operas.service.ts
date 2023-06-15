@@ -30,7 +30,7 @@ export class OperasService {
   }
 
   getOperaByAuthor(idAuhtor: number) {
-    return this.http.get<Opera[]>(this.baseUrl + "?autore=" + idAuhtor)
+    return this.http.get<Opera[]>(this.baseUrl + "?idAutore=" + idAuhtor)
   }
   getOperaByStanza(idStanza: number) {
     return this.http.get<Opera[]>(this.baseUrl + "?stanza=" + idStanza)
