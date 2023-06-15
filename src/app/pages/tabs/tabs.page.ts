@@ -69,25 +69,25 @@ export class TabsPage implements OnInit, OnDestroy {
       case "MU":
         type = "museumindex"
         break;
+      case "RM":
+        type = "room"
+        break;
       default:
         return ""
     }
 
     try {
-      console.log(type);
-
       if (Number(d[1]) < 0)
         return ""
       else if (d[1] == "")
         id = "";
       else
-      id = "/" + d[1];
+        id = "/" + d[1];
     } catch (error) {
       return ""
     }
     localStorage.setItem(environment.QrCodeCheckedVAR, "1")
     let link = 'tabs/' + type + id;
-    console.log(link)
     return link;
   }
 }
