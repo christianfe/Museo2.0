@@ -12,8 +12,8 @@ UNIVAQ - DISIM - CdL Informatica
 * Install the ionic CLI globally: `npm install -g ionic`
 * Clone this repository: `git clone https://github.com/christianfe/Museo2.0.git`.
 * Run `npm install` from the project root.
-* Run `ionic serve` in a terminal from the project root.
-* Profit. :tada:
+* Run `json-server ./RoccacannucciaBase.json` and `ionic serve` in two different terminals from the project root.
+* All Done. :tada:
 
 ## Team
 - [Arrotini Simone](https://github.com/simonearrotini)
