@@ -4,6 +4,17 @@ UNIVAQ - DISIM - CdL Informatica
 
 **Esame in Applicazioni per Dispositivi Mobili**
 
+> Version 1.0
+
+## Getting Started
+
+* [Download the installer](https://nodejs.org/) for Node LTS.
+* Install the ionic CLI globally: `npm install -g ionic`
+* Clone this repository: `git clone https://github.com/christianfe/Museo2.0.git`.
+* Run `npm install` from the project root.
+* Run `ionic serve` in a terminal from the project root.
+* Profit. :tada:
+
 ## Team
 - [Arrotini Simone](https://github.com/simonearrotini)
 - [Erasmo Alessio](https://github.com/alessioerasmo/)
