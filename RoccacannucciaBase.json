@@ -168,7 +168,7 @@
       "soprannome": "nickname",
       "descrizione": "Sint dolor veniam ad dolor ullamco enim excepteur est. Nostrud occaecat qui irure sunt laborum ut deserunt consequat est. In ex cupidatat deserunt cillum deserunt pariatur labore occaecat ad aliqua aliqua cupidatat. Et sint ipsum ex magna. Labore ex est excepteur ut esse Lorem voluptate ea sit occaecat duis tempor. Consequat in elit tempor velit ipsum voluptate.\r\n",
       "data_nascita": "2023-01-24",
-      "data_morte": "2020-01-18",
+      "data_morte": "",
       "luogo_nascita": "Roma",
       "luogo_morte": "Cellino Attanasio",
       "links": [
@@ -303,6 +303,12 @@
       "nome": "Daniela",
       "descrizione": "Nice museum, but there is not a snack bar! :_(",
       "link": 1
+    },
+    {
+      "id": 9,
+      "nome": "Alessio",
+      "descrizione": "Una gran bella opera!",
+      "link": "0"
     }
   ],
   "notizie": [

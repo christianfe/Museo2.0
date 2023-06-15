@@ -1,3 +1,29 @@
+#operacard{
+  box-shadow: none;
+  border-radius: 0%;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  margin: 0;
+  border-bottom: 1px solid var(--ion-color-secondary);
+}
+
+#operacard > img{
+  width: 50%;
+  background-size: contain;
+}
+
+#operacard > ion-card-content{
+
+}
+
+#anagrafica{
+  display: flex;
+  justify-content: space-between;
+}
+
+/*
 ion-grid {
   height: 100%;
   width: 100%;
@@ -71,3 +97,5 @@ ion-grid {
 .p-0 {
   padding: 0;
 }
+
+*/

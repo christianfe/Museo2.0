@@ -1,4 +1,45 @@
 <ion-content *ngIf="author">
+
+  <ion-card id="maincard">
+    <ion-card-content>
+      <ion-card-title> <strong>{{author.nome + " " + author.cognome}}</strong> </ion-card-title>
+    </ion-card-content>
+    <ion-img src="{{author.url}}"> </ion-img>
+
+
+    <ion-card-content id="anagrafica">
+      <p><b>Nascita:</b> {{author.data_nascita | date : "dd/MM/yyyy" }}</p>
+      <p *ngIf="author.data_morte"><b>Morte:</b> {{author.data_morte | date : "dd/MM/yyyy" }}</p>
+    </ion-card-content>
+
+    <ion-card-content>
+      <ion-card-subtitle><b>Biografia</b></ion-card-subtitle>
+      {{author.descrizione}}
+    </ion-card-content>
+
+  </ion-card>
+
+  <ion-card-content>
+    <ion-card-subtitle><b>Link utili</b></ion-card-subtitle>
+    <ion-text style="display: block;" *ngFor="let l of author.links"> <a href="{{l}}"> {{l}} </a> </ion-text>
+  </ion-card-content>
+
+  <ion-card-content>
+    <ion-card-subtitle><b>Altro di {{author.nome + " " + author.cognome}}</b></ion-card-subtitle>
+
+      <ion-card-content *ngFor="let o of operas" (click)="routeToOpera(o.id!)" id="operacard">
+        <img alt="opera" src="{{o.picture}}" />
+        <ion-card-content>
+          <ion-card-title>{{o.titolo}}</ion-card-title>
+          <ion-card-subtitle>{{o.descrizione! | slice:0:25}}...</ion-card-subtitle>
+        </ion-card-content>
+      </ion-card-content>
+    </ion-card-content>
+
+<!--
+
+
+
   <br><br><br><br>
   <ion-title style="margin-bottom: 0.5em"><strong> {{author.nome + " " + author.cognome}}</strong></ion-title>
   <ion-img src="{{author.url}}"> </ion-img>
@@ -23,6 +64,7 @@
         <strong>Altro di {{author.nome + " " + author.cognome}}</strong>
       </ion-title>
     </ion-row>
+
     <ion-row *ngFor="let o of operas">
       <ion-card (click)="routeToOpera(o.id!)">
         <ion-row>
@@ -39,4 +81,8 @@
       </ion-card>
     </ion-row>
   </ion-grid>
+
+-->
+
+
 </ion-content>

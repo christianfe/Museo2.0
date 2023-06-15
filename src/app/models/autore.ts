@@ -4,8 +4,8 @@ export interface Autore {
   cognome: string;
   soprannome: string;
   descrizione: string;
-  dataNascita: Date;
-  dataMorte: Date;
+  data_nascita: Date;
+  data_morte: Date;
   luogoNascita: String;
   luogoMorte: String;
   url: string;
