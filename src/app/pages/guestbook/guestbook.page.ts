@@ -26,4 +26,13 @@ export class GuestbookPage implements OnInit {
     });
   }
 
+  handleRefresh(event : any) {
+    setTimeout(() => {
+      this.guestbookService.getAll(-1).subscribe({
+        next: (f: Feedback[]) => this.data = f.reverse()
+      });
+      event.target.complete();
+    }, 300);
+  }
+
 }

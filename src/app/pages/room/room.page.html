@@ -1,3 +1,33 @@
+<ion-content>
+
+  <ion-card id="maincard" *ngIf="room">
+
+    <ion-card-content>
+      <ion-card-title><b>{{room.nome}}</b></ion-card-title>
+      <ion-card-subtitle>{{room.descrizione}}</ion-card-subtitle>
+    </ion-card-content>
+
+
+    <ion-card-content *ngIf="room.opere">
+      <ion-card-subtitle><b>Opere nella stanza</b></ion-card-subtitle>
+
+      <ion-card-content *ngFor="let o of room.opere" (click)="routeToOpera(o.id!)" class="operacard">
+        <img alt="opera" src="{{o.picture}}" />
+        <ion-card-content>
+          <ion-card-title>{{o.titolo}}</ion-card-title>
+          <ion-card-subtitle>{{o.descrizione! | slice:0:25}}...</ion-card-subtitle>
+        </ion-card-content>
+      </ion-card-content>
+    </ion-card-content>
+
+  </ion-card>
+
+
+</ion-content>
+
+
+<!--
+
 <ion-content [fullscreen]="true" *ngIf="room">
   <br><br><br><br>
   <ion-title size="large"><strong> {{room.nome}}</strong></ion-title>
@@ -29,3 +59,4 @@
     </ion-grid>
   </ion-content>
 </ion-content>
+-->

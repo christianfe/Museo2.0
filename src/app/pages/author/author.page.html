@@ -27,7 +27,7 @@
   <ion-card-content>
     <ion-card-subtitle><b>Altro di {{author.nome + " " + author.cognome}}</b></ion-card-subtitle>
 
-      <ion-card-content *ngFor="let o of operas" (click)="routeToOpera(o.id!)" id="operacard">
+      <ion-card-content *ngFor="let o of operas" (click)="routeToOpera(o.id!)" class="operacard">
         <img alt="opera" src="{{o.picture}}" />
         <ion-card-content>
           <ion-card-title>{{o.titolo}}</ion-card-title>
