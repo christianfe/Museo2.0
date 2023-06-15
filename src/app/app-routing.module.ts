@@ -21,10 +21,6 @@ const routes: Routes = [
     redirectTo: 'tabs/museumindex'
   },
   {
-    path: 'scan-qr',
-    redirectTo: 'tabs/scan-qr'
-  },
-  {
     path: 'news',
     redirectTo: 'tabs/news'
   },

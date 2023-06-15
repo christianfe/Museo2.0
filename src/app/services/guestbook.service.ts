@@ -11,9 +11,7 @@ export class GuestbookService {
   baseUrl = environment.apiUrl + "feedback";
   data: Feedback[] = []
   constructor(private http: HttpClient) {
-
   }
-
 
   getAll(link: number) {
     return this.http.get<Feedback[]>(this.baseUrl + "?link=" + link)

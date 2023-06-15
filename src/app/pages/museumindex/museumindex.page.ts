@@ -14,32 +14,27 @@ import { AuthorService } from 'src/app/services/author.service';
 })
 export class MuseumindexPage implements OnInit {
 
-
-
-  // protected opera : Observable<Opera> | undefined;
-  protected stanzemap! : Observable<Map<String, String>[]>;
+  protected stanzemap!: Observable<Map<String, String>[]>;
   protected stanze!: Stanza[];
-
   //searchbar
-  protected searching : boolean = false;
-
+  protected searching: boolean = false;
   constructor(private museumIndexService: MuseumIndexService,
     private operasService: OperasService,
     private autoreservice: AuthorService) {
-   }
+  }
 
 
   ngOnInit() {
     this.museumIndexService.getAll().subscribe(
-      ( objs : any )=> {
+      (objs: any) => {
         this.stanze = [];
-        for (let obj of objs){
+        for (let obj of objs) {
           //posso iniziare a creare l'oggetto stanza
-          let stanza : Stanza = new Stanza(Number(obj.id), String(obj.nome), String(obj.descrizione), String(obj.colore));
+          let stanza: Stanza = new Stanza(Number(obj.id), String(obj.nome), String(obj.descrizione), String(obj.colore));
           //devo recuperare l'opera rappresentativa
           this.operasService.getMap(Number(obj.operaRappresentativa)).subscribe(
-            (opj : any ) => {
-              let operaRappresentativa : Opera = new Opera();
+            (opj: any) => {
+              let operaRappresentativa: Opera = new Opera();
               operaRappresentativa.id = opj.id;
               operaRappresentativa.titolo = opj.titolo;
               operaRappresentativa.picture = opj.picture;
@@ -49,7 +44,6 @@ export class MuseumindexPage implements OnInit {
                   operaRappresentativa.autore = autore;
                   stanza.operaRappresentativa = operaRappresentativa;
                   this.stanze.push(stanza)
-                  console.log(stanza)
                 }
               )
             }
@@ -59,19 +53,15 @@ export class MuseumindexPage implements OnInit {
     )
   }
 
-  handleInput(event : any) {
+  handleInput(event: any) {
 
   }
 
-  ChangeFocus(){
+  ChangeFocus() {
     this.searching = !this.searching;
   }
 
-  CommittedSearch(event :any ){
+  CommittedSearch(event: any) {
     this.ChangeFocus();
-    console.log("search done");
   }
-
-
-
 }

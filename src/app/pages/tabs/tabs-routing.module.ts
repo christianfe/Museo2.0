@@ -26,10 +26,6 @@ const routes: Routes = [
         loadChildren: () => import('../museumindex/museumindex.module').then(m => m.MuseumindexPageModule)
       },
       {
-        path: 'scan-qr',
-        loadChildren: () => import('../scan-qr/scan-qr.module').then(m => m.ScanQRPageModule)
-      },
-      {
         path: 'guestbook',
         loadChildren: () => import('../guestbook/guestbook.module').then(m => m.GuestbookPageModule)
       },
@@ -51,7 +47,7 @@ const routes: Routes = [
       },
       {
         path: 'ricerca',
-        loadChildren: () => import('../ricerca/ricerca.module').then( m => m.RicercaPageModule)
+        loadChildren: () => import('../ricerca/ricerca.module').then(m => m.RicercaPageModule)
       }
 
     ]

@@ -52,7 +52,6 @@ export class TabsPage implements OnInit, OnDestroy {
   }
 
   getLink(data: string): string {
-    console.log("ho letto: " + data);
     // QR CODE FORMAT OP#3 - AU#2 - MU#
     let type: string = "";
     let id: string = "";

@@ -1,45 +1,36 @@
 <ion-content>
-<ion-card id="maincard">
+  <ion-card id="maincard">
 
-  <ion-card-content id="newstitle">
-    <ion-card-title><strong>News</strong></ion-card-title>
-    <ion-card-subtitle>Entra nella sezione news per restare aggiornato sulle nuove opere, orari ed eventi! </ion-card-subtitle>
-  </ion-card-content>
+    <ion-card-content id="newstitle">
+      <ion-card-title><strong>News</strong></ion-card-title>
+      <ion-card-subtitle>Entra nella sezione news per restare aggiornato sulle nuove opere, orari ed eventi!
+      </ion-card-subtitle>
+    </ion-card-content>
 
-  <ion-card *ngIf="(this.notizia | async) as n" id="newsbox" style="background-image: url({{n.url}});">
+    <ion-card *ngIf="(this.notizia | async) as n" id="newsbox" style="background-image: url({{n.url}});">
 
       <ion-button id="newsbutton" fill="clear" [routerLink]="['../news', n.id]" routerDirection="forward">scopri di più
         ></ion-button>
 
+    </ion-card>
+
+    <ion-card style="box-shadow: none;">
+      <ion-card-content>
+        <h2>I messaggi dei nostri ospiti</h2>
+      </ion-card-content>
+
+      <ion-card *ngFor="let d of this.guests | async" class="guestmessage">
+        <ion-card-content>
+          {{d.descrizione}}
+          <p style="text-align: right"><strong>{{d.nome}}</strong></p>
+        </ion-card-content>
+      </ion-card>
+
+
+      <ion-button fill="clear" size="defailt" style="float: right;" routerLink="/tabs/guestbook"> Val al guestbook
+      </ion-button>
+
+
+    </ion-card>
   </ion-card>
-
-  <ion-card style="box-shadow: none;">
-    <ion-card-content >
-      <h2>I messaggi dei nostri ospiti</h2>
-    </ion-card-content>
-
-  <ion-card *ngFor="let d of this.guests | async" class="guestmessage">
-    <ion-card-content>
-      {{d.descrizione}}
-      <p style="text-align: right"><strong>{{d.nome}}</strong></p>
-    </ion-card-content>
-  </ion-card>
-
-
-    <ion-button fill="clear" size="defailt" style="float: right;" routerLink="/tabs/guestbook"> Val al guestbook </ion-button>
-
-
-  </ion-card>
-  <!--
-
-
-
-
--->
-  <!--
-
-
-
--->
-</ion-card>
 </ion-content>

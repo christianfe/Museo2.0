@@ -24,15 +24,8 @@ export class HomepagePage implements OnInit {
     private http: HttpClient) { }
 
   ngOnInit() {
-
-    //inizializzazione notizia
-    this.notizia= this.newservice.get(0);
-
-    //inizializzazione guestbook
+    this.notizia = this.newservice.get(0);
     this.guests = this.guestbookservice.getHomeFeeds();
-
-
-
   }
 
 }

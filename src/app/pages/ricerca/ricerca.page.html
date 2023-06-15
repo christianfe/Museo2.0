@@ -1,35 +1,30 @@
-
 <ion-content>
   <br><br><br>
   <ion-card>
-      <ion-card-content>
-        <ion-card-title>modalità ricerca</ion-card-title>
-        <ion-text>Inserisci il nome di un autore o di un'opera</ion-text>
-  </ion-card-content>
+    <ion-card-content>
+      <ion-card-title>modalità ricerca</ion-card-title>
+      <ion-text>Inserisci il nome di un autore o di un'opera</ion-text>
+    </ion-card-content>
 
-  <ion-searchbar placeholder="cerca" [debounce]="100" (ionInput)="handleInput($event)"></ion-searchbar>
+    <ion-searchbar placeholder="cerca" [debounce]="100" (ionInput)="handleInput($event)"></ion-searchbar>
 
-  <ion-card-content>
+    <ion-card-content>
 
-    <ion-list *ngIf="this.opere">
-      <ion-card-subtitle><b>opere trovate: </b> {{this.opere.length}} </ion-card-subtitle>
-      <ion-item *ngFor="let opera of this.opere">
-        <ion-label [routerLink]="['/tabs/opera/', opera.id]">{{ opera.nome }}</ion-label>
-      </ion-item>
-    </ion-list>
-
-
-  <ion-list *ngIf="this.autori">
-    <ion-card-subtitle><b>autori trovati: </b> {{this.autori.length}} </ion-card-subtitle>
-    <ion-item *ngFor="let autore of this.autori">
-      <ion-label [routerLink]="['/tabs/author/', autore.id]">{{ autore.nome }} {{autore.cognome}}</ion-label>
-    </ion-item>
-  </ion-list>
-</ion-card-content>
+      <ion-list *ngIf="this.opere">
+        <ion-card-subtitle><b>opere trovate: </b> {{this.opere.length}} </ion-card-subtitle>
+        <ion-item *ngFor="let opera of this.opere">
+          <ion-label [routerLink]="['/tabs/opera/', opera.id]">{{ opera.nome }}</ion-label>
+        </ion-item>
+      </ion-list>
 
 
+      <ion-list *ngIf="this.autori">
+        <ion-card-subtitle><b>autori trovati: </b> {{this.autori.length}} </ion-card-subtitle>
+        <ion-item *ngFor="let autore of this.autori">
+          <ion-label [routerLink]="['/tabs/author/', autore.id]">{{ autore.nome }} {{autore.cognome}}</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
 
   </ion-card>
-
 </ion-content>
-

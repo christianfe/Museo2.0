@@ -21,12 +21,12 @@ export class OperasService {
   }
 
   get(id: number) {
-    return this.http.get<Opera>(this.baseUrl+ id)
+    return this.http.get<Opera>(this.baseUrl + id)
   }
 
 
   getMap(id: number) {
-    return this.http.get<Map<String, String>>(this.baseUrl+ id)
+    return this.http.get<Map<String, String>>(this.baseUrl + id)
   }
 
   getOperaByAuthor(idAuhtor: number) {
@@ -36,8 +36,7 @@ export class OperasService {
     return this.http.get<Opera[]>(this.baseUrl + "?stanza=" + idStanza)
   }
 
-  getByFilter(filter : string){
-    console.log(this.baseUrl + `?titolo_like=^(${filter}).*`);
+  getByFilter(filter: string) {
     return this.http.get<Opera[]>(this.baseUrl + `?titolo_like=^(${filter}).*`);
   }
 }

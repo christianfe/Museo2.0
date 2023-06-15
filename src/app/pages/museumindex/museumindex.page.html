@@ -1,43 +1,4 @@
-<!--
-<ion-content class="ion-padding" [fullscreen]="true">
-  <br><br><br><br>
-  <ion-content>
-      <ion-grid>
-        <ion-row>
-
-            <ion-card-title>Museum Index</ion-card-title>
-            <ion-card-subtitle>onec euismod, dui id dictum utlricies, mauris eros auctor magna, non hendrerit tortor justo sed nunc.</ion-card-subtitle>
-            <ion-searchbar></ion-searchbar>
-
-        </ion-row>
-        <ion-row *ngFor="let s of stanze">
-            <ion-row>
-
-                <ion-card-title>{{s.nome}}</ion-card-title>
-                <ion-card-subtitle>{{s.descrizione}}</ion-card-subtitle>
-                <ion-img src="{{s.operaRappresentativa.picture}}"> </ion-img>
-
-            </ion-row>
-            <ion-row>
-              <ion-col>
-                <ion-card-title size="small"><strong>{{s.operaRappresentativa.titolo}}</strong>, {{s.operaRappresentativa.nomeAutore}}</ion-card-title>
-              </ion-col>
-              <ion-col>
-                <ion-button fill="clear" [routerLink]="['../room/', s.id]" routerDirection="forward">
-                <ion-icon slot="end" name="arrow-forward-outline"></ion-icon>
-                  More About
-              </ion-button></ion-col>
-            </ion-row>
-        </ion-row>
-      </ion-grid>
-  </ion-content>
-</ion-content>
-
-
-QUI INIZIA ___
--->
 <ion-content>
-
   <ion-card id="maincard">
 
     <ion-card-content>
@@ -74,5 +35,4 @@ QUI INIZIA ___
     </ion-card>
 
   </ion-card>
-
 </ion-content>
