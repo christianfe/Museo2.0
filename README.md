@@ -26,7 +26,7 @@ Prof. [Gian Luca Scoccia](https://github.com/gianlucascoccia/)
 
 The documentation of the project is available [here](docs/Template.pdf)
 
-## QrCode Examples
+## QR-code Examples
 
 | Museum & Invalid                      | Authors                               | Rooms                                 | Operas                                |
 |:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|
