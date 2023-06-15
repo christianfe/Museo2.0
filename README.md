@@ -25,3 +25,8 @@ Prof. [Gian Luca Scoccia](https://github.com/gianlucascoccia/)
 ## Documentation
 
 The documentation of the project is available [here](docs/Template.pdf)
+
+|                                       |                                       |                                       |                                       |
+|:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|
+|![Logo](examples/museum.png)|![Logo](examples/author_1.png)|![Logo](examples/room_1.png)|![Logo](examples/opera_1.png)|
+||![Logo](examples/author_2.png)|![Logo](examples/room_2.png)|![Logo](examples/opera_2.png)|
