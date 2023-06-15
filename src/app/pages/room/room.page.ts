@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { NavController } from '@ionic/angular';
 import { Stanza } from 'src/app/models/stanza';
 import { OperasService } from 'src/app/services/operas.service';
+import { RoomService } from 'src/app/services/room.service';
 
 @Component({
   selector: 'app-room',
@@ -11,12 +12,20 @@ import { OperasService } from 'src/app/services/operas.service';
 })
 export class RoomPage implements OnInit {
   room: Stanza | undefined
-  constructor(private route: ActivatedRoute, private operasService: OperasService, private nav: NavController) { }
+  id_stanza: number = 0;
+  constructor(private route: ActivatedRoute, private roomService: RoomService, private operasService: OperasService, private nav: NavController) {
+    this.id_stanza = this.route.snapshot.params['id']
+  }
 
   ngOnInit() {
-    this.room = new Stanza(this.route.snapshot.params['id'], "stanza", "descrizione", "colore")
-    this.operasService.getOperaByStanza(this.room.id!).subscribe({
-      next: s => { this.room!.opere = s }
+    this.roomService.get(this.id_stanza).subscribe({
+      next: s => {
+        this.room = s;
+        this.operasService.getOperaByStanza(this.id_stanza).subscribe({
+          next: o => { this.room!.opere = o }
+        })
+      },
+      error: _ => this.nav.navigateForward("/not-found")
     })
   }
 
