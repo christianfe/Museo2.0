@@ -1,11 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-
 import { IonicModule } from '@ionic/angular';
-
 import { NewGuestbookPageRoutingModule } from './new-guestbook-routing.module';
-
 import { NewGuestbookPage } from './new-guestbook.page';
 
 @NgModule({
@@ -17,4 +14,4 @@ import { NewGuestbookPage } from './new-guestbook.page';
   ],
   declarations: [NewGuestbookPage]
 })
-export class NewGuestbookPageModule {}
+export class NewGuestbookPageModule { }

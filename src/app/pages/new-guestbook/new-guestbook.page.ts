@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder } from '@angular/forms';
-import { Route, Router } from '@angular/router';
-import { NavController } from '@ionic/angular';
+import { Router } from '@angular/router';
 import { GuestbookService } from 'src/app/services/guestbook.service';
 
 @Component({
@@ -37,7 +36,10 @@ export class NewGuestbookPage implements OnInit {
 
   setAlertStatus(s: boolean) {
     this.isAlertOpen = s
-    if (!s)
+    if (!s) {
       this.router.navigateByUrl(this.backPage)
+
+    }
+
   }
 }

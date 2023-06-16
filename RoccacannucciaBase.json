@@ -358,6 +358,24 @@
       "nome": "Daniela",
       "descrizione": "Nice museum, but there is not a snack bar! :_(",
       "link": 1
+    },
+    {
+      "id": 9,
+      "nome": "Christian",
+      "descrizione": "Bellissimo museo e bellissima app, merita un 30!",
+      "link": -1
+    },
+    {
+      "id": 10,
+      "nome": "Simone",
+      "descrizione": "In realtà merita anche la Lode",
+      "link": -1
+    },
+    {
+      "id": 11,
+      "nome": "Alessio",
+      "descrizione": "Io mi dissocio",
+      "link": -1
     }
   ],
   "notizie": [

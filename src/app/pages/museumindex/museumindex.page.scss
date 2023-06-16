@@ -1,37 +1,35 @@
-#maincard{
-    width: 100%;
-    margin: 0;
-    margin-top: 70px;
-    box-shadow: none;
+#maincard {
+  width: 100%;
+  margin: 0;
+  margin-top: 70px;
+  box-shadow: none;
 }
 
-#stanze{
-    margin: 0px 0px;
-    box-shadow: none;
-    border-radius: 0%;
+#stanze {
+  margin: 0px 0px;
+  box-shadow: none;
+  border-radius: 0%;
 }
 
-
-
-ion-img{
-    width: 100%;
-    border-radius: 5px;
-    overflow:hidden;
+ion-img {
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
-#titolo{
-    color: white;
+#titolo {
+  color: white;
 }
 
-#sottotitolo{
-    color: white;
+#sottotitolo {
+  color: white;
 }
 
-#bottone{
-    color: white;
-    text-decoration: solid;
+#bottone {
+  color: white;
+  text-decoration: solid;
 }
 
-ion-card-content > p{
+ion-card-content>p {
   text-align: justify;
 }

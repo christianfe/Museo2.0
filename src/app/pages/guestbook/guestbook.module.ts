@@ -1,11 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-
 import { IonicModule } from '@ionic/angular';
-
 import { GuestbookPageRoutingModule } from './guestbook-routing.module';
-
 import { GuestbookPage } from './guestbook.page';
 
 @NgModule({
@@ -17,4 +14,4 @@ import { GuestbookPage } from './guestbook.page';
   ],
   declarations: [GuestbookPage]
 })
-export class GuestbookPageModule {}
+export class GuestbookPageModule { }

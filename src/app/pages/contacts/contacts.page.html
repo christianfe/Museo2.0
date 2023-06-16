@@ -1,10 +1,8 @@
-
-
-  <ion-card id="maincard">
-    <ion-card-header>
-      <ion-card-title><b>Contattaci</b></ion-card-title>
-      <ion-card-subtitle>Puoi contattarci telefonicamente o via mail attraverso i seguenti recapiti:</ion-card-subtitle>
-    </ion-card-header>
+<ion-card id="maincard">
+  <ion-card-header>
+    <ion-card-title><b>Contattaci</b></ion-card-title>
+    <ion-card-subtitle>Puoi contattarci telefonicamente o via mail attraverso i seguenti recapiti:</ion-card-subtitle>
+  </ion-card-header>
 
   <ion-card-content>
     <ion-text><b>Telefono:</b> +39 999 999 9999</ion-text>
@@ -26,17 +24,11 @@
       <ion-textarea class="ion-margin-bottom" ngModel [(ngModel)]="form.mex" name="mex" label="Messaggio"
         labelPlacement="floating" placeholder="Inserisci il messaggio" fill="solid" style="height: 150px;" required>
       </ion-textarea>
-      <ion-button fill="clear" type="submit" color="primary" expand="block" [disabled]="!contactForm.valid">Invia</ion-button>
+      <ion-button fill="clear" type="submit" color="primary" expand="block"
+        [disabled]="!contactForm.valid">Invia</ion-button>
     </form>
   </ion-card-content>
-
-
-  </ion-card>
-
-
-
-
-
+</ion-card>
 
 <ion-alert [isOpen]="isAlertOpen" header="" subHeader="Messaggio inviato"
   message="Grazie per averci contattato riceverai una risposta asap" [buttons]="alertButtons"

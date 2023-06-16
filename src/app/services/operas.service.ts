@@ -2,8 +2,6 @@ import { Injectable, NgModule } from '@angular/core';
 import { environment } from 'src/environments/environment';
 import { Opera } from '../models/opera';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
-import { Stanza } from '../models/stanza';
 
 @Injectable({
   providedIn: 'root'

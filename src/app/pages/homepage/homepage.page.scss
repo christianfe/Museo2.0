@@ -1,7 +1,4 @@
-#newstitle{
-}
-
-#newsbox{
+#newsbox {
   width: 100%;
   margin: 0;
   border-radius: 0;
@@ -10,18 +7,18 @@
   background-repeat: no-repeat;
 }
 
-.newstitle{
+.newstitle {
   color: white;
 }
- ion-card-title.newstitle{
+
+ion-card-title.newstitle {
   font-weight: bold;
   font-size: xx-large;
- }
+}
 
-#newsbutton{
+#newsbutton {
   position: absolute;
   bottom: 0px;
   right: 0px;
   color: white;
 }
-

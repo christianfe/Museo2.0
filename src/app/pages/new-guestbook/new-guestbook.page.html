@@ -1,32 +1,33 @@
 <ion-content>
-<ion-card id="maincard">
+  <ion-card id="maincard">
 
 
-  <ion-card-content>
-    <ion-card-title>Nuovo feedback</ion-card-title>
-    <p>Lascia il tuo segno nel nostro Guestbook</p>
-  </ion-card-content>
+    <ion-card-content>
+      <ion-card-title>Nuovo feedback</ion-card-title>
+      <p>Lascia il tuo segno nel nostro Guestbook</p>
+    </ion-card-content>
 
-  <ion-card-content>
-  <form (submit)="onSubmit()" #newFeedbForm="ngForm">
-    <ion-input class="ion-margin-bottom" ngModel [(ngModel)]="form.name" name="name" label="Nome"
-      labelPlacement="floating" placeholder="Inserisci il tuo nome" fill="solid" required ins>
-    </ion-input>
-    <ion-textarea class="ion-margin-bottom" ngModel [(ngModel)]="form.descrizione" name="mex" label="Messaggio"
-      labelPlacement="floating" placeholder="Inserisci il messaggio" fill="solid" style="height: 150px;" required>
-    </ion-textarea>
+    <ion-card-content>
+      <form (submit)="onSubmit(); newFeedbForm.resetForm()" #newFeedbForm="ngForm">
+        <ion-input class="ion-margin-bottom" ngModel [(ngModel)]="form.name" name="name" label="Nome"
+          labelPlacement="floating" placeholder="Inserisci il tuo nome" fill="solid" required ins>
+        </ion-input>
+        <ion-textarea class="ion-margin-bottom" ngModel [(ngModel)]="form.descrizione" name="mex" label="Messaggio"
+          labelPlacement="floating" placeholder="Inserisci il messaggio" fill="solid" style="height: 150px;" required>
+        </ion-textarea>
 
-    <ion-card-content id="buttons">
-    <ion-button routerLink="{{backPage}}" fill="clear" size="small" >
-      <ion-icon slot="start" name="arrow-back"></ion-icon>
-      Indietro
-    </ion-button>
-    <ion-button fill="clear" size="small" type="submit" color="primary" [disabled]="!newFeedbForm.valid">Aggiungi</ion-button>
-  </ion-card-content>
-  </form>
-  </ion-card-content>
+        <ion-card-content id="buttons">
+          <ion-button routerLink="{{backPage}}" fill="clear" size="small">
+            <ion-icon slot="start" name="arrow-back"></ion-icon>
+            Indietro
+          </ion-button>
+          <ion-button fill="clear" size="small" type="submit" color="primary"
+            [disabled]="!newFeedbForm.valid">Aggiungi</ion-button>
+        </ion-card-content>
+      </form>
+    </ion-card-content>
 
-</ion-card>
+  </ion-card>
 </ion-content>
 
 <ion-alert [isOpen]="isAlertOpen" header="" subHeader="Feedback salvato"

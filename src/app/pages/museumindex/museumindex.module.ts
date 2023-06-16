@@ -1,11 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-
 import { IonicModule } from '@ionic/angular';
-
 import { MuseumindexPageRoutingModule } from './museumindex-routing.module';
-
 import { MuseumindexPage } from './museumindex.page';
 
 @NgModule({
@@ -17,4 +14,4 @@ import { MuseumindexPage } from './museumindex.page';
   ],
   declarations: [MuseumindexPage]
 })
-export class MuseumindexPageModule {}
+export class MuseumindexPageModule { }
