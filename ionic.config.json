@@ -1,5 +1,7 @@
 {
   "name": "Museo 2.0",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
