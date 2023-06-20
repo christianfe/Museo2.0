@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  apiUrl: "http://localhost:3000/",
+  apiUrl: "http://93.144.206.113:80/",
   QrCodeCheckedVAR: "QRcodeScanned"
 };
